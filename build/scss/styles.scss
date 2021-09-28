@@ -1,0 +1,232 @@
+// Scss Imports
+@import "./fonts";
+@import "./colors";
+@import "./boxShadow";
+
+/*==================== BASE ====================*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: $backgroundColor_White;
+}
+
+/*  hides website scrollbar, But Keep scrolling Functionality */
+::-webkit-scrollbar {
+	display: none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	font-family: $fontStyle_header;
+}
+
+h2 h5 {
+	color: $baseColor_black;
+	font-size: $fontSize_large;
+	font-family: $fontStyle_header;
+}
+
+p {
+	line-height: 1.25em;
+	color: $baseColor_black;
+	font-size: $fontSize_large;
+	font-family: $fontStyle_header;
+}
+
+/*===== NAVIGATION MENU =====*/
+.header {
+	padding: 1rem;
+
+	.nav {
+		margin: auto;
+		align-items: center;
+		justify-content: space-between;
+
+		.nav_Logo {
+			a {
+				font-weight: 600;
+				font-size: $fontSize_normal;
+				font-family: $fontStyle_body;
+				text-decoration: none;
+			}
+
+			a:hover {
+				transition: all 0.25s ease-in-out;
+				color: $secondary_pinkRed;
+			}
+		}
+
+		.nav__menu {
+			display: flex;
+			padding: 0rem;
+
+			ul {
+				display: flex;
+				margin: auto;
+				padding: 0rem;
+				list-style: none;
+			}
+
+			li {
+				margin: 0 0.5rem;
+				padding: 0.25rem;
+				text-align: center;
+			}
+		}
+	}
+
+	a {
+		text-decoration: none;
+		color: $baseColor_black;
+		font-size: $fontSize_small;
+		font-family: $fontStyle_body;
+	}
+
+	a:hover {
+		transition: all 0.25s ease-in-out;
+		color: $secondary_pinkRed;
+	}
+}
+
+/* ===== HERO =====*/
+.hero {
+}
+
+/* ===== SERVICES =====*/
+.services {
+}
+
+/* ===== ABOUT US =====*/
+.about-us {
+}
+
+/* ===== FOOTER =====*/
+.footer {
+	padding: 2rem 0;
+	background-color: $backgroundColor_black;
+
+	.container {
+		// border: #ff9900 0.25rem solid;
+		padding: 0;
+		margin: auto;
+		overflow: auto;
+
+		.content1 {
+			padding: 1.5rem;
+
+			h2 {
+				text-align: left;
+				color: $baseColor_white;
+				font-size: $fontSize_normal;
+				font-family: $fontStyle_header;
+			}
+
+			p {
+				margin-top: 2rem;
+				font-size: $fontSize_small;
+				font-family: $fontStyle_body;
+				color: $AdditionalColor-lightGrey;
+			}
+		}
+
+		.content {
+			padding: 1.5rem;
+
+			h2 {
+				text-align: left;
+				color: $baseColor_white;
+				font-size: $fontSize_normal;
+				font-family: $fontStyle_header;
+			}
+
+			p {
+				margin-top: 2rem;
+				font-size: $fontSize_small;
+				font-family: $fontStyle_body;
+				color: $AdditionalColor-lightGrey;
+			}
+
+			div {
+				margin-top: 2rem;
+
+				ul {
+					margin: auto;
+					padding: 0rem;
+					list-style: none;
+
+					li {
+						display: flex;
+						margin: 0.5rem 1rem;
+
+						a {
+							text-decoration: none;
+							color: $baseColor_white;
+							font-size: $fontSize_small;
+							font-family: $fontStyle_body;
+						}
+
+						a:hover {
+							transition: all 0.25s ease-in-out;
+							color: $secondary_pinkRed;
+						}
+					}
+				}
+			}
+		}
+
+		.copyright {
+			margin-top: 2rem;
+
+			div {
+				align-self: center;
+
+				h2 {
+					padding: 1rem;
+					text-align: left;
+					color: $baseColor_white;
+					font-size: $fontSize_small;
+					font-family: $fontStyle_body;
+				}
+
+				ul {
+					margin: auto;
+					margin-right: 1rem;
+					display: flex;
+					padding: 0rem;
+					list-style: none;
+					width: fit-content;
+					// border: #fbb040 0.25rem solid;
+
+					li {
+						margin: 0 1rem;
+						a {
+							text-decoration: none;
+							color: $baseColor_white;
+							font-size: $fontSize_normal;
+							font-family: $fontStyle_body;
+						}
+
+						a:hover {
+							transition: all 0.25s ease-in-out;
+							color: $secondary_pinkRed;
+						}
+					}
+				}
+			}
+		}
+	}
+}
