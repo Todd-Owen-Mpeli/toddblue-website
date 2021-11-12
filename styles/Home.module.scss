@@ -4,7 +4,9 @@
 @import "./boxShadow";
 
 .container {
+	margin: 0 auto;
 	padding: 0;
+	max-width: 1400px;
 }
 
 .main {
@@ -20,7 +22,11 @@
 			justify-content: space-between;
 
 			.navTitle {
-				font-family: $fontStyle_header;
+				h2 {
+					color: $baseColor_black;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_header;
+				}
 			}
 
 			.navLinks {
@@ -34,13 +40,14 @@
 					list-style: none;
 
 					a {
+						text-decoration: none;
 						color: $baseColor_black;
 						font-size: $fontSize_large;
 						font-family: $fontStyle_header;
 					}
 
 					a:hover {
-						color: $AdditionalColor_Purple1;
+						color: $baseColor_lightGrey3;
 					}
 				}
 			}
@@ -54,7 +61,7 @@
 				}
 
 				a:hover {
-					color: $AdditionalColor_Purple1;
+					color: $baseColor_lightGrey3;
 				}
 			}
 		}

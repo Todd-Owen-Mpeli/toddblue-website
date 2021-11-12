@@ -42,7 +42,7 @@ export default function Home() {
 				<header>
 					<nav>
 						<div className={styles.navTitle}>
-							<h1>ToddBlue</h1>
+							<h2>ToddBlue</h2>
 						</div>
 						<ul className={styles.navLinks}>
 							<li>
@@ -62,14 +62,6 @@ export default function Home() {
 						</div>
 					</nav>
 				</header>
-				<h1 className={styles.title}>
-					Welcome to <a href="https://nextjs.org">Next.js!</a>
-				</h1>
-
-				<p className={styles.description}>
-					Get started by editing{" "}
-					<code className={styles.code}>pages/index.js</code>
-				</p>
 			</main>
 
 			<footer className={styles.footer}>
