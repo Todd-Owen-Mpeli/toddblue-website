@@ -12,6 +12,7 @@
 .main {
 	min-height: 100vh;
 
+	// <========== HEADER ==========>
 	header {
 		padding: 0.5rem 0;
 
@@ -106,6 +107,26 @@
 					}
 				}
 			}
+		}
+	}
+
+	// <========== HERO ==========>
+	.hero {
+		.title {
+			word-spacing: 0.5rem;
+			font-weight: 900;
+			letter-spacing: -0.2rem;
+			color: $baseColor_black;
+			font-size: $fontSize_XL-large;
+			font-family: $fontStyle_header;
+		}
+
+		.subtitle {
+			margin-top: 1rem;
+			text-align: center;
+			color: $baseColor_black;
+			font-size: $fontSize_large;
+			font-family: $fontStyle_option1;
 		}
 	}
 }

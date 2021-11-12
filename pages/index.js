@@ -39,6 +39,7 @@ export default function Home() {
 			</Head>
 
 			<main className={styles.main}>
+				{/* <!--===== HEADER =====--> */}
 				<header>
 					<nav>
 						<div className={styles.topSection}>
@@ -81,6 +82,23 @@ export default function Home() {
 						</div>
 					</nav>
 				</header>
+
+				{/* <!--===== HERO =====--> */}
+				<div className={styles.hero}>
+					<Image
+						src="/otherImages/nike-just-do-it.jpg"
+						data-landscape-url="/otherImages/nike-just-do-it.jpg"
+						data-portrait-url="/otherImages/nike-just-do-it MobileView.jpg"
+						alt="Picture of the author"
+						width="100%"
+						height="45%"
+						layout="responsive"
+						objectFit="contain"
+					/>
+
+					<h2 className={styles.title}>WEAR YOUR PASSION</h2>
+					<h5 className={styles.subtitle}>Anime Anime Anime</h5>
+				</div>
 			</main>
 
 			<footer className={styles.footer}>
