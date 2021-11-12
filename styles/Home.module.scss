@@ -9,16 +9,55 @@
 
 .main {
 	min-height: 100vh;
-	padding: 1rem 0;
-	flex: 1;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	border: #7a42fc 0.25rem solid;
 
-	.navTitle {
-		font-family: $fontStyle_header;
+	header {
+		padding: 0.5rem 0;
+
+		nav {
+			display: flex;
+			padding: 0 1rem;
+			align-items: center;
+			justify-content: space-between;
+
+			.navTitle {
+				font-family: $fontStyle_header;
+			}
+
+			.navLinks {
+				padding: 0;
+				margin: auto;
+				display: flex;
+				justify-content: space-between;
+
+				li {
+					padding: 10px;
+					list-style: none;
+
+					a {
+						color: $baseColor_black;
+						font-size: $fontSize_large;
+						font-family: $fontStyle_header;
+					}
+
+					a:hover {
+						color: $AdditionalColor_Purple1;
+					}
+				}
+			}
+
+			.navCheckout {
+				a {
+					padding: 10px;
+					color: $baseColor_black;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_header;
+				}
+
+				a:hover {
+					color: $AdditionalColor_Purple1;
+				}
+			}
+		}
 	}
 }
 
