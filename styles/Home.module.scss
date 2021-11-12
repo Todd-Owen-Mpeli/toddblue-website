@@ -64,6 +64,9 @@
 						font-size: $fontSize_large;
 						font-family: $fontStyle_header;
 					}
+					h2:hover {
+						color: $secondary_Purple;
+					}
 				}
 
 				.navLinks {
