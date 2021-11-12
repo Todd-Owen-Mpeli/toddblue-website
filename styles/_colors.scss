@@ -1,0 +1,60 @@
+// Colours Variables
+$baseColor_white: #fff;
+$baseColor_black: #111;
+$baseColor_lightBlack: #292929;
+
+// Background Colours
+$backgroundColor_White: #fff;
+$backgroundColor_black: #111;
+$backgroundColor_lightBlack: #292929;
+
+// Main Colours
+$secondary_yellow: #fbcf40;
+$secondary_orange: #fbb040;
+$secondary_Purple: #8a59fd;
+$secondary_pinkRed: #ff0055;
+$secondary_whiteDouble: rgba(255, 255, 255, 0.795);
+$secondary_whiteDouble2: rgba(255, 255, 255, 0.83);
+
+// Additional Colours
+$AdditionalColor_Purple1: #7a42fc;
+$AdditionalColor_darkPurple: #692bfa;
+$AdditionalColor-darkPurple2: #5d18ff;
+$AdditionalColor-lightGrey: #8d8d8d;
+$AdditionalColor-lightGrey2: rgba(199, 199, 199, 0.611);
+$AdditionalColor-darkOrange: #ff9900;
+
+// Background image Variable
+$backgroundGradient: linear-gradient(
+	-45deg,
+	#ee5eb5,
+	#ea96ff,
+	#8a59fd,
+	#ee5eb5,
+	#ff9900
+);
+
+/* TOP Navigation section background colour change */
+@keyframes GradientKeyframes {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+/* Featured Projects background colour change */
+$FeaturedProjectsGradient: linear-gradient(
+	-45deg,
+	#743afa,
+	#9d73ff,
+	#ff0055,
+	#fd2f74
+);
+
+/* Featured Projects background colour change */
+$CreativeSoftwareGradient: linear-gradient(-90deg, #ee5eb5, #ff0055);
