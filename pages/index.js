@@ -41,24 +41,43 @@ export default function Home() {
 			<main className={styles.main}>
 				<header>
 					<nav>
-						<div className={styles.navTitle}>
-							<h2>ToddBlue</h2>
+						<div className={styles.topSection}>
+							<div className={styles.leftSide}>
+								<a href="#Brand">Brand</a>
+								<div className={styles.borderDiv}></div>
+								<a href="#Support">Support</a>
+								<div className={styles.borderDiv}></div>
+								<a href="#Community">Community</a>
+							</div>
+							<div className={styles.rightSide}>
+								<a href="#Help">Help</a>
+								<div className={styles.borderDiv}></div>
+								<a href="#JoinUs">Join Us</a>
+								<div className={styles.borderDiv}></div>
+								<a href="#SignIn">Sign In</a>
+							</div>
 						</div>
-						<ul className={styles.navLinks}>
-							<li>
-								<a href="#New">New</a>
-							</li>
-							<li>
-								<a href="#store">Store</a>
-							</li>
-						</ul>
-						<div className={styles.navCheckout}>
-							<a href="#searchProducts">
-								<i className="bi bi-search"></i>
-							</a>
-							<a href="#cart">
-								<i className="bi bi-bag-fill"></i>
-							</a>
+						<div className={styles.borderLineMid}></div>
+						<div className={styles.bottomSection}>
+							<div className={styles.navTitle}>
+								<h2>ToddBlue</h2>
+							</div>
+							<ul className={styles.navLinks}>
+								<li>
+									<a href="#New">New</a>
+								</li>
+								<li>
+									<a href="#store">Store</a>
+								</li>
+							</ul>
+							<div className={styles.navCheckout}>
+								<a href="#searchProducts">
+									<i className="bi bi-search"></i>
+								</a>
+								<a href="#cart">
+									<i className="bi bi-bag-fill"></i>
+								</a>
+							</div>
 						</div>
 					</nav>
 				</header>
