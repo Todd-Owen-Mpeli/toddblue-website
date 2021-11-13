@@ -193,8 +193,8 @@ export default function Home() {
 					</div>
 				</div>
 
-				{/* <!--===== SHOE SETS =====--> */}
-				<div className={styles.shoeSet}>
+				{/* <!--===== COSY SETS =====--> */}
+				<div className={styles.cosySet}>
 					<h2>Cosy Shoe Set</h2>
 
 					<div className={styles.content}>
@@ -237,6 +237,81 @@ export default function Home() {
 										Shop
 									</a>
 								</newButton>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				{/* <!--===== TRENDING NOW =====--> */}
+				<div className={styles.trendingNow}>
+					<h2>Trending Now</h2>
+
+					<div className={styles.productDisplay}>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
+								<Image
+									src="/productImages/_MG_3090.jpg"
+									alt="Product Image"
+									width={400}
+									height={400}
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Powerpuff Girls
+									</a>
+									<h2 className={styles.price}> £159.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens Shoe
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3441.jpg"
+									alt="Product Image"
+									width={400}
+									height={400}
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Haikyuu!!
+									</a>
+									<h2 className={styles.price}> £189.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens Shoe
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_1629-3.jpg"
+									alt="Product Image"
+									width={400}
+									height={400}
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Spirited Away & My Neighbour Totoro
+									</a>
+									<h2 className={styles.price}> £189.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens Shoe
+								</a>
 							</div>
 						</div>
 					</div>
