@@ -103,7 +103,18 @@ export default function Home() {
 				</div>
 			</main>
 
-			<footer className={styles.footer}></footer>
+			{/* <!--===== FOOTER =====--> */}
+			<footer className={styles.footer}>
+				<div className={styles.topSection}>
+					<div className={styles.leftSection}></div>
+					<div className={styles.rightSection}></div>
+				</div>
+				<div className={styles.borderLineMid}></div>
+				<div className={styles.bottomSection}>
+					<div className={styles.topHalfSection}></div>
+					<div className={styles.bottomHalfSection}></div>
+				</div>
+			</footer>
 		</div>
 	);
 }
