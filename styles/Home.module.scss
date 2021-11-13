@@ -327,6 +327,7 @@
 	.content {
 		margin: 0 auto;
 		max-width: 1400px;
+
 		.topSection {
 			display: flex;
 			justify-content: space-between;
@@ -387,7 +388,7 @@
 
 			.rightSection {
 				display: flex;
-				align-items: start;
+				align-items: flex-start;
 				justify-content: right;
 
 				a {
