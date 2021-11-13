@@ -204,7 +204,7 @@ export default function Home() {
 									src="/otherImages/ad5893bc646b1badc82e1f2a7a4689aa.jpg"
 									alt="Product Image"
 									width={600}
-									height={700}
+									height={600}
 									layout="responsive"
 									objectFit="cover"
 								/>
@@ -212,7 +212,7 @@ export default function Home() {
 
 							<div className={styles.content}>
 								<h2>Comfy Clothing for colder Days</h2>
-								<newButton>
+								<newButton className={styles.shopButton}>
 									<a href="#" target="blank">
 										Shop
 									</a>
@@ -225,14 +225,14 @@ export default function Home() {
 									src="/otherImages/c8c82b170fcf1c0bf3dc755c4f030326.jpg"
 									alt="Product Image"
 									width={600}
-									height={700}
+									height={600}
 									layout="responsive"
 									objectFit="cover"
 								/>
 							</a>
 							<div className={styles.content}>
 								<h2>Anime Clothing for Everyday Vibes</h2>
-								<newButton>
+								<newButton className={styles.shopButton}>
 									<a href="#" target="blank">
 										Shop
 									</a>
