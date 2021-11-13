@@ -241,6 +241,14 @@ export default function Home() {
 					</div>
 				</div>
 
+				{/* <!--===== 50% SALE =====--> */}
+				<div className={styles.saleFiftyPercent}>
+					<div className={styles.content}>
+						<h2>UP TO 50% OFF DAY-TO-NIGHT STYLES</h2>
+						<h5>Limited time only. Selected styles marked down on site</h5>
+					</div>
+				</div>
+
 				{/* <!--===== TRENDING NOW =====--> */}
 				<div className={styles.trendingNow}>
 					<h2>Trending Now</h2>
