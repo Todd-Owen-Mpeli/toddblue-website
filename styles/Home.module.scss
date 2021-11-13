@@ -188,6 +188,10 @@
 						font-size: $fontSize_normal;
 						font-family: $fontStyle_header;
 					}
+
+					a:hover {
+						color: $baseColor_lightGrey2;
+					}
 				}
 			}
 
