@@ -116,30 +116,29 @@ export default function Home() {
 
 				{/* <!--===== POPULAR =====--> */}
 				<div className={styles.popular}>
-					<h2>Studio ghibli</h2>
+					<h2>New</h2>
 
 					<div className={styles.productDisplay}>
-						<div className={styles.ProductItem}>
+						<div className={styles.productItem}>
 							<a href="#" target="blank">
+								{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
 								<Image
-									src="/productImages/_MG_1629-3.jpg"
+									src="/productImages/_MG_2936.jpg"
 									alt="Product Image"
-									width="100%"
-									height="100%"
-									layout="responsive"
-									objectFit="contain"
+									width={400}
+									height={400}
 								/>
 							</a>
 
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<a href="#" target="blank">
-										Spirited Away & My Neighbor Totoro
+										My Hero Academia - Izuku Midoriya
 									</a>
-									<h2 className={styles.price}> £189.95</h2>
+									<h2 className={styles.price}> £139.95</h2>
 								</div>
 								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Women's Shoe
+									Men & Womens Shoe
 								</a>
 							</div>
 						</div>
