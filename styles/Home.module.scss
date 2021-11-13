@@ -136,31 +136,89 @@
 	padding: 2rem;
 	background-color: $backgroundColor_black;
 
-	.bottomSection {
-		.topHalfSection {
-			display: flex;
-			justify-content: right;
-
-			a {
-				padding: 10px;
-				text-decoration: none;
-				font-size: $fontSize_xSmall;
-				color: $baseColor_lightGrey4;
-				font-family: $fontStyle_option3;
-			}
-
-			a:hover {
-				color: $baseColor_white;
-			}
-		}
-
-		.bottomHalfSection {
+	.content {
+		.topSection {
 			display: flex;
 			justify-content: space-between;
 
-			.leftSide,
-			.rightSide {
+			.leftSection {
 				display: flex;
+				justify-content: space-between;
+
+				.additionalInfomation,
+				.getHelp,
+				.aboutToddBlue {
+					display: flex;
+					margin-right: 2rem;
+					line-height: 0.75rem;
+					flex-direction: column;
+
+					a {
+						padding: 10px;
+						text-decoration: none;
+						font-size: $fontSize_small;
+						color: $baseColor_lightGrey4;
+						font-family: $fontStyle_option3;
+					}
+
+					a:hover {
+						color: $baseColor_white;
+					}
+
+					.titleSection {
+						margin-bottom: 0.25rem;
+						letter-spacing: 0.04rem;
+						color: $baseColor_white;
+						text-transform: uppercase;
+						font-size: $fontSize_normal;
+						font-family: $fontStyle_header;
+					}
+				}
+
+				.additionalInfomation {
+					line-height: 1rem;
+					margin-right: 7rem;
+
+					a {
+						padding: 10px;
+						letter-spacing: 0.04rem;
+						text-decoration: none;
+						color: $baseColor_white;
+						text-transform: uppercase;
+						font-size: $fontSize_normal;
+						font-family: $fontStyle_header;
+					}
+				}
+			}
+
+			.rightSection {
+				display: flex;
+				align-items: start;
+				justify-content: right;
+
+				a {
+					padding: 10px;
+					text-decoration: none;
+					font-size: $fontSize_normal;
+					color: $baseColor_lightGrey4;
+					font-family: $fontStyle_option3;
+				}
+
+				a:hover {
+					color: $baseColor_white;
+				}
+			}
+		}
+
+		.borderLineMid {
+			margin: 1rem 0;
+			border-bottom: $baseColor_lightBlack 0.1rem solid;
+		}
+
+		.bottomSection {
+			.topHalfSection {
+				display: flex;
+				justify-content: right;
 
 				a {
 					padding: 10px;
@@ -169,20 +227,42 @@
 					color: $baseColor_lightGrey4;
 					font-family: $fontStyle_option3;
 				}
-			}
 
-			.leftSide {
-				.location {
-					color: $baseColor_white;
-
-					i {
-						margin-right: 1rem;
-					}
-				}
-			}
-			.rightSide {
 				a:hover {
 					color: $baseColor_white;
+				}
+			}
+
+			.bottomHalfSection {
+				display: flex;
+				justify-content: space-between;
+
+				.leftSide,
+				.rightSide {
+					display: flex;
+
+					a {
+						padding: 10px;
+						text-decoration: none;
+						font-size: $fontSize_xSmall;
+						color: $baseColor_lightGrey4;
+						font-family: $fontStyle_option3;
+					}
+				}
+
+				.leftSide {
+					.location {
+						color: $baseColor_white;
+
+						i {
+							margin-right: 1rem;
+						}
+					}
+				}
+				.rightSide {
+					a:hover {
+						color: $baseColor_white;
+					}
 				}
 			}
 		}
