@@ -343,7 +343,7 @@ export default function Home() {
 						<div className={styles.productDisplay}>
 							<a href="#" target="blank">
 								<Image
-									src="/otherImages/cf5e6133b55404b9138beb5443f281d4.jpg"
+									src="/otherImages/822c173436e062f02626fad9b0c220b9.jpg"
 									alt="Product Image"
 									width={600}
 									height={1000}
