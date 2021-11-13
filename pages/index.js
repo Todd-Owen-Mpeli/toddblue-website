@@ -119,21 +119,28 @@ export default function Home() {
 					<h2>Studio ghibli</h2>
 
 					<div className={styles.productDisplay}>
-						<div>
-							<Image
-								src="/productImages/_MG_1629-3.jpg"
-								alt="Product Image"
-								width="100%"
-								height="50%"
-								layout="responsive"
-								objectFit="contain"
-							/>
-							<div className={styles.desciption}>
-								<div className={styles.productItem}>
-									<a>Spirited Away & My Neighbor Totoro</a>
+						<div className={styles.ProductItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_1629-3.jpg"
+									alt="Product Image"
+									width="100%"
+									height="100%"
+									layout="responsive"
+									objectFit="contain"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Spirited Away & My Neighbor Totoro
+									</a>
 									<h2 className={styles.price}> £189.95</h2>
 								</div>
-								<a className={styles.productCategoty}>Men & Women's Shoe</a>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Women's Shoe
+								</a>
 							</div>
 						</div>
 					</div>
