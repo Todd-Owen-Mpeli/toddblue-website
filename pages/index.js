@@ -123,7 +123,7 @@ export default function Home() {
 							<a href="#" target="blank">
 								{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
 								<Image
-									src="/productImages/_MG_2936.jpg"
+									src="/productImages/_MG_3295.jpg"
 									alt="Product Image"
 									width={400}
 									height={400}
@@ -133,9 +133,53 @@ export default function Home() {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<a href="#" target="blank">
-										My Hero Academia - Izuku Midoriya
+										Spider-Man: Miles Morales
 									</a>
-									<h2 className={styles.price}> £139.95</h2>
+									<h2 className={styles.price}> £199.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens Shoe
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3551 - Copy.jpg"
+									alt="Product Image"
+									width={400}
+									height={400}
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Demon Slayer - Mitsuri Kanroji
+									</a>
+									<h2 className={styles.price}> £119.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens Shoe
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3644.jpg"
+									alt="Product Image"
+									width={400}
+									height={400}
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Haikyuu!! - Tetsuro Kuroo
+									</a>
+									<h2 className={styles.price}> £169.95</h2>
 								</div>
 								<a href="#" target="blank" className={styles.productCategory}>
 									Men & Womens Shoe

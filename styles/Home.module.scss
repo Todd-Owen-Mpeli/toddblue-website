@@ -144,8 +144,10 @@
 		}
 
 		.productDisplay {
-			display: flex;
+			display: grid;
 			padding: 1rem 0;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 1rem;
 			justify-content: space-between;
 
 			.productItem {
