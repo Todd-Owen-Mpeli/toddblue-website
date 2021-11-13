@@ -12,7 +12,9 @@ However, I will be required to build features and functions and have a minimum u
 Deployed with vercel here: 
 
 a). https://toddblue-website-git-main-todd-owen-mpeli.vercel.app/
+
 b). https://toddblue-website-todd-owen-mpeli.vercel.app/
+
 c). https://toddblue-website.vercel.app/
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
