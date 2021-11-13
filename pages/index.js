@@ -141,7 +141,7 @@ export default function Home() {
 									<h2 className={styles.price}> £199.95</h2>
 								</div>
 								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens Shoe
+									Men & Womens
 								</a>
 							</div>
 						</div>
@@ -163,7 +163,7 @@ export default function Home() {
 									<h2 className={styles.price}> £119.95</h2>
 								</div>
 								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens Shoe
+									Men & Womens
 								</a>
 							</div>
 						</div>
@@ -185,7 +185,7 @@ export default function Home() {
 									<h2 className={styles.price}> £169.95</h2>
 								</div>
 								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens Shoe
+									Men & Womens
 								</a>
 							</div>
 						</div>
@@ -265,7 +265,7 @@ export default function Home() {
 									<h2 className={styles.price}> £159.95</h2>
 								</div>
 								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens Shoe
+									Men & Womens
 								</a>
 							</div>
 						</div>
@@ -287,7 +287,7 @@ export default function Home() {
 									<h2 className={styles.price}> £189.95</h2>
 								</div>
 								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens Shoe
+									Men & Womens
 								</a>
 							</div>
 						</div>
@@ -309,8 +309,73 @@ export default function Home() {
 									<h2 className={styles.price}> £189.95</h2>
 								</div>
 								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens Shoe
+									Men & Womens
 								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				{/* <!--===== MORE BLUE OPTIONS =====--> */}
+				<div className={styles.moreProducts}>
+					<h2>More ToddBlue</h2>
+
+					<div className={styles.contentDisplay}>
+						<div className={styles.productDisplay}>
+							<a href="#" target="blank">
+								<Image
+									src="/otherImages/fa19f127a6439a7c48420f7aad6deec0.jpg"
+									alt="Product Image"
+									width={600}
+									height={1000}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+							<div className={styles.content}>
+								<newButton className={styles.shopButton}>
+									<a href="#" target="blank">
+										Mens
+									</a>
+								</newButton>
+							</div>
+						</div>
+						<div className={styles.productDisplay}>
+							<a href="#" target="blank">
+								<Image
+									src="/otherImages/cf5e6133b55404b9138beb5443f281d4.jpg"
+									alt="Product Image"
+									width={600}
+									height={1000}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+							<div className={styles.content}>
+								<newButton className={styles.shopButton}>
+									<a href="#" target="blank">
+										Womens
+									</a>
+								</newButton>
+							</div>
+						</div>
+						<div className={styles.productDisplay}>
+							<a href="#" target="blank">
+								<Image
+									src="/otherImages/acf6c5d018947d09d71abe077b9e354a.jpg"
+									alt="Product Image"
+									width={600}
+									height={1000}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+							<div className={styles.content}>
+								<newButton className={styles.shopButton}>
+									<a href="#" target="blank">
+										Kids
+									</a>
+								</newButton>
 							</div>
 						</div>
 					</div>
