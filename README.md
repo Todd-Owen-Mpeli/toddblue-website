@@ -1,13 +1,22 @@
 ##  ToddBue website
-This is a shoe customisation & clothing merchandise website project I created to demonstrate my general web development skills. Specifically, React, Next.js, HTML, CSS, SCSS, JavaScript /jQuery, Git/ Github. 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Shoe & clothing merchandise website project I created to demonstrate my general web development skills. Specifically, React, Next.js, HTML, CSS, SCSS, JavaScript /jQuery, Git/ Github. 
 
+##  Thought Process
 As a junior software Developer my main responsibilities would be working with the Project manager, UX/UI design team, Senior developer & Sales and Marketing team alongside a existing web development team. Each responsible for managing, developing, maintaining, and supporting various web projects.
 
-This project displays that commications with clients, client briefs & project details will larging be all pre-determined. Meaning I won't be responsible for designing an entire website functionality.
+This project displays that communications with clients, client briefs & project details will larging be all pre-determined. Although I will have some interactions with clients, I won't be responsible for designing an entire website functionality.
 
-However, I will be required to build features and functions and have a minimum understanding of design principles, example the difference between padding and margin.
+However, I will be required to build features, functions and have a minimum understanding of design principles, example the difference between padding and margin.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Deployment
+
+Deployed with vercel here: 
+
+a). https://toddblue-website-git-main-todd-owen-mpeli.vercel.app/
+
+b). https://toddblue-website-todd-owen-mpeli.vercel.app/
+
+c). https://toddblue-website.vercel.app/
 
 ## Getting Started
 
