@@ -373,6 +373,47 @@
 			}
 		}
 	}
+
+	// <========== PRODUCT LINKS ==========>
+	.productLinks {
+		padding: 2rem;
+
+		.content {
+			display: grid;
+			padding: 1rem 7.5rem;
+			grid-template-columns: (repeat(4, 1fr));
+			grid-gap: 2rem;
+
+			.list {
+				h2 {
+					font-weight: 400;
+					color: $baseColor_black;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_option4;
+				}
+
+				.links {
+					padding: 1rem 0;
+
+					li {
+						list-style: none;
+						line-height: 2.25rem;
+
+						a {
+							text-decoration: none;
+							color: $baseColor_lightGrey3;
+							font-size: $fontSize_normal;
+							font-family: $fontStyle_option4;
+						}
+
+						a:hover {
+							color: $baseColor_black;
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 // <========== FOOTER ==========>

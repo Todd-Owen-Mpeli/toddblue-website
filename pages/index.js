@@ -304,7 +304,7 @@ export default function Home() {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<a href="#" target="blank">
-										Spirited Away & My Neighbour Totoro
+										Spirited Away & My Neighbor Totoro
 									</a>
 									<h2 className={styles.price}> £189.95</h2>
 								</div>
@@ -377,6 +377,116 @@ export default function Home() {
 									</a>
 								</newButton>
 							</div>
+						</div>
+					</div>
+				</div>
+
+				{/* <!--===== PRODUCT LINKS =====--> */}
+				<div className={styles.productLinks}>
+					<div className={styles.content}>
+						<div className={styles.list}>
+							<h2>Shoes</h2>
+
+							<ul className={styles.links}>
+								<li>
+									<a href="#" target="blank">
+										Sneakers and Shoes
+									</a>
+								</li>
+								<li>
+									<a href="#" target="blank">
+										Nike Shoes
+									</a>
+								</li>
+								<li>
+									<a href="#" target="blank">
+										Adidas Shoes
+									</a>
+								</li>
+								<li>
+									<a href="#" target="blank">
+										Vans Shoes
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div className={styles.list}>
+							<h2>Clothing</h2>
+
+							<ul className={styles.links}>
+								<li>
+									<a href="#" target="blank">
+										All Clothing
+									</a>
+								</li>
+								<li>
+									<a href="#" target="blank">
+										Tops
+									</a>
+								</li>
+								<li>
+									<a href="#" target="blank">
+										Trousers and Leggings
+									</a>
+								</li>
+								<li>
+									<a href="#" target="blank">
+										Tracksuits
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div className={styles.list}>
+							<h2>Bags</h2>
+
+							<ul className={styles.links}>
+								<li>
+									<a href="#" target="blank">
+										All Bags
+									</a>
+								</li>
+								<li>
+									<a href="#" target="blank">
+										Backpacks
+									</a>
+								</li>
+								<li>
+									<a href="#" target="blank">
+										Duffle bags
+									</a>
+								</li>
+								<li>
+									<a href="#" target="blank">
+										Cross-Body Bags
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div className={styles.list}>
+							<h2>Featured</h2>
+
+							<ul className={styles.links}>
+								<li>
+									<a href="#" target="blank">
+										Black Friday
+									</a>
+								</li>
+								<li>
+									<a href="#" target="blank">
+										Cyber Monday
+									</a>
+								</li>
+								<li>
+									<a href="#" target="blank">
+										New Releases
+									</a>
+								</li>
+								<li>
+									<a href="#" target="blank">
+										Backpacks & Bags Sales
+									</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
