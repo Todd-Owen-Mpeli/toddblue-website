@@ -1,3 +1,12 @@
+##  ToddBue website
+This is a shoe customisation & clothing merchandise website project I created to demonstrate my general web development skills. Specifically, React, Next.js, HTML, CSS, SCSS, JavaScript /jQuery, Git/ Github. 
+
+As a junior software Developer my main responsibilities would be working with the Project manager, UX/UI design team, Senior developer & Sales and Marketing team alongside a existing web development team. Each responsible for managing, developing, maintaining, and supporting various web projects.
+
+This project displays that commications with clients, client briefs & project details will larging be all pre-determined. Meaning I won't be responsible for designing an entire website functionality.
+
+However, I will be required to build features and functions and have a minimum understanding of design principles, example the difference between padding and margin.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
