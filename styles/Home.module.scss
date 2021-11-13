@@ -4,13 +4,13 @@
 @import "./boxShadow";
 
 .container {
-	margin: 0 auto;
 	padding: 0;
-	max-width: 1400px;
 }
 
 .main {
+	margin: 0 auto;
 	min-height: 100vh;
+	max-width: 1400px;
 
 	// <========== HEADER ==========>
 	header {
@@ -138,6 +138,8 @@
 	background-color: $backgroundColor_black;
 
 	.content {
+		margin: 0 auto;
+		max-width: 1400px;
 		.topSection {
 			display: flex;
 			justify-content: space-between;
