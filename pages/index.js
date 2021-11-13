@@ -113,6 +113,31 @@ export default function Home() {
 						Define your style forward with Anime Anime Anime
 					</h5>
 				</div>
+
+				{/* <!--===== POPULAR =====--> */}
+				<div className={styles.popular}>
+					<h2>Studio ghibli</h2>
+
+					<div className={styles.productDisplay}>
+						<div>
+							<Image
+								src="/productImages/_MG_1629-3.jpg"
+								alt="Product Image"
+								width="100%"
+								height="50%"
+								layout="responsive"
+								objectFit="contain"
+							/>
+							<div className={styles.desciption}>
+								<div className={styles.productItem}>
+									<a>Spirited Away & My Neighbor Totoro</a>
+									<h2 className={styles.price}> £189.95</h2>
+								</div>
+								<a className={styles.productCategoty}>Men & Women's Shoe</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</main>
 
 			{/* <!--===== FOOTER =====--> */}
