@@ -37,7 +37,7 @@
 					a {
 						padding: 10px;
 						text-decoration: none;
-						font-size: $fontSize_small;
+						font-size: $fontSize_xSmall;
 						color: $baseColor_lightGrey3;
 						font-family: $fontStyle_option3;
 					}
@@ -132,6 +132,7 @@
 	}
 }
 
+// <========== FOOTER ==========>
 .footer {
 	padding: 2rem;
 	background-color: $backgroundColor_black;
