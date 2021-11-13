@@ -111,8 +111,29 @@ export default function Home() {
 				</div>
 				<div className={styles.borderLineMid}></div>
 				<div className={styles.bottomSection}>
-					<div className={styles.topHalfSection}></div>
-					<div className={styles.bottomHalfSection}></div>
+					<div className={styles.topHalfSection}>
+						<a href="#Guides">Guides</a>
+						<a href="#TermsOfUse">Terms Of Use</a>
+						<a href="#TermsOfSale">Terms Of Sale</a>
+						<a href="#CompanyDetails">Company Details</a>
+						<a href="#UKMordernSlaveryActDisclosure">
+							UK Mordern Slavery Act Disclosure
+						</a>
+					</div>
+					<div className={styles.bottomHalfSection}>
+						<div className={styles.leftSide}>
+							<a href="#location" className={styles.location}>
+								<i className="bi bi-geo-alt-fill"></i>United Kingdom
+							</a>
+							<a href="#copyright">
+								&copy; 2021 ToddBlue. Inc All Rights Reserved
+							</a>
+						</div>
+						<div className={styles.rightSide}>
+							<a href="#Privacy&CookiePolicy">Privacy & Cookie Policy</a>
+							<a href="#CookieSettings">Cookie Settings</a>
+						</div>
+					</div>
 				</div>
 			</footer>
 		</div>
