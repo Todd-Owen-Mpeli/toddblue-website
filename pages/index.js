@@ -1,3 +1,4 @@
+import {Button} from "bootstrap";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
@@ -208,6 +209,15 @@ export default function Home() {
 									objectFit="cover"
 								/>
 							</a>
+
+							<div className={styles.content}>
+								<h2>Comfy Clothing for colder Days</h2>
+								<newButton>
+									<a href="#" target="blank">
+										Shop
+									</a>
+								</newButton>
+							</div>
 						</div>
 						<div className={styles.productDisplay}>
 							<a href="#" target="blank">
@@ -220,6 +230,14 @@ export default function Home() {
 									objectFit="cover"
 								/>
 							</a>
+							<div className={styles.content}>
+								<h2>Anime Clothing for Everyday Vibes</h2>
+								<newButton>
+									<a href="#" target="blank">
+										Shop
+									</a>
+								</newButton>
+							</div>
 						</div>
 					</div>
 				</div>
