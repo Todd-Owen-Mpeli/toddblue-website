@@ -87,6 +87,9 @@ export default function Home() {
 								<a href="#searchProducts">
 									<i className="bi bi-search"></i>
 								</a>
+								<a href="#searchProducts">
+									<i className="bi bi-heart"></i>
+								</a>
 								<a href="#cart">
 									<i className="bi bi-bag-fill"></i>
 								</a>
@@ -185,6 +188,38 @@ export default function Home() {
 									Men & Womens Shoe
 								</a>
 							</div>
+						</div>
+					</div>
+				</div>
+
+				{/* <!--===== SHOE SETS =====--> */}
+				<div className={styles.shoeSet}>
+					<h2>Cosy Shoe Set</h2>
+
+					<div className={styles.content}>
+						<div className={styles.productDisplay}>
+							<a href="#" target="blank">
+								<Image
+									src="/otherImages/ad5893bc646b1badc82e1f2a7a4689aa.jpg"
+									alt="Product Image"
+									width={600}
+									height={700}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+						</div>
+						<div className={styles.productDisplay}>
+							<a href="#" target="blank">
+								<Image
+									src="/otherImages/c8c82b170fcf1c0bf3dc755c4f030326.jpg"
+									alt="Product Image"
+									width={600}
+									height={700}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
 						</div>
 					</div>
 				</div>

@@ -133,11 +133,11 @@
 
 	// <========== POPULAR ==========>
 	.popular {
-		margin-top: 5rem;
 		padding: 2rem;
+		margin-top: 5rem;
 
 		h2 {
-			font-weight: 900;
+			font-weight: 400;
 			color: $baseColor_black;
 			font-size: $fontSize_large;
 			font-family: $fontStyle_option4;
@@ -193,6 +193,29 @@
 						font-family: $fontStyle_option4;
 					}
 				}
+			}
+		}
+	}
+
+	// <========== POPULAR ==========>
+	.shoeSet {
+		padding: 2rem;
+		margin-top: 2.5rem;
+
+		h2 {
+			font-weight: 400;
+			color: $baseColor_black;
+			font-size: $fontSize_large;
+			font-family: $fontStyle_option4;
+		}
+
+		.content {
+			display: grid;
+			padding: 1rem 0;
+			grid-template-columns: (repeat(2, 1fr));
+			grid-gap: 1rem;
+
+			.productDisplay {
 			}
 		}
 	}
