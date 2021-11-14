@@ -8,6 +8,8 @@ This project displays that communications with clients, client briefs & project 
 
 However, I will be required to build features, functions and have a minimum understanding of design principles, example the difference between padding and margin.
 
+Image Optimization for Web Performance without Losing Quality.. I reduced the product images resolution from (2024px by 2024px) down to (1280px by 1280px).
+
 # Deployment
 
 Deployed with vercel here: 
