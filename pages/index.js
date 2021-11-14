@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.scss";
+import Link from "next/link";
+import Navbar from "/components/Navbar";
+import styles from "/styles/Home.module.scss";
 
 export default function Home() {
 	return (
@@ -40,9 +42,9 @@ export default function Home() {
 
 			<main className={styles.main}>
 				{/* <!--===== HEADER =====--> */}
-				<header>
+				{/* <header>
 					<nav>
-						<div className={styles.topSection}>
+						<div className="topSection">
 							<div className={styles.leftSide}>
 								<a href="#Brand" target="blank">
 									Brand
@@ -96,7 +98,10 @@ export default function Home() {
 							</div>
 						</div>
 					</nav>
-				</header>
+				</header> */}
+
+				{/* <!--===== NAVIGATION =====--> */}
+				<Navbar />
 
 				{/* <!--===== HERO =====--> */}
 				<div className={styles.hero}>

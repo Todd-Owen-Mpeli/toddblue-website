@@ -12,7 +12,7 @@
 	min-height: 100vh;
 	max-width: 1400px;
 
-	// <========== HEADER ==========>
+	//  <========== HEADER ==========>
 	header {
 		padding: 0.5rem 0;
 
@@ -29,7 +29,7 @@
 					display: flex;
 
 					.borderDiv {
-						margin: auto 0.5rem;
+						margin: auto 0.15rem;
 						height: 1.25rem;
 						border-right: $baseColor_lightGrey2 0.1rem solid;
 					}
@@ -59,12 +59,14 @@
 				justify-content: space-between;
 
 				.navTitle {
+					a,
 					h2 {
 						margin: 0 auto;
 						color: $baseColor_black;
 						font-size: $fontSize_large;
 						font-family: $fontStyle_header;
 					}
+					a:hover,
 					h2:hover {
 						color: $secondary_Purple;
 					}
@@ -91,6 +93,19 @@
 						a:hover {
 							color: $baseColor_lightGrey3;
 						}
+					}
+
+					a {
+						padding: 0px 10px;
+						margin: 0 auto;
+						text-decoration: none;
+						color: $baseColor_black;
+						font-size: $fontSize_large;
+						font-family: $fontStyle_header;
+					}
+
+					a:hover {
+						color: $baseColor_lightGrey3;
 					}
 				}
 
@@ -264,7 +279,7 @@
 			h2 {
 				font-weight: 900;
 				color: $baseColor_black;
-				font-size: $fontSize_XL-large;
+				font-size: $fontSize_BG-large;
 				font-family: $fontStyle_header;
 			}
 
