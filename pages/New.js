@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Navbar from "/components/Navbar";
+import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
 
 const New = () => {
@@ -44,6 +45,9 @@ const New = () => {
 				{/* <!--===== NAVIGATION =====--> */}
 				<Navbar />
 			</main>
+
+			{/* <!--===== FOOTER =====--> */}
+			<Footer />
 		</div>
 	);
 };

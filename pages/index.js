@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "/components/Navbar";
+import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
 
 export default function Home() {
@@ -448,120 +449,7 @@ export default function Home() {
 			</main>
 
 			{/* <!--===== FOOTER =====--> */}
-			<footer className={styles.footer}>
-				<div className={styles.content}>
-					<div className={styles.topSection}>
-						<div className={styles.leftSection}>
-							<div className={styles.additionalInfomation}>
-								<a href="#" target="blank">
-									Gift Cards
-								</a>
-								<a href="#" target="blank">
-									Sign Up For Email
-								</a>
-								<a href="#" target="blank">
-									Become A Member
-								</a>
-								<a href="#" target="blank">
-									Student Discount
-								</a>
-								<a href="#" target="blank">
-									Feedback
-								</a>
-							</div>
-							<div className={styles.getHelp}>
-								<a href="#" target="blank" className={styles.titleSection}>
-									GET HELP
-								</a>
-								<a href="#" target="blank">
-									Order Status
-								</a>
-								<a href="#" target="blank">
-									Shipping and Delivery
-								</a>
-								<a href="#" target="blank">
-									Returns
-								</a>
-								<a href="#" target="blank">
-									Payments Options
-								</a>
-								<a href="#" target="blank">
-									Contact Us
-								</a>
-							</div>
-							<div className={styles.aboutToddBlue}>
-								<a href="#" target="blank" className={styles.titleSection}>
-									ABOUT TODDBLUE
-								</a>
-								<a href="#" target="blank">
-									News
-								</a>
-								<a href="#" target="blank">
-									Careers
-								</a>
-								<a href="#" target="blank">
-									Investors
-								</a>
-								<a href="#" target="blank">
-									Sustainability
-								</a>
-							</div>
-						</div>
-						<div className={styles.rightSection}>
-							<a href="#" target="blank">
-								<i className="bi bi-instagram"></i>
-							</a>
-							<a href="#" target="blank">
-								<i className="bi bi-twitter"></i>
-							</a>
-							<a href="#" target="blank">
-								<i className="bi bi-youtube"></i>
-							</a>
-							<a href="#" target="blank">
-								<i className="bi bi-facebook"></i>
-							</a>
-						</div>
-					</div>
-					<div className={styles.borderLineMid}></div>
-					<div className={styles.bottomSection}>
-						<div className={styles.topHalfSection}>
-							<a href="#Guides" target="blank">
-								Guides
-							</a>
-							<a href="#TermsOfUse" target="blank">
-								Terms Of Use
-							</a>
-							<a href="#TermsOfSale" target="blank">
-								Terms Of Sale
-							</a>
-							<a href="#CompanyDetails" target="blank">
-								Company Details
-							</a>
-							<a href="#UKMordernSlaveryActDisclosure" target="blank">
-								UK Mordern Slavery Act Disclosure
-							</a>
-						</div>
-						<div className={styles.bottomHalfSection}>
-							<div className={styles.leftSide}>
-								<a href="#location" target="blank" className={styles.location}>
-									<i className="bi bi-geo-alt-fill"></i>United Kingdom
-								</a>
-								<a href="#copyright" target="blank">
-									&copy; 2021 ToddBlue. Inc All Rights Reserved
-								</a>
-							</div>
-							<div className={styles.rightSide}>
-								<a href="#Privacy&CookiePolicy" target="blank">
-									Privacy & Cookie Policy
-								</a>
-								<a href="#CookieSettings" target="blank">
-									Cookie Settings
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
+			<Footer />
 		</div>
 	);
 }
