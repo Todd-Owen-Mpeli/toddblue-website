@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
 import Navbar from "/components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
@@ -44,6 +46,76 @@ const New = () => {
 			<main className={styles.main}>
 				{/* <!--===== NAVIGATION =====--> */}
 				<Navbar />
+
+				{/* <!--===== NEW PRODUCTS =====--> */}
+
+				{/* <!--===== TRENDING BRANDS =====--> */}
+				<div className={styles.trendingBrands}>
+					<h2>Trending Brands</h2>
+
+					<div className={styles.imageDisplay}>
+						<Link href="#" target="blank">
+							<a>
+								<Image
+									src="/otherImages/tommy-hilfiger-hp-logos-256x256.webp"
+									alt="Brands Image"
+									width={200}
+									height={200}
+								></Image>
+							</a>
+						</Link>
+						<Link href="#" target="blank">
+							<a>
+								<Image
+									src="/otherImages/north-face.webp"
+									alt="Brands Image"
+									width={200}
+									height={200}
+								></Image>
+							</a>
+						</Link>
+						<Link href="#" target="blank">
+							<a>
+								<Image
+									src="/otherImages/nike-hp-logos-256x256.webp"
+									alt="Brands Image"
+									width={200}
+									height={200}
+								></Image>
+							</a>
+						</Link>
+						<Link href="#" target="blank">
+							<a>
+								<Image
+									src="/otherImages/carhartt-hp-logos-256x256.webp"
+									alt="Brands Image"
+									width={200}
+									height={200}
+								></Image>
+							</a>
+						</Link>
+						<Link href="#" target="blank">
+							<a>
+								<Image
+									src="/otherImages/ellesse-hp-logos-256x256.webp"
+									alt="Brands Image"
+									width={200}
+									height={200}
+								></Image>
+							</a>
+						</Link>
+						<Link href="#" target="blank">
+							<a>
+								<Image
+									src="/otherImages/dr-martens-hp-logos-256x256.webp"
+									alt="Brands Image"
+									width={200}
+									height={200}
+								></Image>
+							</a>
+						</Link>
+					</div>
+				</div>
 			</main>
 
 			{/* <!--===== FOOTER =====--> */}
