@@ -47,84 +47,286 @@ const New = () => {
 				{/* <!--===== NAVIGATION =====--> */}
 				<Navbar />
 
-				{/* <!--===== NEW PRODUCTS =====--> */}
+				<div className={styles.new}>
+					<div className={styles.borderLineMid}></div>
 
-				{/* <!--===== TRENDING BRANDS =====--> */}
-				<div className={styles.trendingBrands}>
-					<h2>Trending Brands</h2>
+					<h2>New Drip</h2>
 
-					<div className={styles.imageDisplay}>
-						<Link href="#" target="blank">
-							<a>
+					{/* <!--===== NEW PRODUCTS =====--> */}
+					<div className={styles.productDisplay}>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
 								<Image
-									src="/otherImages/tommy-hilfiger-hp-logos-256x256.webp"
-									alt="Brands Image"
+									src="/productImages/_MG_1629-3.jpg"
+									alt="Product Image"
 									width={200}
 									height={200}
-								></Image>
+									layout="responsive"
+									objectFit="cover"
+								/>
 							</a>
-						</Link>
-						<Link href="#" target="blank">
-							<a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Studio Ghibli - Spirited Away
+									</a>
+									<h2 className={styles.price}> £189.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
 								<Image
-									src="/otherImages/north-face.webp"
-									alt="Brands Image"
+									src="/productImages/_MG_3269.jpg"
+									alt="Product Image"
 									width={200}
 									height={200}
-								></Image>
+									layout="responsive"
+									objectFit="cover"
+								/>
 							</a>
-						</Link>
-						<Link href="#" target="blank">
-							<a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Demon Slayer - Tanjiro
+									</a>
+									<h2 className={styles.price}> £159.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
 								<Image
-									src="/otherImages/nike-hp-logos-256x256.webp"
-									alt="Brands Image"
+									src="/productImages/_MG_3644.jpg"
+									alt="Product Image"
 									width={200}
 									height={200}
-								></Image>
+									layout="responsive"
+									objectFit="cover"
+								/>
 							</a>
-						</Link>
-						<Link href="#" target="blank">
-							<a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Haikyuu!! - Tetsuro Kuroo
+									</a>
+									<h2 className={styles.price}> £169.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
 								<Image
-									src="/otherImages/carhartt-hp-logos-256x256.webp"
-									alt="Brands Image"
+									src="/productImages/_MG_3441.jpg"
+									alt="Product Image"
 									width={200}
 									height={200}
-								></Image>
+									layout="responsive"
+									objectFit="cover"
+								/>
 							</a>
-						</Link>
-						<Link href="#" target="blank">
-							<a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Haikyuu!!
+									</a>
+									<h2 className={styles.price}> £149.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
 								<Image
-									src="/otherImages/ellesse-hp-logos-256x256.webp"
-									alt="Brands Image"
+									src="/productImages/_MG_3295.jpg"
+									alt="Product Image"
 									width={200}
 									height={200}
-								></Image>
+									layout="responsive"
+									objectFit="cover"
+								/>
 							</a>
-						</Link>
-						<Link href="#" target="blank">
-							<a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Spider-Man: Miles Morales
+									</a>
+									<h2 className={styles.price}> £199.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
 								<Image
-									src="/otherImages/dr-martens-hp-logos-256x256.webp"
-									alt="Brands Image"
+									src="/productImages/_MG_3551 - Copy.jpg"
+									alt="Product Image"
 									width={200}
 									height={200}
-								></Image>
+									layout="responsive"
+									objectFit="cover"
+								/>
 							</a>
-						</Link>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Demon Slayer - Mitsuri Kanroji
+									</a>
+									<h2 className={styles.price}> £179.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3482.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Sakura, Naruto, Sasuke
+									</a>
+									<h2 className={styles.price}> £179.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_2538.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Hunter × Hunter - Killua Zoldyck
+									</a>
+									<h2 className={styles.price}> £149.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
 					</div>
-				</div>
 
-				{/* <!--===== JOIN COMMUNITY =====--> */}
-				<div className={styles.joinCommunity}>
-					<h2>Join Our Exclusive Community</h2>
-					<newButton>
-						<Link href="#" target="blank">
-							<a>Join Now</a>
-						</Link>
-					</newButton>
+					{/* <!--===== TRENDING BRANDS =====--> */}
+					<div className={styles.trendingBrands}>
+						<h2>Trending Brands</h2>
+
+						<div className={styles.imageDisplay}>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/otherImages/tommy-hilfiger-hp-logos-256x256.webp"
+										alt="Brands Image"
+										width={200}
+										height={200}
+									></Image>
+								</a>
+							</Link>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/otherImages/north-face.webp"
+										alt="Brands Image"
+										width={200}
+										height={200}
+									></Image>
+								</a>
+							</Link>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/otherImages/nike-hp-logos-256x256.webp"
+										alt="Brands Image"
+										width={200}
+										height={200}
+									></Image>
+								</a>
+							</Link>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/otherImages/carhartt-hp-logos-256x256.webp"
+										alt="Brands Image"
+										width={200}
+										height={200}
+									></Image>
+								</a>
+							</Link>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/otherImages/ellesse-hp-logos-256x256.webp"
+										alt="Brands Image"
+										width={200}
+										height={200}
+									></Image>
+								</a>
+							</Link>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/otherImages/dr-martens-hp-logos-256x256.webp"
+										alt="Brands Image"
+										width={200}
+										height={200}
+									></Image>
+								</a>
+							</Link>
+						</div>
+					</div>
+
+					{/* <!--===== JOIN COMMUNITY =====--> */}
+					<div className={styles.joinCommunity}>
+						<h2>Join Our Exclusive Community</h2>
+						<newButton>
+							<Link href="#" target="blank">
+								<a>Join Now</a>
+							</Link>
+						</newButton>
+					</div>
 				</div>
 			</main>
 
