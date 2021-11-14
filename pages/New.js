@@ -6,6 +6,7 @@ import styles from "/styles/Home.module.scss";
 const New = () => {
 	return (
 		<div>
+			{/* <!--===== HEAD =====--> */}
 			<Head>
 				{/* <!-- Website Title --> */}
 				<title>New Products | ToddBlue</title>

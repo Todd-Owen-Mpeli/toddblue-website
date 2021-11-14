@@ -7,6 +7,7 @@ import styles from "/styles/Home.module.scss";
 export default function Home() {
 	return (
 		<div className={styles.container}>
+			{/* <!--===== HEAD =====--> */}
 			<Head>
 				{/* <!-- Website Title --> */}
 				<title>ToddBlue | United Kingdom</title>
@@ -41,65 +42,6 @@ export default function Home() {
 			</Head>
 
 			<main className={styles.main}>
-				{/* <!--===== HEADER =====--> */}
-				{/* <header>
-					<nav>
-						<div className="topSection">
-							<div className={styles.leftSide}>
-								<a href="#Brand" target="blank">
-									Brand
-								</a>
-								<div className={styles.borderDiv}></div>
-								<a href="#Support" target="blank">
-									Support
-								</a>
-								<div className={styles.borderDiv}></div>
-								<a href="#Community" target="blank">
-									Community
-								</a>
-							</div>
-							<div className={styles.rightSide}>
-								<a href="#Help" target="blank">
-									Help
-								</a>
-								<div className={styles.borderDiv}></div>
-								<a href="#JoinUs" target="blank">
-									Join Us
-								</a>
-								<div className={styles.borderDiv}></div>
-								<a href="#SignIn" target="blank">
-									Sign In
-								</a>
-							</div>
-						</div>
-						<div className={styles.borderLineMid}></div>
-						<div className={styles.bottomSection}>
-							<div className={styles.navTitle}>
-								<h2>ToddBlue</h2>
-							</div>
-							<ul className={styles.navLinks}>
-								<li>
-									<a href="#New">New</a>
-								</li>
-								<li>
-									<a href="#store">Store</a>
-								</li>
-							</ul>
-							<div className={styles.navCheckout}>
-								<a href="#searchProducts">
-									<i className="bi bi-search"></i>
-								</a>
-								<a href="#searchProducts">
-									<i className="bi bi-heart"></i>
-								</a>
-								<a href="#cart">
-									<i className="bi bi-bag-fill"></i>
-								</a>
-							</div>
-						</div>
-					</nav>
-				</header> */}
-
 				{/* <!--===== NAVIGATION =====--> */}
 				<Navbar />
 

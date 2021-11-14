@@ -7,6 +7,7 @@ import styles from "/styles/Home.module.scss";
 const store = () => {
 	return (
 		<div>
+			{/* <!--===== HEAD =====--> */}
 			<Head>
 				{/* <!-- Website Title --> */}
 				<title>Store | ToddBlue</title>
