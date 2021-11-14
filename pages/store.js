@@ -49,8 +49,6 @@ const store = () => {
 
 				{/* <!--===== POPULAR =====--> */}
 				<div className={styles.store}>
-					<h2>New</h2>
-
 					<div className={styles.productDisplay}>
 						<div className={styles.productItem}>
 							<a href="#" target="blank">
