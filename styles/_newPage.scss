@@ -25,4 +25,40 @@
 			}
 		}
 	}
+
+	// <========== JOIN COMMUNITY ==========>
+	.joinCommunity {
+		padding: 2rem;
+		display: flex;
+		flex-direction: column;
+		margin-top: 2rem;
+		background-color: $backgroundColor_black;
+
+		h2 {
+			font-weight: 500;
+			text-align: center;
+			color: $baseColor_white;
+			font-size: $fontSize_large-1;
+			font-family: $fontStyle_header;
+		}
+
+		newButton {
+			margin: 0 auto;
+			margin-top: 1.5rem;
+			padding: 0.25rem 4rem;
+			background-color: $backgroundColor_White;
+
+			a {
+				text-align: center;
+				color: $baseColor_black;
+				font-size: $fontSize_large;
+				font-family: $fontStyle_header;
+			}
+
+			a:hover {
+				transition: all 0.25s ease-in;
+				color: $baseColor_lightGrey4;
+			}
+		}
+	}
 }

@@ -116,6 +116,16 @@ const New = () => {
 						</Link>
 					</div>
 				</div>
+
+				{/* <!--===== JOIN COMMUNITY =====--> */}
+				<div className={styles.joinCommunity}>
+					<h2>Join Our Exclusive Community</h2>
+					<newButton>
+						<Link href="#" target="blank">
+							<a>Join Now</a>
+						</Link>
+					</newButton>
+				</div>
 			</main>
 
 			{/* <!--===== FOOTER =====--> */}
