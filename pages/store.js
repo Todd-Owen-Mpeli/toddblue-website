@@ -49,6 +49,8 @@ const store = () => {
 
 				{/* <!--===== POPULAR =====--> */}
 				<div className={styles.store}>
+					<div className={styles.borderLineMid}></div>
+
 					<div className={styles.productDisplay}>
 						<div className={styles.productItem}>
 							<a href="#" target="blank">
@@ -539,6 +541,7 @@ const store = () => {
 
 					<div className={styles.borderLineMid}></div>
 
+					{/* <!--===== RELATED CATEGORY =====--> */}
 					<div className={styles.bottomContent}>
 						<div className={styles.relatedCategories}>
 							<h2>Related Categories</h2>
