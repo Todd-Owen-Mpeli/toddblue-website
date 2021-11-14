@@ -456,7 +456,7 @@ const store = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<a href="#" target="blank">
-										My Hero Academia - Ochaco Uraraka
+										Ochaco Uraraka
 									</a>
 									<h2 className={styles.price}> £169.95</h2>
 								</div>
