@@ -439,7 +439,7 @@ export default function Home() {
 								</li>
 								<li>
 									<a href="#" target="blank">
-										Backpacks & Bags Sales
+										Backpacks & Bags
 									</a>
 								</li>
 							</ul>

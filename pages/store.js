@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Footer from "/components/Footer";
@@ -47,7 +48,7 @@ const store = () => {
 				<Navbar />
 
 				{/* <!--===== POPULAR =====--> */}
-				<div className={styles.popular}>
+				<div className={styles.store}>
 					<h2>New</h2>
 
 					<div className={styles.productDisplay}>
@@ -57,8 +58,10 @@ const store = () => {
 								<Image
 									src="/productImages/_MG_3295.jpg"
 									alt="Product Image"
-									width={400}
-									height={400}
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
 								/>
 							</a>
 
@@ -79,8 +82,10 @@ const store = () => {
 								<Image
 									src="/productImages/_MG_3551 - Copy.jpg"
 									alt="Product Image"
-									width={400}
-									height={400}
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
 								/>
 							</a>
 
@@ -101,8 +106,10 @@ const store = () => {
 								<Image
 									src="/productImages/_MG_3644.jpg"
 									alt="Product Image"
-									width={400}
-									height={400}
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
 								/>
 							</a>
 
@@ -116,6 +123,497 @@ const store = () => {
 								<a href="#" target="blank" className={styles.productCategory}>
 									Men & Womens
 								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3441.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Haikyuu!!
+									</a>
+									<h2 className={styles.price}> £149.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
+								<Image
+									src="/productImages/_MG_3295.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Spider-Man: Miles Morales
+									</a>
+									<h2 className={styles.price}> £199.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3551 - Copy.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Demon Slayer - Mitsuri Kanroji
+									</a>
+									<h2 className={styles.price}> £119.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3644.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Haikyuu!! - Tetsuro Kuroo
+									</a>
+									<h2 className={styles.price}> £169.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3441.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Haikyuu!!
+									</a>
+									<h2 className={styles.price}> £149.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
+								<Image
+									src="/productImages/_MG_3295.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Spider-Man: Miles Morales
+									</a>
+									<h2 className={styles.price}> £199.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3551 - Copy.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Demon Slayer - Mitsuri Kanroji
+									</a>
+									<h2 className={styles.price}> £119.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3644.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Haikyuu!! - Tetsuro Kuroo
+									</a>
+									<h2 className={styles.price}> £169.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3441.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Haikyuu!!
+									</a>
+									<h2 className={styles.price}> £149.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
+								<Image
+									src="/productImages/_MG_3295.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Spider-Man: Miles Morales
+									</a>
+									<h2 className={styles.price}> £199.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3551 - Copy.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Demon Slayer - Mitsuri Kanroji
+									</a>
+									<h2 className={styles.price}> £119.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3644.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Haikyuu!! - Tetsuro Kuroo
+									</a>
+									<h2 className={styles.price}> £169.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3441.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Haikyuu!!
+									</a>
+									<h2 className={styles.price}> £149.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
+								<Image
+									src="/productImages/_MG_3295.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Spider-Man: Miles Morales
+									</a>
+									<h2 className={styles.price}> £199.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3551 - Copy.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Demon Slayer - Mitsuri Kanroji
+									</a>
+									<h2 className={styles.price}> £119.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3644.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Haikyuu!! - Tetsuro Kuroo
+									</a>
+									<h2 className={styles.price}> £169.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+						<div className={styles.productItem}>
+							<a href="#" target="blank">
+								<Image
+									src="/productImages/_MG_3441.jpg"
+									alt="Product Image"
+									width={200}
+									height={200}
+									layout="responsive"
+									objectFit="cover"
+								/>
+							</a>
+
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<a href="#" target="blank">
+										Haikyuu!!
+									</a>
+									<h2 className={styles.price}> £149.95</h2>
+								</div>
+								<a href="#" target="blank" className={styles.productCategory}>
+									Men & Womens
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div className={styles.borderLineMid}></div>
+
+					<div className={styles.bottomContent}>
+						<div className={styles.relatedCategories}>
+							<h2>Related Categories</h2>
+
+							<div className={styles.list}>
+								<ul className={styles.links}>
+									<Link href="#" target="blank">
+										<a>Mens Clothing</a>
+									</Link>
+									<Link href="#" target="blank">
+										<a>Womens Clothing</a>
+									</Link>
+									<Link href="#" target="blank">
+										<a>Backpacks & Bags</a>
+									</Link>
+									<Link href="#" target="blank">
+										<a>Cross-Body Bags</a>
+									</Link>
+								</ul>
+							</div>
+						</div>
+						<div className={styles.relatedStories}>
+							<h2>Help Guide Stories</h2>
+
+							<div className={styles.content}>
+								<div className={styles.productGuide}>
+									<a href="#" target="blank">
+										{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
+										<Image
+											src="/otherImages/a6da69b3cbefc0b7d1c3e9f67d011f8a.jpg"
+											alt="Product Image"
+											width={500}
+											height={500}
+											layout="responsive"
+											objectFit="cover"
+										/>
+									</a>
+
+									<h5>Size Guide</h5>
+									<h2>How to select the right shoe size.</h2>
+								</div>
+								<div className={styles.productGuide}>
+									<a href="#" target="blank">
+										{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
+										<Image
+											src="/otherImages/dca9766ecf88354b6b32ea3c48b6e7cb.jpg"
+											alt="Product Image"
+											width={500}
+											height={500}
+											layout="responsive"
+											objectFit="cover"
+										/>
+									</a>
+
+									<h5>Buying Guide</h5>
+									<h2>How to select the right item.</h2>
+								</div>
+								<div className={styles.productGuide}>
+									<a href="#" target="blank">
+										{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
+										<Image
+											src="/otherImages/c7e6d1df7824762ba1395ea8db3978d2.jpg"
+											alt="Product Image"
+											width={500}
+											height={500}
+											layout="responsive"
+											objectFit="cover"
+										/>
+									</a>
+
+									<h5>Backpacks & Bags Guide</h5>
+									<h2>Which is the right Backpacks or Bags for the event.</h2>
+								</div>
 							</div>
 						</div>
 					</div>
