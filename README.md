@@ -10,6 +10,38 @@ However, I will be required to build features, functions and have a minimum unde
 
 Image Optimization for Web Performance without Losing Quality.. I reduced the product images resolution from (2024px by 2024px) down to (1280px by 1280px).
 
+# Hero Section
+
+1. All images are in 4K resolution, click to enlarge for better viewing.
+
+<img src="public/otherImages/ToddBlue%20next.js%20Home%20Page%20screenshot.png" width="100%" height="950px">
+
+# Project Context
+Most of my projects are developed using Client-Side rendering. And this project I wanted to develop a website using Next.js framework, specifically the Server Side Rendering development process. I wanted to expand my knowledge in next.js and and begin into developing with react and react components.
+
+1. Develop a website using Next.js framework.
+2. Learn react components in next.js.
+3. Show my ability to learn Server Side Rendering.
+
+# My Objective
+To learn Next.js framework to be able to rebuild my web developer portfolio using Server Side Rendering development process.
+
+# Cosy & Trending Project Section
+
+1. All images are in 4K resolution, click to enlarge for better viewing.
+
+<img src="public/otherImages/ToddBlue%20next.js%20Cosy%20and%20Trending%20section%20screenshot.png" width="100%" height="1100px">
+
+# Lessons Learned
+I learned a lot building this application. But mainly how to utilise multiple scss styling files for multiple pages. Alternatively how to build reusable content components, such as the navigation and footer.js files.
+
+1. Reusable content components in multiple pages. (Navbar.js & Footer.js)
+2. SCSS File Structure for multiple pages. (_newPage.scss, _storePage.scss etc.)
+4. Git operations specifically init, add, status, commit, remote, push and pull.
+5. Creating a remote repository on github but deploying my next.js project with vercel.
+6. Responsive website using media queries for mobile & tablet view-width breakpoints.
+
+
 # Deployment
 
 Deployed with vercel here: 
