@@ -10,11 +10,11 @@ However, I will be required to build features, functions and have a minimum unde
 
 Image Optimization for Web Performance without Losing Quality.. I reduced the product images resolution from (2024px by 2024px) down to (1280px by 1280px).
 
-# Hero Section
+## Hero Section
 
 1. All images are in 4K resolution, click to enlarge for better viewing.
 
-<img src="public/otherImages/ToddBlue%20next.js%20Home%20Page%20screenshot.png" width="100%" height="950px">
+<img src="public/otherImages/ToddBlue%20next.js%20Home%20Page%20screenshot.png" width="100%" height="1100px">
 
 # Project Context
 Most of my projects are developed using Client-Side rendering. And this project I wanted to develop a website using Next.js framework, specifically the Server Side Rendering development process. I wanted to expand my knowledge in next.js and and begin into developing with react and react components.
@@ -26,7 +26,7 @@ Most of my projects are developed using Client-Side rendering. And this project 
 # My Objective
 To learn Next.js framework to be able to rebuild my web developer portfolio using Server Side Rendering development process.
 
-# Cosy & Trending Project Section
+## Cosy & Trending Project Section
 
 1. All images are in 4K resolution, click to enlarge for better viewing.
 
@@ -41,6 +41,8 @@ I learned a lot building this application. But mainly how to utilise multiple sc
 5. Creating a remote repository on github but deploying my next.js project with vercel.
 6. Responsive website using media queries for mobile & tablet view-width breakpoints.
 
+# Personal Improvements
+Although I have a fairly good understanding of javascript, enought to make a website user Interactive. I am interested to learn more of next.js. I'd like to create more reusable content components. Most specifically utilise style components more often than scss file structure.
 
 # Deployment
 
@@ -52,7 +54,13 @@ b). https://toddblue-website-todd-owen-mpeli.vercel.app/
 
 c). https://toddblue-website.vercel.app/
 
-## Getting Started
+## More Products & Footer Section
+
+1. All images are in 4K resolution, click to enlarge for better viewing.
+
+<img src="public/otherImages/ToddBlue%20next.js%20More%20products%20and%20footer%20screenshot.png" width="100%" height="1100px">
+
+# Getting Started
 
 First, run the development server:
 
