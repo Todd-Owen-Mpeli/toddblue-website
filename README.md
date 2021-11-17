@@ -1,5 +1,5 @@
 ##  ToddBue website
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Shoe & clothing merchandise website project I created to demonstrate my general web development skills. Specifically, React, Next.js, HTML, CSS, SCSS, JavaScript /jQuery, Git/ Github. 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Shoe & clothing merchandise website project I created to demonstrate my Server side Rendering knowledge & general web development skills. Specifically, Next.js, HTML, CSS, SCSS, JavaScript /jQuery, Git/ Github. 
 
 ##  Thought Process
 As a junior software Developer my main responsibilities would be working with the Project manager, UX/UI design team, Senior developer & Sales and Marketing team alongside a existing web development team. Each responsible for managing, developing, maintaining, and supporting various web projects.
