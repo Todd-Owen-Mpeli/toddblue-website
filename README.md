@@ -33,7 +33,9 @@ To learn Next.js framework to be able to rebuild my web developer portfolio usin
 <img src="public/otherImages/ToddBlue%20next.js%20Cosy%20and%20Trending%20section%20screenshot.png" width="100%" height="1100px">
 
 # Lessons Learned
-I learned a lot building this application. But mainly how to utilise multiple scss styling files for multiple pages. Alternatively how to build reusable content components, such as the navigation and footer.js files.
+I learned a lot building this application. But mainly how to utilise MYSQL / JSON file structure for data fetching. In the new product page, each product displayed, the infomation such as: product name, product category and pricing is using a data fetching JSON file structure. The JSON file is mannually downloaded locally from a mySQL database and instead of me manually inserting the data into the tags I had to fetch the data as if it was from a database. 
+
+multiple scss styling files for multiple pages. Alternatively how to build reusable content components, such as the navigation and footer.js files.
 
 1. Reusable content components in multiple pages. (Navbar.js & Footer.js)
 2. SCSS File Structure for multiple pages. (_newPage.scss, _storePage.scss etc.)
