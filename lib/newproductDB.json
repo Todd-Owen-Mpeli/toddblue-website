@@ -1,0 +1,50 @@
+[
+	{
+		"id": "1",
+		"productName": " Demon Slayer - Mitsuri Kanroji",
+		"productCategory": "Womens",
+		"pricing": "139.95"
+	},
+	{
+		"id": "2",
+		"productName": "Studio Ghibli - Spirited Away & My Neighbor Totoro",
+		"productCategory": "Mens & Womens",
+		"pricing": "189.95"
+	},
+	{
+		"id": "3",
+		"productName": "Haikyuu!! - Tetsuro Kuroo",
+		"productCategory": "Mens & Womens",
+		"pricing": "169.95"
+	},
+	{
+		"id": "4",
+		"productName": "Haikyuu!!",
+		"productCategory": "Mens & Womens",
+		"pricing": "189.95"
+	},
+	{
+		"id": "5",
+		"productName": "Bleach - Ichigo Kurosaki",
+		"productCategory": "Mens & Womens",
+		"pricing": "169.95"
+	},
+	{
+		"id": "6",
+		"productName": "Naruto - Sakura, Naruto, Sasuke",
+		"productCategory": "Mens & Womens",
+		"pricing": "189.95"
+	},
+	{
+		"id": "7",
+		"productName": "Hunter × Hunter - Killua Zoldyck",
+		"productCategory": "Mens & Womens",
+		"pricing": "159.95"
+	},
+	{
+		"id": "8",
+		"productName": "Spider-Man: Miles Morales",
+		"productCategory": "Mens & Womens",
+		"pricing": "229.95"
+	}
+]

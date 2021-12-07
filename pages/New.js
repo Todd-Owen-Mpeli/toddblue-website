@@ -5,6 +5,8 @@ import Image from "next/image";
 import Navbar from "/components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
+import content from "../lib/newproductDB.json";
+console.log(content[2]);
 
 const New = () => {
 	return (
@@ -69,6 +71,9 @@ const New = () => {
 
 							<div className={styles.description}>
 								<div className={styles.topSection}>
+									<Link href="#" target="blank">
+										<a>{content[6].productName}</a>
+									</Link>
 									<a href="#" target="blank">
 										Studio Ghibli - Spirited Away
 									</a>
