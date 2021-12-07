@@ -313,59 +313,65 @@ export default function Home() {
 
 					<div className={styles.contentDisplay}>
 						<div className={styles.productDisplay}>
-							<a href="#" target="blank">
-								<Image
-									src="/otherImages/fa19f127a6439a7c48420f7aad6deec0.jpg"
-									alt="Product Image"
-									width={600}
-									height={1000}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/otherImages/fa19f127a6439a7c48420f7aad6deec0.jpg"
+										alt="Product Image"
+										width={600}
+										height={1000}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 							<div className={styles.content}>
 								<newButton className={styles.shopButton}>
-									<a href="#" target="blank">
-										Mens
-									</a>
+									<Link href="#" target="blank">
+										<a>Mens</a>
+									</Link>
 								</newButton>
 							</div>
 						</div>
 						<div className={styles.productDisplay}>
-							<a href="#" target="blank">
-								<Image
-									src="/otherImages/822c173436e062f02626fad9b0c220b9.jpg"
-									alt="Product Image"
-									width={600}
-									height={1000}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/otherImages/822c173436e062f02626fad9b0c220b9.jpg"
+										alt="Product Image"
+										width={600}
+										height={1000}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 							<div className={styles.content}>
 								<newButton className={styles.shopButton}>
-									<a href="#" target="blank">
-										Womens
-									</a>
+									<Link href="#" target="blank">
+										<a>Womens</a>
+									</Link>
 								</newButton>
 							</div>
 						</div>
 						<div className={styles.productDisplay}>
-							<a href="#" target="blank">
-								<Image
-									src="/otherImages/acf6c5d018947d09d71abe077b9e354a.jpg"
-									alt="Product Image"
-									width={600}
-									height={1000}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/otherImages/acf6c5d018947d09d71abe077b9e354a.jpg"
+										alt="Product Image"
+										width={600}
+										height={1000}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 							<div className={styles.content}>
 								<newButton className={styles.shopButton}>
-									<a href="#" target="blank">
-										Kids
-									</a>
+									<Link href="#" target="blank">
+										<a>Kids</a>
+									</Link>
 								</newButton>
 							</div>
 						</div>
