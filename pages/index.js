@@ -224,16 +224,16 @@ export default function Home() {
 
 					<div className={styles.productDisplay}>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
-								<Image
-									src="/productImages/_MG_3090.jpg"
-									alt="Product Image"
-									width={400}
-									height={400}
-								/>
-							</a>
-
+							<Link href="#" target="blank">
+								<a href="#" target="blank">
+									<Image
+										src="/productImages/_MG_3090.jpg"
+										alt="Product Image"
+										width={400}
+										height={400}
+									/>
+								</a>
+							</Link>
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<a href="#" target="blank">
@@ -247,47 +247,61 @@ export default function Home() {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								<Image
-									src="/productImages/_MG_3441.jpg"
-									alt="Product Image"
-									width={400}
-									height={400}
-								/>
-							</a>
-
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_3441.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Haikyuu!!
-									</a>
-									<h2 className={styles.price}> £189.95</h2>
+									<Link href="#" target="blank">
+										<a>{content[3].productName}</a>
+									</Link>
+									<h2 className={styles.price}>{content[3].pricing}</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{content[3].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								<Image
-									src="/productImages/_MG_1629-3.jpg"
-									alt="Product Image"
-									width={400}
-									height={400}
-								/>
-							</a>
-
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_1629-3.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Spirited Away & My Neighbor Totoro
-									</a>
-									<h2 className={styles.price}> £189.95</h2>
+									<Link href="#" target="blank">
+										<a>{content[1].productName}</a>
+									</Link>
+									<h2 className={styles.price}>{content[1].pricing}</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{content[1].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 					</div>
