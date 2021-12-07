@@ -69,7 +69,6 @@ const New = () => {
 									/>
 								</a>
 							</Link>
-
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
@@ -99,17 +98,20 @@ const New = () => {
 									/>
 								</a>
 							</Link>
-
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Demon Slayer - Tanjiro
-									</a>
-									<h2 className={styles.price}> £159.95</h2>
+									<Link href="#" target="blank">
+										<a>{content[4].productName}</a>
+									</Link>
+									<h2 className={styles.price}>{content[4].pricing}</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{content[4].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 						<div className={styles.productItem}>
@@ -125,17 +127,20 @@ const New = () => {
 									/>
 								</a>
 							</Link>
-
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Haikyuu!! - Tetsuro Kuroo
-									</a>
-									<h2 className={styles.price}> £169.95</h2>
+									<Link href="#" target="blank">
+										<a>{content[2].productName}</a>
+									</Link>
+									<h2 className={styles.price}>{content[2].pricing}</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{content[2].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 						<div className={styles.productItem}>
@@ -151,17 +156,20 @@ const New = () => {
 									/>
 								</a>
 							</Link>
-
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Haikyuu!!
-									</a>
-									<h2 className={styles.price}> £149.95</h2>
+									<Link href="#" target="blank">
+										<a>{content[3].productName}</a>
+									</Link>
+									<h2 className={styles.price}>{content[3].pricing}</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{content[3].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 						<div className={styles.productItem}>
@@ -177,17 +185,20 @@ const New = () => {
 									/>
 								</a>
 							</Link>
-
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Spider-Man: Miles Morales
-									</a>
-									<h2 className={styles.price}> £199.95</h2>
+									<Link href="#" target="blank">
+										<a>{content[7].productName}</a>
+									</Link>
+									<h2 className={styles.price}>{content[7].pricing}</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{content[7].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 						<div className={styles.productItem}>
@@ -203,17 +214,20 @@ const New = () => {
 									/>
 								</a>
 							</Link>
-
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Demon Slayer - Mitsuri Kanroji
-									</a>
-									<h2 className={styles.price}> £179.95</h2>
+									<Link href="#" target="blank">
+										<a>{content[0].productName}</a>
+									</Link>
+									<h2 className={styles.price}>{content[0].pricing}</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{content[0].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 						<div className={styles.productItem}>
@@ -229,17 +243,20 @@ const New = () => {
 									/>
 								</a>
 							</Link>
-
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Sakura, Naruto, Sasuke
-									</a>
-									<h2 className={styles.price}> £179.95</h2>
+									<Link href="#" target="blank">
+										<a>{content[5].productName}</a>
+									</Link>
+									<h2 className={styles.price}>{content[5].pricing}</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{content[5].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 						<div className={styles.productItem}>
@@ -255,17 +272,20 @@ const New = () => {
 									/>
 								</a>
 							</Link>
-
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Hunter × Hunter - Killua Zoldyck
-									</a>
-									<h2 className={styles.price}> £149.95</h2>
+									<Link href="#" target="blank">
+										<a>{content[6].productName}</a>
+									</Link>
+									<h2 className={styles.price}>{content[6].pricing}</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{content[6].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 					</div>
