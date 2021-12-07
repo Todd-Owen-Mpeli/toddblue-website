@@ -4,6 +4,7 @@ import Link from "next/link";
 import Navbar from "/components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
+import content from "../lib/newproductDB.json";
 
 export default function Home() {
 	return (
@@ -71,70 +72,90 @@ export default function Home() {
 
 					<div className={styles.productDisplay}>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
-								<Image
-									src="/productImages/_MG_3295.jpg"
-									alt="Product Image"
-									width={400}
-									height={400}
-								/>
-							</a>
-
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_3295.jpg"
+										alt="Product Image"
+										width={400}
+										height={400}
+										layout="responsive"
+										objectFit="contain"
+									/>
+								</a>
+							</Link>
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Spider-Man: Miles Morales
-									</a>
-									<h2 className={styles.price}> £199.95</h2>
+									<Link href="#" target="blank">
+										<a>{content[7].productName}</a>
+									</Link>
+									<h2 className={styles.price}>{content[7].pricing}</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{content[7].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								<Image
-									src="/productImages/_MG_3551 - Copy.jpg"
-									alt="Product Image"
-									width={400}
-									height={400}
-								/>
-							</a>
-
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_3551 - Copy.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Demon Slayer - Mitsuri Kanroji
-									</a>
-									<h2 className={styles.price}> £119.95</h2>
+									<Link href="#" target="blank">
+										<a>{content[0].productName}</a>
+									</Link>
+									<h2 className={styles.price}>{content[0].pricing}</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{content[0].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								<Image
-									src="/productImages/_MG_3644.jpg"
-									alt="Product Image"
-									width={400}
-									height={400}
-								/>
-							</a>
-
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_3644.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Haikyuu!! - Tetsuro Kuroo
-									</a>
-									<h2 className={styles.price}> £169.95</h2>
+									<Link href="#" target="blank">
+										<a>{content[2].productName}</a>
+									</Link>
+									<h2 className={styles.price}>{content[2].pricing}</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{content[2].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 					</div>

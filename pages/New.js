@@ -57,7 +57,7 @@ const New = () => {
 					{/* <!--===== NEW PRODUCTS =====--> */}
 					<div className={styles.productDisplay}>
 						<div className={styles.productItem}>
-							<Link href="/" target="blank">
+							<Link href="#" target="blank">
 								<a>
 									<Image
 										src="/productImages/_MG_1629-3.jpg"
@@ -86,7 +86,7 @@ const New = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<Link href="/" target="blank">
+							<Link href="#" target="blank">
 								<a>
 									<Image
 										src="/productImages/_MG_3269.jpg"
@@ -115,7 +115,7 @@ const New = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<Link href="/" target="blank">
+							<Link href="#" target="blank">
 								<a>
 									<Image
 										src="/productImages/_MG_3644.jpg"
@@ -144,7 +144,7 @@ const New = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<Link href="/" target="blank">
+							<Link href="#" target="blank">
 								<a>
 									<Image
 										src="/productImages/_MG_3441.jpg"
@@ -173,7 +173,7 @@ const New = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<Link href="/" target="blank">
+							<Link href="#" target="blank">
 								<a>
 									<Image
 										src="/productImages/_MG_3295.jpg"
@@ -202,7 +202,7 @@ const New = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<Link href="/" target="blank">
+							<Link href="#" target="blank">
 								<a>
 									<Image
 										src="/productImages/_MG_3551 - Copy.jpg"
@@ -231,7 +231,7 @@ const New = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<Link href="/" target="blank">
+							<Link href="#" target="blank">
 								<a>
 									<Image
 										src="/productImages/_MG_3482.jpg"
@@ -260,7 +260,7 @@ const New = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<Link href="/" target="blank">
+							<Link href="#" target="blank">
 								<a>
 									<Image
 										src="/productImages/_MG_2538.jpg"
