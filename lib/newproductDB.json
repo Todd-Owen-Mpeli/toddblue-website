@@ -9,7 +9,8 @@
 		"id": "2",
 		"productName": "Studio Ghibli - Spirited Away & My Neighbor Totoro",
 		"productCategory": "Mens & Womens",
-		"pricing": "189.95"
+		"pricing": "189.95",
+		"ImageSRC": "/productImages/_MG_1629-3.jpg"
 	},
 	{
 		"id": "3",

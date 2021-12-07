@@ -6,7 +6,7 @@ import Navbar from "/components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
 import content from "../lib/newproductDB.json";
-console.log(content[2]);
+// console.log(content[2]);
 
 const New = () => {
 	return (
@@ -57,44 +57,48 @@ const New = () => {
 					{/* <!--===== NEW PRODUCTS =====--> */}
 					<div className={styles.productDisplay}>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
-								<Image
-									src="/productImages/_MG_1629-3.jpg"
-									alt="Product Image"
-									width={200}
-									height={200}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
+							<Link href="/" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_1629-3.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{content[6].productName}</a>
+										<a>{content[1].productName}</a>
 									</Link>
-									<a href="#" target="blank">
-										Studio Ghibli - Spirited Away
-									</a>
-									<h2 className={styles.price}> £189.95</h2>
+									<h2 className={styles.price}>{content[1].pricing}</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{content[1].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								<Image
-									src="/productImages/_MG_3269.jpg"
-									alt="Product Image"
-									width={200}
-									height={200}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
+							<Link href="/" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_3269.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 
 							<div className={styles.description}>
 								<div className={styles.topSection}>
@@ -109,16 +113,18 @@ const New = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								<Image
-									src="/productImages/_MG_3644.jpg"
-									alt="Product Image"
-									width={200}
-									height={200}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
+							<Link href="/" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_3644.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 
 							<div className={styles.description}>
 								<div className={styles.topSection}>
@@ -133,16 +139,18 @@ const New = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								<Image
-									src="/productImages/_MG_3441.jpg"
-									alt="Product Image"
-									width={200}
-									height={200}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
+							<Link href="/" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_3441.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 
 							<div className={styles.description}>
 								<div className={styles.topSection}>
@@ -157,17 +165,18 @@ const New = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
-								<Image
-									src="/productImages/_MG_3295.jpg"
-									alt="Product Image"
-									width={200}
-									height={200}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
+							<Link href="/" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_3295.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 
 							<div className={styles.description}>
 								<div className={styles.topSection}>
@@ -182,16 +191,18 @@ const New = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								<Image
-									src="/productImages/_MG_3551 - Copy.jpg"
-									alt="Product Image"
-									width={200}
-									height={200}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
+							<Link href="/" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_3551 - Copy.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 
 							<div className={styles.description}>
 								<div className={styles.topSection}>
@@ -206,16 +217,18 @@ const New = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								<Image
-									src="/productImages/_MG_3482.jpg"
-									alt="Product Image"
-									width={200}
-									height={200}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
+							<Link href="/" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_3482.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 
 							<div className={styles.description}>
 								<div className={styles.topSection}>
@@ -230,16 +243,18 @@ const New = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								<Image
-									src="/productImages/_MG_2538.jpg"
-									alt="Product Image"
-									width={200}
-									height={200}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
+							<Link href="/" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_2538.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 
 							<div className={styles.description}>
 								<div className={styles.topSection}>
