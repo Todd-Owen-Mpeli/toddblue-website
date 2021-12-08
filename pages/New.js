@@ -20,12 +20,14 @@ const fadeInUp = {
 		transition: {duration: 0.5, ease: "easeOut"},
 	},
 };
+
 const fadeIn = {
 	initial: {
 		opacity: 0,
 	},
 	animate: {
 		opacity: 1,
+		transition: {duration: 0.5, delay: 1, ease: "easeOut"},
 	},
 };
 

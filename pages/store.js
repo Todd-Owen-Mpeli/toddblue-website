@@ -21,6 +21,7 @@ const fadeInUp = {
 		transition: {duration: 0.5, ease: "easeOut"},
 	},
 };
+
 const fadeIn = {
 	initial: {
 		opacity: 0,
