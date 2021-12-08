@@ -5,8 +5,8 @@ import Image from "next/image";
 import Navbar from "/components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
-import content from "../lib/newproductDB.json";
-// console.log(content[2]);
+import NewproductDB from "../lib/newproductDB.json";
+// console.log(NewproductDB[2]);
 
 const New = () => {
 	return (
@@ -72,16 +72,16 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{content[1].productName}</a>
+										<a>{NewproductDB[1].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{content[1].pricing}</h2>
+									<h2 className={styles.price}>{NewproductDB[1].pricing}</h2>
 								</div>
 								<Link
 									href="/"
 									target="blank"
 									className={styles.productCategory}
 								>
-									<a>{content[1].productCategory}</a>
+									<a>{NewproductDB[1].productCategory}</a>
 								</Link>
 							</div>
 						</div>
@@ -101,16 +101,16 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{content[4].productName}</a>
+										<a>{NewproductDB[4].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{content[4].pricing}</h2>
+									<h2 className={styles.price}>{NewproductDB[4].pricing}</h2>
 								</div>
 								<Link
 									href="/"
 									target="blank"
 									className={styles.productCategory}
 								>
-									<a>{content[4].productCategory}</a>
+									<a>{NewproductDB[4].productCategory}</a>
 								</Link>
 							</div>
 						</div>
@@ -130,16 +130,16 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{content[2].productName}</a>
+										<a>{NewproductDB[2].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{content[2].pricing}</h2>
+									<h2 className={styles.price}>{NewproductDB[2].pricing}</h2>
 								</div>
 								<Link
 									href="/"
 									target="blank"
 									className={styles.productCategory}
 								>
-									<a>{content[2].productCategory}</a>
+									<a>{NewproductDB[2].productCategory}</a>
 								</Link>
 							</div>
 						</div>
@@ -159,16 +159,16 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{content[3].productName}</a>
+										<a>{NewproductDB[3].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{content[3].pricing}</h2>
+									<h2 className={styles.price}>{NewproductDB[3].pricing}</h2>
 								</div>
 								<Link
 									href="/"
 									target="blank"
 									className={styles.productCategory}
 								>
-									<a>{content[3].productCategory}</a>
+									<a>{NewproductDB[3].productCategory}</a>
 								</Link>
 							</div>
 						</div>
@@ -188,16 +188,16 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{content[7].productName}</a>
+										<a>{NewproductDB[7].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{content[7].pricing}</h2>
+									<h2 className={styles.price}>{NewproductDB[7].pricing}</h2>
 								</div>
 								<Link
 									href="/"
 									target="blank"
 									className={styles.productCategory}
 								>
-									<a>{content[7].productCategory}</a>
+									<a>{NewproductDB[7].productCategory}</a>
 								</Link>
 							</div>
 						</div>
@@ -217,16 +217,16 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{content[0].productName}</a>
+										<a>{NewproductDB[0].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{content[0].pricing}</h2>
+									<h2 className={styles.price}>{NewproductDB[0].pricing}</h2>
 								</div>
 								<Link
 									href="/"
 									target="blank"
 									className={styles.productCategory}
 								>
-									<a>{content[0].productCategory}</a>
+									<a>{NewproductDB[0].productCategory}</a>
 								</Link>
 							</div>
 						</div>
@@ -246,16 +246,16 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{content[5].productName}</a>
+										<a>{NewproductDB[5].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{content[5].pricing}</h2>
+									<h2 className={styles.price}>{NewproductDB[5].pricing}</h2>
 								</div>
 								<Link
 									href="/"
 									target="blank"
 									className={styles.productCategory}
 								>
-									<a>{content[5].productCategory}</a>
+									<a>{NewproductDB[5].productCategory}</a>
 								</Link>
 							</div>
 						</div>
@@ -275,16 +275,16 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{content[6].productName}</a>
+										<a>{NewproductDB[6].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{content[6].pricing}</h2>
+									<h2 className={styles.price}>{NewproductDB[6].pricing}</h2>
 								</div>
 								<Link
 									href="/"
 									target="blank"
 									className={styles.productCategory}
 								>
-									<a>{content[6].productCategory}</a>
+									<a>{NewproductDB[6].productCategory}</a>
 								</Link>
 							</div>
 						</div>

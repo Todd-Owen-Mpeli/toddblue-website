@@ -5,6 +5,8 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
+import CrossbagproductsDB from "../lib/crossbagproductsDB.json";
+// import ShoeproductsDB from "../lib/shoeproductsDB.json";
 
 const store = () => {
 	return (
@@ -466,75 +468,96 @@ const store = () => {
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								<Image
-									src="/productImages/_MG_3254.jpg"
-									alt="Product Image"
-									width={200}
-									height={200}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
-
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_3254.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Demon Slayer - Tanjiro
-									</a>
-									<h2 className={styles.price}> £39.95</h2>
+									<Link href="#" target="blank">
+										<a>{CrossbagproductsDB[0].productName}</a>
+									</Link>
+									<h2 className={styles.price}>
+										{CrossbagproductsDB[0].pricing}
+									</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{CrossbagproductsDB[0].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								<Image
-									src="/productImages/_MG_1881.jpg"
-									alt="Product Image"
-									width={200}
-									height={200}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
-
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_1881.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Powerpuff Girls
-									</a>
-									<h2 className={styles.price}> £29.95</h2>
+									<Link href="#" target="blank">
+										<a>{CrossbagproductsDB[1].productName}</a>
+									</Link>
+									<h2 className={styles.price}>
+										{CrossbagproductsDB[1].pricing}
+									</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{CrossbagproductsDB[1].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 						<div className={styles.productItem}>
-							<a href="#" target="blank">
-								<Image
-									src="/productImages/_MG_1890.jpg"
-									alt="Product Image"
-									width={200}
-									height={200}
-									layout="responsive"
-									objectFit="cover"
-								/>
-							</a>
-
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/_MG_1890.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<a href="#" target="blank">
-										Rick & Morty!!
-									</a>
-									<h2 className={styles.price}> £29.99</h2>
+									<Link href="#" target="blank">
+										<a>{CrossbagproductsDB[2].productName}</a>
+									</Link>
+									<h2 className={styles.price}>
+										{CrossbagproductsDB[2].pricing}
+									</h2>
 								</div>
-								<a href="#" target="blank" className={styles.productCategory}>
-									Men & Womens
-								</a>
+								<Link
+									href="/"
+									target="blank"
+									className={styles.productCategory}
+								>
+									<a>{CrossbagproductsDB[2].productCategory}</a>
+								</Link>
 							</div>
 						</div>
 					</div>
