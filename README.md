@@ -38,7 +38,8 @@ I learned a lot building this application. But mainly how to utilise MYSQL / JSO
 multiple scss styling files for multiple pages. Alternatively how to build reusable content components, such as the navigation and footer.js files.
 
 1. Reusable content components in multiple pages. (Navbar.js & Footer.js)
-2. SCSS File Structure for multiple pages. (_newPage.scss, _storePage.scss etc.)
+2. Reusable Custom reusable Animation Properties/Objects with framer-motion.
+3. SCSS File Structure for multiple pages. (_newPage.scss, _storePage.scss etc.)
 4. Git operations specifically init, add, status, commit, remote, push and pull.
 5. Creating a remote repository on github but deploying my next.js project with vercel.
 6. Responsive website using media queries for mobile & tablet view-width breakpoints.
