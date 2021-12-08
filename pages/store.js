@@ -11,11 +11,7 @@ import CrossbagproductsDB from "../lib/crossbagproductsDB.json";
 
 const store = () => {
 	return (
-		<motion.div
-			exit={{opacity: 0}}
-			initial={{opacity: 0}}
-			animate={{opacity: 1}}
-		>
+		<motion.div exit={{opacity: 0}} initial="initial" animate="animate">
 			{/* <!--===== HEAD =====--> */}
 			<Head>
 				{/* <!-- Website Title --> */}

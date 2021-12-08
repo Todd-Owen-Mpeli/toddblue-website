@@ -9,13 +9,38 @@ import styles from "/styles/Home.module.scss";
 import NewproductDB from "../lib/newproductDB.json";
 // console.log(NewproductDB[2]);
 
+// Custom reusable Animation Properties/Objects
+const fadeInUp = {
+	initial: {
+		y: 60,
+		opacity: 0,
+	},
+	animate: {
+		y: 0,
+		opacity: 1,
+		transition: {duration: 0.5, ease: "easeOut"},
+	},
+};
+const fadeIn = {
+	initial: {
+		opacity: 0,
+	},
+	animate: {
+		opacity: 1,
+	},
+};
+
+const stagger = {
+	animate: {
+		transition: {
+			staggerChildren: 0.1,
+		},
+	},
+};
+
 const New = () => {
 	return (
-		<motion.div
-			exit={{opacity: 0}}
-			initial={{opacity: 0}}
-			animate={{opacity: 1}}
-		>
+		<motion.div exit={{opacity: 0}} initial="initial" animate="animate">
 			{/* <!--===== HEAD =====--> */}
 			<Head>
 				{/* <!-- Website Title --> */}
@@ -60,8 +85,8 @@ const New = () => {
 					<h2>New Drip</h2>
 
 					{/* <!--===== NEW PRODUCTS =====--> */}
-					<div className={styles.productDisplay}>
-						<div className={styles.productItem}>
+					<motion.div variants={stagger} className={styles.productDisplay}>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -89,8 +114,8 @@ const New = () => {
 									<a>{NewproductDB[1].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -118,8 +143,8 @@ const New = () => {
 									<a>{NewproductDB[4].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -147,8 +172,8 @@ const New = () => {
 									<a>{NewproductDB[2].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -176,8 +201,8 @@ const New = () => {
 									<a>{NewproductDB[3].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -205,8 +230,8 @@ const New = () => {
 									<a>{NewproductDB[7].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -234,8 +259,8 @@ const New = () => {
 									<a>{NewproductDB[0].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -263,8 +288,8 @@ const New = () => {
 									<a>{NewproductDB[5].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -292,14 +317,14 @@ const New = () => {
 									<a>{NewproductDB[6].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-					</div>
+						</motion.div>
+					</motion.div>
 
 					{/* <!--===== TRENDING BRANDS =====--> */}
 					<div className={styles.trendingBrands}>
 						<h2>Trending Brands</h2>
 
-						<div className={styles.imageDisplay}>
+						<motion.div variants={fadeIn} className={styles.imageDisplay}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -360,7 +385,7 @@ const New = () => {
 									></Image>
 								</a>
 							</Link>
-						</div>
+						</motion.div>
 					</div>
 
 					{/* <!--===== JOIN COMMUNITY =====--> */}
