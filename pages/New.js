@@ -2,6 +2,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import {motion} from "framer-motion";
 import Navbar from "/components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
@@ -10,7 +11,7 @@ import NewproductDB from "../lib/newproductDB.json";
 
 const New = () => {
 	return (
-		<>
+		<motion.div>
 			{/* <!--===== HEAD =====--> */}
 			<Head>
 				{/* <!-- Website Title --> */}
@@ -372,7 +373,7 @@ const New = () => {
 
 			{/* <!--===== FOOTER =====--> */}
 			<Footer />
-		</>
+		</motion.div>
 	);
 };
 
