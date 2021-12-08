@@ -10,7 +10,7 @@ import CrossbagproductsDB from "../lib/crossbagproductsDB.json";
 
 const store = () => {
 	return (
-		<div>
+		<>
 			{/* <!--===== HEAD =====--> */}
 			<Head>
 				{/* <!-- Website Title --> */}
@@ -726,7 +726,7 @@ const store = () => {
 
 			{/* <!--===== FOOTER =====--> */}
 			<Footer />
-		</div>
+		</>
 	);
 };
 

@@ -10,7 +10,7 @@ import NewproductDB from "../lib/newproductDB.json";
 
 const New = () => {
 	return (
-		<div>
+		<>
 			{/* <!--===== HEAD =====--> */}
 			<Head>
 				{/* <!-- Website Title --> */}
@@ -372,7 +372,7 @@ const New = () => {
 
 			{/* <!--===== FOOTER =====--> */}
 			<Footer />
-		</div>
+		</>
 	);
 };
 
