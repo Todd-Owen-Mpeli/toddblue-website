@@ -11,7 +11,11 @@ import NewproductDB from "../lib/newproductDB.json";
 
 const New = () => {
 	return (
-		<motion.div>
+		<motion.div
+			exit={{opacity: 0}}
+			initial={{opacity: 0}}
+			animate={{opacity: 1}}
+		>
 			{/* <!--===== HEAD =====--> */}
 			<Head>
 				{/* <!-- Website Title --> */}

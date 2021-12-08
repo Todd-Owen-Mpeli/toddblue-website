@@ -7,9 +7,22 @@ import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
 import content from "../lib/newproductDB.json";
 
+// Custom reusable Animation Properties/Objects
+const fadeInUp = {
+	initial: {
+		y: 60,
+		opacity: 0,
+	},
+	animate: {
+		y: 0,
+		opacity: 1,
+		transition: {duration: 0.5, ease: "easeOut"},
+	},
+};
+
 export default function Home() {
 	return (
-		<>
+		<motion.div exit={{opacity: 0}} initial="initial" animate="animate">
 			<div className={styles.container}>
 				{/* <!--===== HEAD =====--> */}
 				<Head>
@@ -61,10 +74,14 @@ export default function Home() {
 							layout="responsive"
 							objectFit="contain"
 						/>
-						<h2 className={styles.title}>WEAR YOUR PASSION</h2>
-						<h5 className={styles.subtitle}>
-							Define your style forward with Anime Anime Anime
-						</h5>
+						<motion.div variants={fadeInUp}>
+							<h2 className={styles.title}>WEAR YOUR PASSION</h2>
+						</motion.div>
+						<motion.div>
+							<h5 className={styles.subtitle}>
+								Define your style forward with Anime Anime Anime
+							</h5>
+						</motion.div>
 					</div>
 
 					{/* <!--===== POPULAR =====--> */}
@@ -493,6 +510,6 @@ export default function Home() {
 				{/* <!--===== FOOTER =====--> */}
 				<Footer />
 			</div>
-		</>
+		</motion.div>
 	);
 }
