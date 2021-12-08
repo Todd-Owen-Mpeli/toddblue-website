@@ -111,7 +111,7 @@ export default function Home() {
 						<div className={styles.productDisplay}>
 							<motion.div variants={fadeInUp} className={styles.productItem}>
 								<Link href="#" target="blank">
-									<motion.a whileHover={{scale: 1.01}} whileTap={{scale: 1}}>
+									<motion.a whileHover={{scale: 1.0035}} whileTap={{scale: 1}}>
 										<Image
 											src="/productImages/_MG_3295.jpg"
 											alt="Product Image"
@@ -140,7 +140,7 @@ export default function Home() {
 							</motion.div>
 							<motion.div variants={fadeInUp} className={styles.productItem}>
 								<Link href="#" target="blank">
-									<motion.a whileHover={{scale: 1.01}} whileTap={{scale: 1}}>
+									<motion.a whileHover={{scale: 1.0035}} whileTap={{scale: 1}}>
 										<Image
 											src="/productImages/_MG_3551 - Copy.jpg"
 											alt="Product Image"
@@ -169,7 +169,7 @@ export default function Home() {
 							</motion.div>
 							<motion.div variants={fadeInUp} className={styles.productItem}>
 								<Link href="#" target="blank">
-									<motion.a whileHover={{scale: 1.01}} whileTap={{scale: 1}}>
+									<motion.a whileHover={{scale: 1.0035}} whileTap={{scale: 1}}>
 										<Image
 											src="/productImages/_MG_3644.jpg"
 											alt="Product Image"
@@ -276,7 +276,7 @@ export default function Home() {
 								className={styles.productItem}
 							>
 								<Link href="#" target="blank">
-									<motion.a whileHover={{scale: 1.01}} whileTap={{scale: 1}}>
+									<motion.a whileHover={{scale: 1.0035}} whileTap={{scale: 1}}>
 										<Image
 											src="/productImages/_MG_3090.jpg"
 											alt="Product Image"
@@ -313,7 +313,7 @@ export default function Home() {
 								className={styles.productItem}
 							>
 								<Link href="#" target="blank">
-									<motion.a whileHover={{scale: 1.01}} whileTap={{scale: 1}}>
+									<motion.a whileHover={{scale: 1.0035}} whileTap={{scale: 1}}>
 										<Image
 											src="/productImages/_MG_3441.jpg"
 											alt="Product Image"
@@ -356,7 +356,7 @@ export default function Home() {
 								className={styles.productItem}
 							>
 								<Link href="#" target="blank">
-									<motion.a whileHover={{scale: 1.01}} whileTap={{scale: 1}}>
+									<motion.a whileHover={{scale: 1.0035}} whileTap={{scale: 1}}>
 										<Image
 											src="/productImages/_MG_1629-3.jpg"
 											alt="Product Image"
