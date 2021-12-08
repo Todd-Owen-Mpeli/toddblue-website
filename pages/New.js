@@ -7,7 +7,6 @@ import Navbar from "/components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
 import NewproductDB from "../lib/newproductDB.json";
-// console.log(NewproductDB[2]);
 
 // Custom reusable Animation Properties/Objects
 const fadeInUp = {

@@ -9,6 +9,36 @@ import styles from "/styles/Home.module.scss";
 import ShoeproductsDB from "../lib/shoeproductsDB.json";
 import CrossbagproductsDB from "../lib/crossbagproductsDB.json";
 
+// Custom reusable Animation Properties/Objects
+const fadeInUp = {
+	initial: {
+		y: 60,
+		opacity: 0,
+	},
+	animate: {
+		y: 0,
+		opacity: 1,
+		transition: {duration: 0.5, ease: "easeOut"},
+	},
+};
+const fadeIn = {
+	initial: {
+		opacity: 0,
+	},
+	animate: {
+		opacity: 1,
+		transition: {duration: 0.5, delay: 1, ease: "easeOut"},
+	},
+};
+
+const stagger = {
+	animate: {
+		transition: {
+			staggerChildren: 0.1,
+		},
+	},
+};
+
 const store = () => {
 	return (
 		<motion.div exit={{opacity: 0}} initial="initial" animate="animate">
@@ -54,8 +84,8 @@ const store = () => {
 				<div className={styles.store}>
 					<div className={styles.borderLineMid}></div>
 
-					<div className={styles.productDisplay}>
-						<div className={styles.productItem}>
+					<motion.div variants={stagger} className={styles.productDisplay}>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -83,8 +113,8 @@ const store = () => {
 									<a>{ShoeproductsDB[0].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -112,8 +142,8 @@ const store = () => {
 									<a>{ShoeproductsDB[1].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -141,8 +171,8 @@ const store = () => {
 									<a>{ShoeproductsDB[2].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -170,8 +200,8 @@ const store = () => {
 									<a>{ShoeproductsDB[3].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -199,8 +229,8 @@ const store = () => {
 									<a>{ShoeproductsDB[4].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -228,8 +258,8 @@ const store = () => {
 									<a>{ShoeproductsDB[5].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -257,8 +287,8 @@ const store = () => {
 									<a>{ShoeproductsDB[6].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -286,8 +316,8 @@ const store = () => {
 									<a>{ShoeproductsDB[7].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -315,8 +345,8 @@ const store = () => {
 									<a>{ShoeproductsDB[8].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -344,8 +374,8 @@ const store = () => {
 									<a>{ShoeproductsDB[9].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -373,8 +403,8 @@ const store = () => {
 									<a>{ShoeproductsDB[10].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -402,8 +432,8 @@ const store = () => {
 									<a>{ShoeproductsDB[11].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -431,8 +461,8 @@ const store = () => {
 									<a>{ShoeproductsDB[12].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -460,8 +490,8 @@ const store = () => {
 									<a>{ShoeproductsDB[13].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -489,8 +519,8 @@ const store = () => {
 									<a>{ShoeproductsDB[14].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -518,8 +548,8 @@ const store = () => {
 									<a>{ShoeproductsDB[15].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -547,8 +577,8 @@ const store = () => {
 									<a>{ShoeproductsDB[16].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -578,8 +608,8 @@ const store = () => {
 									<a>{CrossbagproductsDB[0].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -609,8 +639,8 @@ const store = () => {
 									<a>{CrossbagproductsDB[1].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-						<div className={styles.productItem}>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -640,8 +670,8 @@ const store = () => {
 									<a>{CrossbagproductsDB[2].productCategory}</a>
 								</Link>
 							</div>
-						</div>
-					</div>
+						</motion.div>
+					</motion.div>
 
 					<div className={styles.borderLineMid}></div>
 
@@ -651,20 +681,20 @@ const store = () => {
 							<h2>Related Categories</h2>
 
 							<div className={styles.list}>
-								<ul className={styles.links}>
+								<motion.ul variants={stagger} className={styles.links}>
 									<Link href="#" target="blank">
-										<a>Mens Clothing</a>
+										<motion.a variants={fadeInUp}>Mens Clothing</motion.a>
 									</Link>
 									<Link href="#" target="blank">
-										<a>Womens Clothing</a>
+										<motion.a variants={fadeInUp}>Womens Clothing</motion.a>
 									</Link>
 									<Link href="#" target="blank">
-										<a>Backpacks & Bags</a>
+										<motion.a variants={fadeInUp}>Backpacks & Bags</motion.a>
 									</Link>
 									<Link href="#" target="blank">
-										<a>Cross-Body Bags</a>
+										<motion.a variants={fadeInUp}>Cross-Body Bags</motion.a>
 									</Link>
-								</ul>
+								</motion.ul>
 							</div>
 						</div>
 						<div className={styles.relatedStories}>
@@ -672,52 +702,64 @@ const store = () => {
 
 							<div className={styles.content}>
 								<div className={styles.productGuide}>
-									<a href="#" target="blank">
-										{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
-										<Image
-											src="/otherImages/a6da69b3cbefc0b7d1c3e9f67d011f8a.jpg"
-											alt="Product Image"
-											width={500}
-											height={500}
-											layout="responsive"
-											objectFit="cover"
-										/>
-									</a>
-
-									<h5>Size Guide</h5>
-									<h2>How to select the right shoe size.</h2>
+									<motion.div variants={fadeIn}>
+										<Link href="#" target="blank">
+											<a>
+												<Image
+													src="/otherImages/a6da69b3cbefc0b7d1c3e9f67d011f8a.jpg"
+													alt="Product Image"
+													width={500}
+													height={500}
+													layout="responsive"
+													objectFit="cover"
+												/>
+											</a>
+										</Link>
+									</motion.div>
+									<motion.div variants={fadeIn}>
+										<h5>Size Guide</h5>
+										<h2>How to select the right shoe size.</h2>
+									</motion.div>
 								</div>
 								<div className={styles.productGuide}>
-									<a href="#" target="blank">
-										{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
-										<Image
-											src="/otherImages/dca9766ecf88354b6b32ea3c48b6e7cb.jpg"
-											alt="Product Image"
-											width={500}
-											height={500}
-											layout="responsive"
-											objectFit="cover"
-										/>
-									</a>
-
-									<h5>Buying Guide</h5>
-									<h2>How to select the right item.</h2>
+									<motion.div variants={fadeIn}>
+										<Link href="#" target="blank">
+											<a>
+												<Image
+													src="/otherImages/dca9766ecf88354b6b32ea3c48b6e7cb.jpg"
+													alt="Product Image"
+													width={500}
+													height={500}
+													layout="responsive"
+													objectFit="cover"
+												/>
+											</a>
+										</Link>
+									</motion.div>
+									<motion.div variants={fadeIn}>
+										<h5>Buying Guide</h5>
+										<h2>How to select the right item.</h2>
+									</motion.div>
 								</div>
 								<div className={styles.productGuide}>
-									<a href="#" target="blank">
-										{/* <img src="/productImages/_MG_2936.jpg" alt="Product Image" /> */}
-										<Image
-											src="/otherImages/c7e6d1df7824762ba1395ea8db3978d2.jpg"
-											alt="Product Image"
-											width={500}
-											height={500}
-											layout="responsive"
-											objectFit="cover"
-										/>
-									</a>
-
-									<h5>Backpacks & Bags Guide</h5>
-									<h2>Which is the right Backpacks or Bags for the event.</h2>
+									<motion.div variants={fadeIn}>
+										<Link href="#" target="blank">
+											<a>
+												<Image
+													src="/otherImages/c7e6d1df7824762ba1395ea8db3978d2.jpg"
+													alt="Product Image"
+													width={500}
+													height={500}
+													layout="responsive"
+													objectFit="cover"
+												/>
+											</a>
+										</Link>
+									</motion.div>
+									<motion.div variants={fadeIn}>
+										<h5>Backpacks & Bags Guide</h5>
+										<h2>Which is the right Backpacks or Bags for the event.</h2>
+									</motion.div>
 								</div>
 							</div>
 						</div>
