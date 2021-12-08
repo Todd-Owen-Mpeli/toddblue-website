@@ -30,7 +30,7 @@ To learn Next.js framework to be able to rebuild my web developer portfolio usin
 
 1. All images are in 4K resolution, click to enlarge for better viewing.
 
-<img src="public/otherImages/ToddBlue%20next.js%20Cosy%20and%20Trending%20section%20screenshot.png" width="100%" height="1100px">
+<img src="public/otherImages/ToddBlue%20next.js%20Cosy%20and%20Trending%20section%20screenshot.png" width="100%" height="1350px">
 
 # Lessons Learned
 I learned a lot building this application. But mainly how to utilise MYSQL / JSON file structure for data fetching. In the new product page, each product displayed, the infomation such as: product name, product category and pricing is using a data fetching JSON file structure. The JSON file is mannually downloaded locally from a mySQL database and instead of me manually inserting the data into the tags I had to fetch the data as if it was from a database. 
@@ -60,7 +60,7 @@ c). https://toddblue-website.vercel.app/
 
 1. All images are in 4K resolution, click to enlarge for better viewing.
 
-<img src="public/otherImages/ToddBlue%20next.js%20More%20products%20and%20footer%20screenshot.png" width="100%" height="1100px">
+<img src="public/otherImages/ToddBlue%20next.js%20More%20products%20and%20footer%20screenshot.png" width="100%" height="1250px">
 
 # Getting Started
 
