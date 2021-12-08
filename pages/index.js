@@ -70,12 +70,7 @@ export default function Home() {
 					<h2>New</h2>
 
 					<div className={styles.productDisplay}>
-						<div
-							className={styles.productItem}
-							data-aos="fade-in"
-							data-aos-delay="200"
-							data-aos-duration="1000"
-						>
+						<div className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
