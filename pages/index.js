@@ -59,7 +59,6 @@ export default function Home() {
 						layout="responsive"
 						objectFit="contain"
 					/>
-
 					<h2 className={styles.title}>WEAR YOUR PASSION</h2>
 					<h5 className={styles.subtitle}>
 						Define your style forward with Anime Anime Anime
@@ -71,7 +70,12 @@ export default function Home() {
 					<h2>New</h2>
 
 					<div className={styles.productDisplay}>
-						<div className={styles.productItem}>
+						<div
+							className={styles.productItem}
+							data-aos="fade-in"
+							data-aos-delay="200"
+							data-aos-duration="1000"
+						>
 							<Link href="#" target="blank">
 								<a>
 									<Image
