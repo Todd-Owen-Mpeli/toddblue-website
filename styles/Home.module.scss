@@ -660,25 +660,28 @@
 
 		// <========== POPULAR ==========>
 		.popular {
-			padding: 0rem 1rem;
+			padding: 1rem 0.5rem;
 			margin-top: 5rem;
 
 			.productDisplay {
-				grid-template-columns: 1fr;
+				grid-template-columns: repeat(1, 1fr);
 			}
 		}
 
 		// <========== COSY SETS ==========>
 		.cosySet {
-			padding: 1rem;
+			padding: 1rem 0.5rem;
 			margin-top: 1rem;
 
 			.content {
+				padding: 0;
 				grid-template-columns: 1fr;
+				grid-row-gap: 1rem;
 				grid-gap: 0rem;
 
 				.productDisplay {
 					.content {
+						border: none;
 						bottom: 100px;
 					}
 				}
@@ -687,7 +690,7 @@
 
 		// <========== TRENDING NOW ==========>
 		.trendingNow {
-			padding: 1rem;
+			padding: 0.5rem;
 			margin-top: 2.5rem;
 
 			.productDisplay {

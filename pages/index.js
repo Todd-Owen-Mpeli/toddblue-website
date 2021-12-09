@@ -288,6 +288,8 @@ export default function Home() {
 											alt="Product Image"
 											width={400}
 											height={400}
+											layout="responsive"
+											objectFit="cover"
 										/>
 									</motion.a>
 								</Link>
