@@ -14,22 +14,22 @@ const Navbar = () => {
 							</Link>
 
 							<div className={styles.borderDiv}></div>
-							<Link href="#Support" target="blank">
+							<Link href="/Support" target="blank">
 								<a>Support</a>
 							</Link>
 
 							<div className={styles.borderDiv}></div>
-							<Link href="#Community" target="blank">
+							<Link href="/Community" target="blank">
 								<a>Community</a>
 							</Link>
 						</div>
 						<div className={styles.rightSide}>
-							<Link href="#Help" target="blank">
+							<Link href="/Help" target="blank">
 								<a>Help</a>
 							</Link>
 
 							<div className={styles.borderDiv}></div>
-							<Link href="#JoinUs" target="blank">
+							<Link href="/JoinUS" target="blank">
 								<a>Join Us</a>
 							</Link>
 
