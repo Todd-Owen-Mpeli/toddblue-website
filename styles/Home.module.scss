@@ -46,11 +46,6 @@
 			}
 		}
 
-		.borderLineMid {
-			margin: 0.1rem 0;
-			border-bottom: $baseColor_lightGrey2 0.1rem solid;
-		}
-
 		.bottomSection {
 			display: flex;
 			align-items: center;
@@ -120,6 +115,11 @@
 				}
 			}
 		}
+	}
+
+	.borderLineMid {
+		margin: 0.1rem 0;
+		border-bottom: $baseColor_lightGrey2 0.1rem solid;
 	}
 }
 

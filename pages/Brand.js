@@ -65,20 +65,38 @@ const Brand = () => {
 					</div>
 				</div>
 
-				<div>
+				<div className={styles.whoWeAre}>
 					<div className="container">
 						<div className={styles.content}>
 							<div className={styles.leftSide}>
 								<div className={styles.title}>
-									<h2>Our Story</h2>
-									<h5>One of a kind global street-wear shoes & merchandise</h5>
+									<h5>Street-wear shoes has never been more creative</h5>
+								</div>
+								<div className={styles.description}>
+									<p>
+										In some ways, you know us. We work to make new street style
+										classics. What you wear defines your personality, the
+										streets, and the creative culture, and we’ve been redefining
+										it with you all along.
+										<br></br>
+										<br></br>
+										When you wear our products, you create a culture of
+										authentic street style simply by being yourself. Whether
+										they’re on the feet of a ‘70’s basketball star in a history
+										book or on the street with you today.
+										<br></br>
+										<br></br>
+										Anime Creatives have always signified cool...because you
+										wear them. We don’t know where you’ll go, but we know you’ll
+										take our custom shoes to the future with you.
+									</p>
 								</div>
 							</div>
 							<div className={styles.rightSide}>
 								<Link href="#" target="blank">
 									<a>
 										<Image
-											src="/otherImages/ad5893bc646b1badc82e1f2a7a4689aa.jpg"
+											src="/otherImages/about_converse2.jpg"
 											alt="Product Image"
 											width={500}
 											height={200}
@@ -87,6 +105,49 @@ const Brand = () => {
 										></Image>
 									</a>
 								</Link>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className={styles.whoWeAre}>
+					<div className="container">
+						<div className={styles.content}>
+							<div className={styles.title}>
+								<h5>Get exclusive access to the best of ToddBLue</h5>
+							</div>
+							<div className={styles.TopSide}>
+								<Link href="#" target="blank">
+									<a>
+										<Image
+											src="/otherImages/two.png"
+											alt="Product Image"
+											width={500}
+											height={200}
+											layout="responsive"
+											objectFit="contain"
+										></Image>
+									</a>
+								</Link>
+							</div>
+							<div className={styles.BottomSide}>
+								<div className={styles.title}>
+									<h5>Where All Anime Enthusiast And Creatives Belong</h5>
+								</div>
+								<div className={styles.description}>
+									<p>
+										When you're with us, you're part of something bigger: a
+										global community dedicated to bringing out the best in one
+										another, with access to the most effective tools for the
+										job, including Member-exclusive products, ToddBLue By You
+										customization and special offers. And it's all
+									</p>
+								</div>
+								<newButton>
+									<Link href="#">
+										<a target="blank">Join Us</a>
+									</Link>
+								</newButton>
 							</div>
 						</div>
 					</div>
