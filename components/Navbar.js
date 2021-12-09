@@ -9,7 +9,7 @@ const Navbar = () => {
 				<nav>
 					<div className={styles.topSection}>
 						<div className={styles.leftSide}>
-							<Link href="#Brand" target="blank">
+							<Link href="/Brand" target="blank">
 								<a>Brand</a>
 							</Link>
 

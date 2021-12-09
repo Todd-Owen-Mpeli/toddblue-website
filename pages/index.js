@@ -30,7 +30,13 @@ const stagger = {
 
 export default function Home() {
 	return (
-		<motion.div exit={{opacity: 0}} initial="initial" animate="animate">
+		<motion.div
+			exit={{
+				opacity: 0,
+			}}
+			initial="initial"
+			animate="animate"
+		>
 			<div className={styles.container}>
 				{/* <!--===== HEAD =====--> */}
 				<Head>

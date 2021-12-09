@@ -723,15 +723,31 @@
 
 		// <========== NEW PAGE WEBSITE SCSS STYLING ==========>
 		.new {
-			padding: 1rem;
+			padding: 0.5rem;
 			margin-top: 1rem;
 
 			// <========== NEW PRODUCTS ==========>
 			.productDisplay {
 				display: grid;
-				padding: 0.25rem;
-				grid-template-columns: repeat(1, 1fr);
+				padding: 0rem;
+				grid-template-columns: repeat(2, 1fr);
+				grid-column-gap: 0.5rem;
 				grid-row-gap: 1.5rem;
+
+				.productItem {
+					.description {
+						.topSection {
+							a,
+							h2 {
+								font-size: $fontSize_small;
+							}
+						}
+
+						a {
+							font-size: $fontSize_xSmall;
+						}
+					}
+				}
 			}
 
 			// <========== TRENDING BRANDS ==========>
@@ -754,14 +770,30 @@
 
 		// <========== STORE PAGE WEBSITE SCSS STYLING ==========>
 		.store {
-			padding: 1rem;
+			padding: 0.5rem;
 			margin-top: 1rem;
 
 			.productDisplay {
 				display: grid;
-				padding: 0.25rem;
-				grid-template-columns: repeat(1, 1fr);
+				padding: 0rem;
+				grid-template-columns: repeat(2, 1fr);
+				grid-column-gap: 0.5rem;
 				grid-row-gap: 1.5rem;
+
+				.productItem {
+					.description {
+						.topSection {
+							a,
+							h2 {
+								font-size: $fontSize_xSmall;
+							}
+						}
+
+						a {
+							font-size: $fontSize_xSmall;
+						}
+					}
+				}
 			}
 
 			.bottomContent {
