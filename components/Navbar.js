@@ -3,9 +3,9 @@ import styles from "/styles/Home.module.scss";
 
 const Navbar = () => {
 	return (
-		<div>
+		<>
 			{/* <!--===== HEADER =====--> */}
-			<header>
+			<header className={styles.header}>
 				<nav>
 					<div className={styles.topSection}>
 						<div className={styles.leftSide}>
@@ -75,7 +75,7 @@ const Navbar = () => {
 					</div>
 				</nav>
 			</header>
-		</div>
+		</>
 	);
 };
 

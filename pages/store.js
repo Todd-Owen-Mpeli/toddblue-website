@@ -83,10 +83,10 @@ const store = () => {
 				/>
 			</Head>
 
-			<main className={styles.main}>
-				{/* <!--===== NAVIGATION =====--> */}
-				<Navbar />
+			{/* <!--===== NAVIGATION =====--> */}
+			<Navbar />
 
+			<main className={styles.main}>
 				{/* <!--===== POPULAR =====--> */}
 				<div className={styles.store}>
 					<div className={styles.borderLineMid}></div>

@@ -82,10 +82,10 @@ const New = () => {
 				/>
 			</Head>
 
-			<main className={styles.main}>
-				{/* <!--===== NAVIGATION =====--> */}
-				<Navbar />
+			{/* <!--===== NAVIGATION =====--> */}
+			<Navbar />
 
+			<main className={styles.main}>
 				<div className={styles.new}>
 					<div className={styles.borderLineMid}></div>
 

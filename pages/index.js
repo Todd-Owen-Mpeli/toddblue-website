@@ -72,10 +72,10 @@ export default function Home() {
 					/>
 				</Head>
 
-				<main className={styles.main}>
-					{/* <!--===== NAVIGATION =====--> */}
-					<Navbar />
+				{/* <!--===== NAVIGATION =====--> */}
+				<Navbar />
 
+				<main className={styles.main}>
 					{/* <!--===== HERO =====--> */}
 					<div className={styles.hero}>
 						<Image
