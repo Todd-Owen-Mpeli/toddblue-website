@@ -136,11 +136,11 @@ const Brand = () => {
 								</div>
 								<div className={styles.description}>
 									<p>
-										When you're with us, you're part of something bigger: a
+										When you are with us, you are part of something bigger: a
 										global community dedicated to bringing out the best in one
 										another, with access to the most effective tools for the
 										job, including Member-exclusive products, ToddBLue By You
-										customization and special offers. And it's all
+										customization and special offers. And its all
 									</p>
 								</div>
 								<newButton>

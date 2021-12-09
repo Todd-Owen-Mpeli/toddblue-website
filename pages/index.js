@@ -116,8 +116,12 @@ export default function Home() {
 						<h2>New</h2>
 						<div className={styles.productDisplay}>
 							<motion.div variants={fadeInUp} className={styles.productItem}>
-								<Link href="/store" target="blank">
-									<motion.a whileHover={{scale: 1.0035}} whileTap={{scale: 1}}>
+								<Link href="/store">
+									<motion.a
+										target="blank"
+										whileHover={{scale: 1.0035}}
+										whileTap={{scale: 1}}
+									>
 										<Image
 											src="/productImages/_MG_3295.jpg"
 											alt="Product Image"
@@ -130,23 +134,23 @@ export default function Home() {
 								</Link>
 								<div className={styles.description}>
 									<div className={styles.topSection}>
-										<Link href="/store" target="blank">
-											<a>{content[7].productName}</a>
+										<Link href="/store">
+											<a target="blank">{content[7].productName}</a>
 										</Link>
 										<h2 className={styles.price}>{content[7].pricing}</h2>
 									</div>
-									<Link
-										href="/"
-										target="blank"
-										className={styles.productCategory}
-									>
-										<a>{content[7].productCategory}</a>
+									<Link href="/" className={styles.productCategory}>
+										<a target="blank">{content[7].productCategory}</a>
 									</Link>
 								</div>
 							</motion.div>
 							<motion.div variants={fadeInUp} className={styles.productItem}>
-								<Link href="/store" target="blank">
-									<motion.a whileHover={{scale: 1.0035}} whileTap={{scale: 1}}>
+								<Link href="/store">
+									<motion.a
+										target="blank"
+										whileHover={{scale: 1.0035}}
+										whileTap={{scale: 1}}
+									>
 										<Image
 											src="/productImages/_MG_3551 - Copy.jpg"
 											alt="Product Image"
@@ -159,23 +163,23 @@ export default function Home() {
 								</Link>
 								<div className={styles.description}>
 									<div className={styles.topSection}>
-										<Link href="/store" target="blank">
-											<a>{content[0].productName}</a>
+										<Link href="/store">
+											<a target="blank">{content[0].productName}</a>
 										</Link>
 										<h2 className={styles.price}>{content[0].pricing}</h2>
 									</div>
-									<Link
-										href="/"
-										target="blank"
-										className={styles.productCategory}
-									>
-										<a>{content[0].productCategory}</a>
+									<Link href="/" className={styles.productCategory}>
+										<a target="blank">{content[0].productCategory}</a>
 									</Link>
 								</div>
 							</motion.div>
 							<motion.div variants={fadeInUp} className={styles.productItem}>
-								<Link href="/store" target="blank">
-									<motion.a whileHover={{scale: 1.0035}} whileTap={{scale: 1}}>
+								<Link href="/store">
+									<motion.a
+										target="blank"
+										whileHover={{scale: 1.0035}}
+										whileTap={{scale: 1}}
+									>
 										<Image
 											src="/productImages/_MG_3644.jpg"
 											alt="Product Image"
@@ -188,17 +192,13 @@ export default function Home() {
 								</Link>
 								<div className={styles.description}>
 									<div className={styles.topSection}>
-										<Link href="/store" target="blank">
-											<a>{content[2].productName}</a>
+										<Link href="/store">
+											<a target="blank">{content[2].productName}</a>
 										</Link>
 										<h2 className={styles.price}>{content[2].pricing}</h2>
 									</div>
-									<Link
-										href="/"
-										target="blank"
-										className={styles.productCategory}
-									>
-										<a>{content[2].productCategory}</a>
+									<Link href="/" className={styles.productCategory}>
+										<a target="blank">{content[2].productCategory}</a>
 									</Link>
 								</div>
 							</motion.div>
@@ -211,8 +211,8 @@ export default function Home() {
 
 						<div className={styles.content}>
 							<div className={styles.productDisplay}>
-								<Link href="/store" target="blank">
-									<a>
+								<Link href="/store">
+									<a target="blank">
 										<Image
 											src="/otherImages/ad5893bc646b1badc82e1f2a7a4689aa.jpg"
 											alt="Product Image"
@@ -226,15 +226,15 @@ export default function Home() {
 								<div className={styles.content}>
 									<h2>Comfy Clothing for colder Days</h2>
 									<newButton className={styles.shopButton}>
-										<Link href="/store" target="blank">
-											<a>Shop</a>
+										<Link href="/store">
+											<a target="blank">Shop</a>
 										</Link>
 									</newButton>
 								</div>
 							</div>
 							<div className={styles.productDisplay}>
-								<Link href="/store" target="blank">
-									<a>
+								<Link href="/store">
+									<a target="blank">
 										<Image
 											src="/otherImages/c8c82b170fcf1c0bf3dc755c4f030326.jpg"
 											alt="Product Image"
@@ -248,8 +248,8 @@ export default function Home() {
 								<div className={styles.content}>
 									<h2>Anime Clothing for Everyday Vibes</h2>
 									<newButton className={styles.shopButton}>
-										<Link href="/store" target="blank">
-											<a>Shop</a>
+										<Link href="/store">
+											<a target="blank">Shop</a>
 										</Link>
 									</newButton>
 								</div>
@@ -284,8 +284,12 @@ export default function Home() {
 								}}
 								className={styles.productItem}
 							>
-								<Link href="/store" target="blank">
-									<motion.a whileHover={{scale: 1.0035}} whileTap={{scale: 1}}>
+								<Link href="/store">
+									<motion.a
+										target="blank"
+										whileHover={{scale: 1.0035}}
+										whileTap={{scale: 1}}
+									>
 										<Image
 											src="/productImages/_MG_3090.jpg"
 											alt="Product Image"
@@ -298,13 +302,13 @@ export default function Home() {
 								</Link>
 								<div className={styles.description}>
 									<div className={styles.topSection}>
-										<Link href="/store" target="blank">
-											<a>Powerpuff Girls</a>
+										<Link href="/store">
+											<a target="blank">Powerpuff Girls</a>
 										</Link>
 
 										<h2 className={styles.price}> £159.95</h2>
 									</div>
-									<Link href="/store" target="blank">
+									<Link href="/store">
 										<a className={styles.productCategory}>Men & Womens</a>
 									</Link>
 								</div>
@@ -324,8 +328,12 @@ export default function Home() {
 								}}
 								className={styles.productItem}
 							>
-								<Link href="/store" target="blank">
-									<motion.a whileHover={{scale: 1.0035}} whileTap={{scale: 1}}>
+								<Link href="/store">
+									<motion.a
+										target="blank"
+										whileHover={{scale: 1.0035}}
+										whileTap={{scale: 1}}
+									>
 										<Image
 											src="/productImages/_MG_3441.jpg"
 											alt="Product Image"
@@ -338,17 +346,13 @@ export default function Home() {
 								</Link>
 								<div className={styles.description}>
 									<div className={styles.topSection}>
-										<Link href="/store" target="blank">
-											<a>{content[3].productName}</a>
+										<Link href="/store">
+											<a target="blank">{content[3].productName}</a>
 										</Link>
 										<h2 className={styles.price}>{content[3].pricing}</h2>
 									</div>
-									<Link
-										href="/"
-										target="blank"
-										className={styles.productCategory}
-									>
-										<a>{content[3].productCategory}</a>
+									<Link href="/" className={styles.productCategory}>
+										<a target="blank">{content[3].productCategory}</a>
 									</Link>
 								</div>
 							</motion.div>
@@ -367,8 +371,12 @@ export default function Home() {
 								}}
 								className={styles.productItem}
 							>
-								<Link href="/store" target="blank">
-									<motion.a whileHover={{scale: 1.0035}} whileTap={{scale: 1}}>
+								<Link href="/store">
+									<motion.a
+										target="blank"
+										whileHover={{scale: 1.0035}}
+										whileTap={{scale: 1}}
+									>
 										<Image
 											src="/productImages/_MG_1629-3.jpg"
 											alt="Product Image"
@@ -381,17 +389,13 @@ export default function Home() {
 								</Link>
 								<div className={styles.description}>
 									<div className={styles.topSection}>
-										<Link href="/store" target="blank">
-											<a>{content[1].productName}</a>
+										<Link href="/store">
+											<a target="blank">{content[1].productName}</a>
 										</Link>
 										<h2 className={styles.price}>{content[1].pricing}</h2>
 									</div>
-									<Link
-										href="/"
-										target="blank"
-										className={styles.productCategory}
-									>
-										<a>{content[1].productCategory}</a>
+									<Link href="/" className={styles.productCategory}>
+										<a target="blank">{content[1].productCategory}</a>
 									</Link>
 								</div>
 							</motion.div>
@@ -403,8 +407,8 @@ export default function Home() {
 						<h2>More ToddBlue</h2>
 						<div className={styles.contentDisplay}>
 							<motion.div variants={fadeInUp} className={styles.productDisplay}>
-								<Link href="/store" target="blank">
-									<a>
+								<Link href="/store">
+									<a target="blank">
 										<Image
 											src="/otherImages/fa19f127a6439a7c48420f7aad6deec0.jpg"
 											alt="Product Image"
@@ -417,15 +421,15 @@ export default function Home() {
 								</Link>
 								<div className={styles.content}>
 									<newButton className={styles.shopButton}>
-										<Link href="/store" target="blank">
-											<a>Mens</a>
+										<Link href="/store">
+											<a target="blank">Mens</a>
 										</Link>
 									</newButton>
 								</div>
 							</motion.div>
 							<motion.div variants={fadeInUp} className={styles.productDisplay}>
-								<Link href="/store" target="blank">
-									<a>
+								<Link href="/store">
+									<a target="blank">
 										<Image
 											src="/otherImages/822c173436e062f02626fad9b0c220b9.jpg"
 											alt="Product Image"
@@ -438,15 +442,15 @@ export default function Home() {
 								</Link>
 								<div className={styles.content}>
 									<newButton className={styles.shopButton}>
-										<Link href="/store" target="blank">
-											<a>Womens</a>
+										<Link href="/store">
+											<a target="blank">Womens</a>
 										</Link>
 									</newButton>
 								</div>
 							</motion.div>
 							<motion.div variants={fadeInUp} className={styles.productDisplay}>
-								<Link href="/store" target="blank">
-									<a>
+								<Link href="/store">
+									<a target="blank">
 										<Image
 											src="/otherImages/acf6c5d018947d09d71abe077b9e354a.jpg"
 											alt="Product Image"
@@ -459,8 +463,8 @@ export default function Home() {
 								</Link>
 								<div className={styles.content}>
 									<newButton className={styles.shopButton}>
-										<Link href="/store" target="blank">
-											<a>Kids</a>
+										<Link href="/store">
+											<a target="blank">Kids</a>
 										</Link>
 									</newButton>
 								</div>
@@ -475,26 +479,26 @@ export default function Home() {
 								<h2>Shoes</h2>
 								<motion.ul variants={stagger} className={styles.links}>
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>Sneakers and Shoes</a>
+										<Link href="/store">
+											<a target="blank">Sneakers and Shoes</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>Nike Shoes</a>
+										<Link href="/store">
+											<a target="blank">Nike Shoes</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>Adidas Shoes</a>
+										<Link href="/store">
+											<a target="blank">Adidas Shoes</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>Vans Shoes</a>
+										<Link href="/store">
+											<a target="blank">Vans Shoes</a>
 										</Link>
 									</motion.li>
 								</motion.ul>
@@ -503,26 +507,26 @@ export default function Home() {
 								<h2>Clothing</h2>
 								<motion.ul variants={stagger} className={styles.links}>
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>All Clothing</a>
+										<Link href="/store">
+											<a target="blank">All Clothing</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>Tops</a>
+										<Link href="/store">
+											<a target="blank">Tops</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>Trousers and Leggings</a>
+										<Link href="/store">
+											<a target="blank">Trousers and Leggings</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>Tracksuits</a>
+										<Link href="/store">
+											<a target="blank">Tracksuits</a>
 										</Link>
 									</motion.li>
 								</motion.ul>
@@ -531,26 +535,26 @@ export default function Home() {
 								<h2>Bags</h2>
 								<motion.ul variants={stagger} className={styles.links}>
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>All Bags</a>
+										<Link href="/store">
+											<a target="blank">All Bags</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>Backpacks</a>
+										<Link href="/store">
+											<a target="blank">Backpacks</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>Duffle bags</a>
+										<Link href="/store">
+											<a target="blank">Duffle bags</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>Cross-Body Bags</a>
+										<Link href="/store">
+											<a target="blank">Cross-Body Bags</a>
 										</Link>
 									</motion.li>
 								</motion.ul>
@@ -559,26 +563,26 @@ export default function Home() {
 								<h2>Featured</h2>
 								<motion.ul variants={stagger} className={styles.links}>
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>Black Friday</a>
+										<Link href="/store">
+											<a target="blank">Black Friday</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>Cyber Monday</a>
+										<Link href="/store">
+											<a target="blank">Cyber Monday</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>New Releases</a>
+										<Link href="/store">
+											<a target="blank">New Releases</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store" target="blank">
-											<a>Backpacks & Bags</a>
+										<Link href="/store">
+											<a target="blank">Backpacks & Bags</a>
 										</Link>
 									</motion.li>
 								</motion.ul>
