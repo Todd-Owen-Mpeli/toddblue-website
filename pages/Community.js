@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
-import Navbar from "/components/Navbar";
+import NavbarDark from "/components/alternativeStyling/NavbarDark";
 import FooterLight from "/components/alternativeStyling/FooterLight";
 import styles from "/styles/Home.module.scss";
 
@@ -50,7 +50,7 @@ const community = () => {
 			</Head>
 
 			{/* <!--===== NAVIGATION =====--> */}
-			<Navbar />
+			<NavbarDark />
 
 			<div className={styles.main}></div>
 

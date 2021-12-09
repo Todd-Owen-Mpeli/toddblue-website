@@ -907,8 +907,66 @@
 		}
 	}
 
+	// <========== BRANDS PAGE SCSS ==========>
+	.BrandMain {
+		// <========== WHO WE ARE ==========>
+		.whoWeAre {
+			padding: 0.5rem 0;
+
+			.content {
+				grid-template-columns: repeat(1, 1fr);
+
+				.leftSide {
+					padding: 1rem 0.5rem;
+
+					.title {
+						h5 {
+							font-size: $fontSize_large-0;
+						}
+					}
+
+					.description {
+						p {
+							font-size: $fontSize_normal;
+						}
+					}
+				}
+			}
+		}
+
+		// <========== JOIN US ==========>
+		.JoinUS {
+			padding: 0.5rem 0rem;
+
+			.content {
+				h5 {
+					font-size: $fontSize_large-0;
+				}
+
+				.BottomSide {
+					padding: 1rem 0.25rem;
+
+					.title {
+						h5 {
+							font-size: $fontSize_large;
+						}
+					}
+
+					.description {
+						margin: 2.5rem 0;
+
+						p {
+							font-size: $fontSize_normal;
+						}
+					}
+				}
+			}
+		}
+	}
+
 	// <========== FOOTER ==========>
-	.footer {
+	.footer,
+	.footerLight {
 		padding: 2rem 1rem;
 		margin-top: 1rem;
 
