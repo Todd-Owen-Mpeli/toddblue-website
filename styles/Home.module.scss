@@ -607,7 +607,7 @@
 
 .footerLight {
 	padding: 2rem;
-	background-color: $backgroundColor_black;
+	background-color: $backgroundColor_White;
 
 	.content {
 		margin: 0 auto;
@@ -633,21 +633,25 @@
 						padding: 10px;
 						text-decoration: none;
 						font-size: $fontSize_small;
-						color: $baseColor_lightGrey4;
+						color: $baseColor_black;
 						font-family: $fontStyle_option3;
 					}
 
 					a:hover {
-						color: $baseColor_white;
+						color: $baseColor_lightGrey3;
 					}
 
 					.titleSection {
 						margin-bottom: 0.25rem;
 						letter-spacing: 0.04rem;
-						color: $baseColor_white;
+						color: $baseColor_black;
 						text-transform: uppercase;
 						font-size: $fontSize_normal;
 						font-family: $fontStyle_header;
+					}
+
+					.titleSection:hover {
+						color: $baseColor_black;
 					}
 				}
 
@@ -659,14 +663,14 @@
 						padding: 10px;
 						letter-spacing: 0.04rem;
 						text-decoration: none;
-						color: $baseColor_white;
+						color: $baseColor_black;
 						text-transform: uppercase;
 						font-size: $fontSize_normal;
 						font-family: $fontStyle_header;
 					}
 
 					a:hover {
-						color: $baseColor_lightGrey2;
+						color: $baseColor_lightGrey3;
 					}
 				}
 			}
@@ -680,19 +684,19 @@
 					padding: 10px;
 					text-decoration: none;
 					font-size: $fontSize_normal;
-					color: $baseColor_lightGrey4;
+					color: $baseColor_black;
 					font-family: $fontStyle_option3;
 				}
 
 				a:hover {
-					color: $baseColor_white;
+					color: $secondary_Purple;
 				}
 			}
 		}
 
 		.borderLineMid {
 			margin: 1rem 0;
-			border-bottom: $baseColor_lightBlack 0.1rem solid;
+			border-bottom: $backgroundColor_black 0.1rem solid;
 		}
 
 		.bottomSection {
@@ -704,12 +708,12 @@
 					padding: 10px;
 					text-decoration: none;
 					font-size: $fontSize_xSmall;
-					color: $baseColor_lightGrey4;
+					color: $baseColor_black;
 					font-family: $fontStyle_option3;
 				}
 
 				a:hover {
-					color: $baseColor_white;
+					color: $baseColor_lightGrey3;
 				}
 			}
 
@@ -725,14 +729,14 @@
 						padding: 10px;
 						text-decoration: none;
 						font-size: $fontSize_xSmall;
-						color: $baseColor_lightGrey4;
+						color: $baseColor_black;
 						font-family: $fontStyle_option3;
 					}
 				}
 
 				.leftSide {
 					.location {
-						color: $baseColor_white;
+						color: $secondary_Purple;
 
 						i {
 							margin-right: 1rem;
@@ -742,7 +746,7 @@
 
 				.rightSide {
 					a:hover {
-						color: $baseColor_white;
+						color: $baseColor_lightGrey3;
 					}
 				}
 			}

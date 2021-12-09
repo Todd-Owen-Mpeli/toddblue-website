@@ -7,11 +7,12 @@ const FooterLight = () => {
 			{/* <!--===== FOOTER =====--> */}
 			<footer className={styles.footerLight}>
 				<div className={styles.content}>
+					<div className={styles.borderLineMid}></div>
 					<div className={styles.topSection}>
 						<div className={styles.leftSection}>
 							<div className={styles.additionalInformation}>
 								<Link href="#" target="blank">
-									<a>Gift Cards</a>
+									<a className={styles.titleSection}>Gift Cards</a>
 								</Link>
 								<Link href="#" target="blank">
 									<a>Sign Up For Email</a>
