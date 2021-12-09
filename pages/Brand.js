@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
 import Navbar from "/components/Navbar";
-import Footer from "/components/Footer";
+import FooterLight from "/components/alternativeStyling/FooterLight";
 import styles from "/styles/Home.module.scss";
 
 const Brand = () => {
@@ -55,7 +55,7 @@ const Brand = () => {
 			<div className={styles.main}></div>
 
 			{/* <!--===== FOOTER =====--> */}
-			<Footer />
+			<FooterLight />
 		</motion.div>
 	);
 };

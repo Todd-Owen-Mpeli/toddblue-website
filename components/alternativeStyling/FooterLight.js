@@ -1,11 +1,11 @@
 import Link from "next/link";
 import styles from "/styles/Home.module.scss";
 
-const Footer = () => {
+const FooterLight = () => {
 	return (
 		<>
 			{/* <!--===== FOOTER =====--> */}
-			<footer className={styles.footer}>
+			<footer className={styles.footerLight}>
 				<div className={styles.content}>
 					<div className={styles.topSection}>
 						<div className={styles.leftSection}>
@@ -133,4 +133,4 @@ const Footer = () => {
 	);
 };
 
-export default Footer;
+export default FooterLight;
