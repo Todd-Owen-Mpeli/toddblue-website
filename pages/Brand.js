@@ -6,6 +6,37 @@ import Navbar from "/components/Navbar";
 import FooterLight from "/components/alternativeStyling/FooterLight";
 import styles from "/styles/Home.module.scss";
 
+// Custom reusable Animation Properties/Objects
+const fadeInUp = {
+	initial: {
+		y: 60,
+		opacity: 0,
+	},
+	animate: {
+		y: 0,
+		opacity: 1,
+		transition: {duration: 0.5, ease: "easeOut"},
+	},
+};
+
+const fadeIn = {
+	initial: {
+		opacity: 0,
+	},
+	animate: {
+		opacity: 1,
+		transition: {duration: 0.5, delay: 1, ease: "easeOut"},
+	},
+};
+
+const stagger = {
+	animate: {
+		transition: {
+			staggerChildren: 0.1,
+		},
+	},
+};
+
 const Brand = () => {
 	return (
 		<>
@@ -58,10 +89,10 @@ const Brand = () => {
 					<div className={styles.backgroundImageTop}>
 						<div className="container">
 							<div className={styles.content}>
-								<div className={styles.title}>
+								<motion.div variants={fadeIn} className={styles.title}>
 									<h2>Our Story</h2>
 									<h5>One of a kind global street-wear shoes & merchandise</h5>
-								</div>
+								</motion.div>
 							</div>
 						</div>
 					</div>
@@ -69,11 +100,14 @@ const Brand = () => {
 					<div className={styles.whoWeAre}>
 						<div className="container">
 							<div className={styles.content}>
-								<div className={styles.leftSide}>
-									<div className={styles.title}>
+								<motion.div variants={stagger} className={styles.leftSide}>
+									<motion.div variants={fadeInUp} className={styles.title}>
 										<h5>Street-wear shoes has never been more creative</h5>
-									</div>
-									<div className={styles.description}>
+									</motion.div>
+									<motion.div
+										variants={fadeInUp}
+										className={styles.description}
+									>
 										<p>
 											In some ways, you know us. We work to make new street
 											style classics. What you wear defines your personality,
@@ -91,9 +125,9 @@ const Brand = () => {
 											wear them. We don’t know where you’ll go, but we know
 											you’ll take our custom shoes to the future with you.
 										</p>
-									</div>
-								</div>
-								<div className={styles.rightSide}>
+									</motion.div>
+								</motion.div>
+								<motion.div variants={fadeIn} className={styles.rightSide}>
 									<Link href="#" target="blank">
 										<a>
 											<Image
@@ -106,7 +140,7 @@ const Brand = () => {
 											></Image>
 										</a>
 									</Link>
-								</div>
+								</motion.div>
 							</div>
 						</div>
 					</div>
@@ -117,7 +151,7 @@ const Brand = () => {
 								<div className={styles.title}>
 									<h5>Get exclusive access to the best of ToddBLue</h5>
 								</div>
-								<div className={styles.TopSide}>
+								<motion.div variants={fadeIn} className={styles.TopSide}>
 									<Link href="#" target="blank">
 										<a>
 											<Image
@@ -130,12 +164,15 @@ const Brand = () => {
 											></Image>
 										</a>
 									</Link>
-								</div>
-								<div className={styles.BottomSide}>
-									<div className={styles.title}>
+								</motion.div>
+								<motion.div variants={fadeInUp} className={styles.BottomSide}>
+									<motion.div variants={fadeInUp} className={styles.title}>
 										<h5>Where All Anime Enthusiast And Creatives Belong</h5>
-									</div>
-									<div className={styles.description}>
+									</motion.div>
+									<motion.div
+										variants={fadeInUp}
+										className={styles.description}
+									>
 										<p>
 											When you are with us, you are part of something bigger: a
 											global community dedicated to bringing out the best in one
@@ -143,13 +180,13 @@ const Brand = () => {
 											job, including Member-exclusive products, ToddBLue By You
 											customization and special offers. And its all
 										</p>
-									</div>
-									<newButton>
+									</motion.div>
+									<motion.newButton variants={fadeIn}>
 										<Link href="#">
 											<a target="blank">Join Us</a>
 										</Link>
-									</newButton>
-								</div>
+									</motion.newButton>
+								</motion.div>
 							</div>
 						</div>
 					</div>
