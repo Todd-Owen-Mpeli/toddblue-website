@@ -98,8 +98,8 @@ const Brand = () => {
 										<Image
 											src="/otherImages/about_converse2.jpg"
 											alt="Product Image"
-											width={500}
-											height={200}
+											width={600}
+											height={600}
 											layout="responsive"
 											objectFit="contain"
 										></Image>
@@ -110,7 +110,7 @@ const Brand = () => {
 					</div>
 				</div>
 
-				<div className={styles.whoWeAre}>
+				<div className={styles.JoinUS}>
 					<div className="container">
 						<div className={styles.content}>
 							<div className={styles.title}>
