@@ -52,7 +52,46 @@ const Brand = () => {
 			{/* <!--===== NAVIGATION =====--> */}
 			<Navbar />
 
-			<div className={styles.main}></div>
+			<div className={styles.BrandMain}>
+				{/* <!--===== HERO =====--> */}
+				<div className={styles.backgroundImageTop}>
+					<div className="container">
+						<div className={styles.content}>
+							<div className={styles.title}>
+								<h2>Our Story</h2>
+								<h5>One of a kind global street-wear shoes & merchandise</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div className="container">
+						<div className={styles.content}>
+							<div className={styles.leftSide}>
+								<div className={styles.title}>
+									<h2>Our Story</h2>
+									<h5>One of a kind global street-wear shoes & merchandise</h5>
+								</div>
+							</div>
+							<div className={styles.rightSide}>
+								<Link href="#" target="blank">
+									<a>
+										<Image
+											src="/otherImages/ad5893bc646b1badc82e1f2a7a4689aa.jpg"
+											alt="Product Image"
+											width={500}
+											height={200}
+											layout="responsive"
+											objectFit="contain"
+										></Image>
+									</a>
+								</Link>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
 			{/* <!--===== FOOTER =====--> */}
 			<FooterLight />
