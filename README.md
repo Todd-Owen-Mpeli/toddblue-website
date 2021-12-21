@@ -1,4 +1,4 @@
-##  ToddBue website
+##  ToddBlue website
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Shoe & clothing merchandise website project I created to demonstrate my Server side Rendering knowledge & general web development skills. Specifically, Next.js, HTML, CSS, SCSS, JavaScript /jQuery, Git/ Github. 
 
 ##  Thought Process
