@@ -1,4 +1,4 @@
-##  ToddBue website
+##  ToddBlue website
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Shoe & clothing merchandise website project I created to demonstrate my Server side Rendering knowledge & general web development skills. Specifically, Next.js, HTML, CSS, SCSS, JavaScript /jQuery, Git/ Github. 
 
 ##  Thought Process
@@ -14,7 +14,7 @@ Image Optimization for Web Performance without Losing Quality.. I reduced the pr
 
 1. All images are in 4K resolution, click to enlarge for better viewing.
 
-<img src="public/otherImages/ToddBlue%20next.js%20Home%20Page%20screenshot.png" width="100%" height="1100px">
+<img src="public/otherImages/ToddBlue%20next.js%20Home%20Page%20screenshot.png" width="750px" height="850px">
 
 # Project Context
 Most of my projects are developed using Client-Side rendering. And this project I wanted to develop a website using Next.js framework, specifically the Server Side Rendering development process. I wanted to expand my knowledge in next.js and and begin into developing with react and react components.
@@ -30,7 +30,7 @@ To learn Next.js framework to be able to rebuild my web developer portfolio usin
 
 1. All images are in 4K resolution, click to enlarge for better viewing.
 
-<img src="public/otherImages/ToddBlue%20next.js%20Cosy%20and%20Trending%20section%20screenshot.png" width="100%" height="1350px">
+<img src="public/otherImages/ToddBlue%20next.js%20Cosy%20and%20Trending%20section%20screenshot.png" width="750px" height="850px">
 
 # Lessons Learned
 I learned a lot building this application. But mainly how to utilise MYSQL / JSON file structure for data fetching. In the new product page, each product displayed, the infomation such as: product name, product category and pricing is using a data fetching JSON file structure. The JSON file is mannually downloaded locally from a mySQL database and instead of me manually inserting the data into the tags I had to fetch the data as if it was from a database. 
@@ -61,7 +61,7 @@ c). https://toddblue-website.vercel.app/
 
 1. All images are in 4K resolution, click to enlarge for better viewing.
 
-<img src="public/otherImages/ToddBlue%20next.js%20More%20products%20and%20footer%20screenshot.png" width="100%" height="1250px">
+<img src="public/otherImages/ToddBlue%20next.js%20More%20products%20and%20footer%20screenshot.png" width="750px" height="850px">
 
 # Getting Started
 
