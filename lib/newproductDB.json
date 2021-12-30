@@ -3,7 +3,7 @@
 		"id": "1",
 		"productName": " Demon Slayer - Mitsuri Kanroji",
 		"productCategory": "Womens",
-		"pricing": "139.95"
+		"pricing": "149.95"
 	},
 	{
 		"id": "2",
@@ -15,7 +15,7 @@
 		"id": "3",
 		"productName": "Haikyuu!! - Tetsuro Kuroo",
 		"productCategory": "Mens & Womens",
-		"pricing": "169.95"
+		"pricing": "149.95"
 	},
 	{
 		"id": "4",
@@ -27,7 +27,7 @@
 		"id": "5",
 		"productName": "Bleach - Ichigo Kurosaki",
 		"productCategory": "Mens & Womens",
-		"pricing": "169.95"
+		"pricing": "149.95"
 	},
 	{
 		"id": "6",
@@ -39,12 +39,12 @@
 		"id": "7",
 		"productName": "Hunter × Hunter - Killua Zoldyck",
 		"productCategory": "Mens & Womens",
-		"pricing": "159.95"
+		"pricing": "149.95"
 	},
 	{
 		"id": "8",
 		"productName": "Spider-Man: Miles Morales",
 		"productCategory": "Mens & Womens",
-		"pricing": "229.95"
+		"pricing": "2,299.95"
 	}
 ]
