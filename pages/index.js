@@ -484,41 +484,41 @@ export default function Home() {
 
 									<motion.li variants={fadeInUp}>
 										<Link href="/store">
-											<a target="blank">Adidas Shoes</a>
+											<a target="blank">Puma Shoes</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
 										<Link href="/store">
-											<a target="blank">Vans Shoes</a>
+											<a target="blank">Pull&Bear Shoes</a>
 										</Link>
 									</motion.li>
 								</motion.ul>
 							</motion.div>
 							<motion.div variants={fadeInUp} className={styles.list}>
-								<h2>Clothing</h2>
+								<h2>Accessories</h2>
 								<motion.ul variants={stagger} className={styles.links}>
 									<motion.li variants={fadeInUp}>
 										<Link href="/store">
-											<a target="blank">All Clothing</a>
+											<a target="blank">Shoe Laces</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
 										<Link href="/store">
-											<a target="blank">Tops</a>
+											<a target="blank">Small Accessories</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
 										<Link href="/store">
-											<a target="blank">Trousers and Leggings</a>
+											<a target="blank">Medium Accessories</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
 										<Link href="/store">
-											<a target="blank">Tracksuits</a>
+											<a target="blank">Large Accessories</a>
 										</Link>
 									</motion.li>
 								</motion.ul>
@@ -556,13 +556,13 @@ export default function Home() {
 								<motion.ul variants={stagger} className={styles.links}>
 									<motion.li variants={fadeInUp}>
 										<Link href="/store">
-											<a target="blank">Black Friday</a>
+											<a target="blank">Limited Drops</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
 										<Link href="/store">
-											<a target="blank">Cyber Monday</a>
+											<a target="blank">One Time Customs</a>
 										</Link>
 									</motion.li>
 

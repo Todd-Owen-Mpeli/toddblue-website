@@ -335,20 +335,24 @@ const New = () => {
 							<Link href="#" target="blank">
 								<a>
 									<Image
-										src="/otherImages/tommy-hilfiger-hp-logos-256x256.webp"
+										src="/otherImages/Pull-Bear-logo.png"
 										alt="Brands Image"
 										width={200}
 										height={200}
+										layout="responsive"
+										objectFit="contain"
 									></Image>
 								</a>
 							</Link>
 							<Link href="#" target="blank">
 								<a>
 									<Image
-										src="/otherImages/north-face.webp"
+										src="/otherImages/Playstation-logo.png"
 										alt="Brands Image"
 										width={200}
 										height={200}
+										layout="responsive"
+										objectFit="contain"
 									></Image>
 								</a>
 							</Link>
@@ -359,36 +363,44 @@ const New = () => {
 										alt="Brands Image"
 										width={200}
 										height={200}
+										layout="responsive"
+										objectFit="contain"
 									></Image>
 								</a>
 							</Link>
 							<Link href="#" target="blank">
 								<a>
 									<Image
-										src="/otherImages/carhartt-hp-logos-256x256.webp"
+										src="/otherImages/puma-logo.png"
 										alt="Brands Image"
 										width={200}
 										height={200}
+										layout="responsive"
+										objectFit="contain"
 									></Image>
 								</a>
 							</Link>
 							<Link href="#" target="blank">
 								<a>
 									<Image
-										src="/otherImages/ellesse-hp-logos-256x256.webp"
+										src="/otherImages/Adidas-logo.png"
 										alt="Brands Image"
 										width={200}
 										height={200}
+										layout="responsive"
+										objectFit="contain"
 									></Image>
 								</a>
 							</Link>
 							<Link href="#" target="blank">
 								<a>
 									<Image
-										src="/otherImages/dr-martens-hp-logos-256x256.webp"
+										src="/otherImages/Vans-logo.png"
 										alt="Brands Image"
 										width={200}
 										height={200}
+										layout="responsive"
+										objectFit="contain"
 									></Image>
 								</a>
 							</Link>
