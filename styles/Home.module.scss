@@ -134,6 +134,7 @@
 			font-weight: 900;
 			word-spacing: 0.5rem;
 			text-align: center;
+			margin-top: 5rem;
 			letter-spacing: -0.2rem;
 			color: $baseColor_black;
 			font-size: $fontSize_XL-large;
@@ -271,35 +272,9 @@
 		}
 	}
 
-	// <========== 50% SALE ==========>
-	.saleFiftyPercent {
-		width: 100%;
-		padding: 2rem;
-		background-color: $secondary_fadedPink;
-
-		.content {
-			text-align: center;
-
-			h2 {
-				font-weight: 900;
-				color: $baseColor_black;
-				font-size: $fontSize_large-1;
-				font-family: $fontStyle_header;
-			}
-
-			h5 {
-				font-weight: 400;
-				color: $baseColor_black;
-				font-size: $fontSize_xSmall;
-				font-family: $fontStyle_option4;
-			}
-		}
-	}
-
 	// <========== TRENDING NOW ==========>
 	.trendingNow {
 		padding: 2rem;
-		margin-top: 2.5rem;
 
 		h2 {
 			font-weight: 400;

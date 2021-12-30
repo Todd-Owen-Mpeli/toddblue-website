@@ -79,14 +79,14 @@ export default function Home() {
 					{/* <!--===== HERO =====--> */}
 					<div className={styles.hero}>
 						<Image
-							src="/otherImages/nike-just-do-it.jpg"
-							data-landscape-url="/otherImages/nike-just-do-it.jpg"
-							data-portrait-url="/otherImages/nike-just-do-it MobileView.jpg"
+							src="/otherImages/PowerpuffGirls.jpg"
+							data-landscape-url="/otherImages/PowerpuffGirls.jpg"
+							data-portrait-url="/otherImages/PowerpuffGirls.jpg"
 							alt="Picture of the author"
 							width="100%"
-							height="45%"
+							height="60%"
 							layout="responsive"
-							objectFit="contain"
+							objectFit="cover"
 						/>
 						<motion.div variants={fadeInUp}>
 							<h2 className={styles.title}>WEAR YOUR PASSION</h2>
@@ -254,14 +254,6 @@ export default function Home() {
 									</newButton>
 								</div>
 							</div>
-						</div>
-					</div>
-
-					{/* <!--===== 50% SALE =====--> */}
-					<div className={styles.saleFiftyPercent}>
-						<div className={styles.content}>
-							<h2>UP TO 50% OFF DAY-TO-NIGHT STYLES</h2>
-							<h5>Limited time only. Selected styles marked down on site</h5>
 						</div>
 					</div>
 

@@ -55,9 +55,11 @@ const Navbar = () => {
 								<Link href="/New" target="blank">
 									<a>New</a>
 								</Link>
-
 								<Link href="/store" target="blank">
 									<a>Store</a>
+								</Link>
+								<Link href="/Accessories" target="blank">
+									<a>Accessories</a>
 								</Link>
 							</ul>
 							<div className={styles.navCheckout}>
