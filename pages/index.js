@@ -6,6 +6,7 @@ import Navbar from "/components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
 import content from "../lib/newproductDB.json";
+import ShoeproductsDB from "../lib/shoeproductsDB.json";
 
 // Custom reusable Animation Properties/Objects
 const fadeInUp = {
@@ -295,13 +296,17 @@ export default function Home() {
 								<div className={styles.description}>
 									<div className={styles.topSection}>
 										<Link href="/store">
-											<a target="blank">Powerpuff Girls</a>
+											<a target="blank">{ShoeproductsDB[7].productName}</a>
 										</Link>
 
-										<h2 className={styles.price}> £159.95</h2>
+										<h2 className={styles.price}>
+											{ShoeproductsDB[7].pricing}
+										</h2>
 									</div>
 									<Link href="/store">
-										<a className={styles.productCategory}>Men & Womens</a>
+										<a className={styles.productCategory}>
+											{ShoeproductsDB[7].productCategory}
+										</a>
 									</Link>
 								</div>
 							</motion.div>
