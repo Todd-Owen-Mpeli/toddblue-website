@@ -352,96 +352,143 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-					</motion.div>
-
-					{/* <!--===== TRENDING BRANDS =====--> */}
-					<div className={styles.trendingBrands}>
-						<h2>Trending Brands</h2>
-						<motion.div variants={fadeIn} className={styles.imageDisplay}>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
-										src="/otherImages/Pull-Bear-logo.png"
-										alt="Brands Image"
+										src="/productImages/Blue Daisy Shoelaces Tube.jpg"
+										alt="Product Image"
 										width={200}
 										height={200}
 										layout="responsive"
-										objectFit="contain"
-									></Image>
+										objectFit="cover"
+									/>
 								</a>
 							</Link>
-							<Link href="#" target="blank">
-								<a>
-									<Image
-										src="/otherImages/Playstation-logo.png"
-										alt="Brands Image"
-										width={200}
-										height={200}
-										layout="responsive"
-										objectFit="contain"
-									></Image>
-								</a>
-							</Link>
-							<Link href="#" target="blank">
-								<a>
-									<Image
-										src="/otherImages/nike-hp-logos-256x256.webp"
-										alt="Brands Image"
-										width={200}
-										height={200}
-										layout="responsive"
-										objectFit="contain"
-									></Image>
-								</a>
-							</Link>
-							<Link href="#" target="blank">
-								<a>
-									<Image
-										src="/otherImages/puma-logo.png"
-										alt="Brands Image"
-										width={200}
-										height={200}
-										layout="responsive"
-										objectFit="contain"
-									></Image>
-								</a>
-							</Link>
-							<Link href="#" target="blank">
-								<a>
-									<Image
-										src="/otherImages/Adidas-logo.png"
-										alt="Brands Image"
-										width={200}
-										height={200}
-										layout="responsive"
-										objectFit="contain"
-									></Image>
-								</a>
-							</Link>
-							<Link href="#" target="blank">
-								<a>
-									<Image
-										src="/otherImages/Vans-logo.png"
-										alt="Brands Image"
-										width={200}
-										height={200}
-										layout="responsive"
-										objectFit="contain"
-									></Image>
-								</a>
-							</Link>
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<Link href="#" target="blank">
+										<a>{accessoriesDB[0].productName}</a>
+									</Link>
+									<h2 className={styles.price}>£{accessoriesDB[0].pricing}</h2>
+								</div>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{accessoriesDB[0].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
+							</div>
 						</motion.div>
-					</div>
-
-					{/* <!--===== JOIN COMMUNITY =====--> */}
-					<div className={styles.joinCommunity}>
-						<h2>Join Our Exclusive Community</h2>
-						<newButton>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
-								<a>Join Now</a>
+								<a>
+									<Image
+										src="/productImages/Pink Daisy Shoelaces.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
 							</Link>
-						</newButton>
-					</div>
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<Link href="#" target="blank">
+										<a>{accessoriesDB[1].productName}</a>
+									</Link>
+									<h2 className={styles.price}>£{accessoriesDB[1].pricing}</h2>
+								</div>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{accessoriesDB[1].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
+							</div>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/PinkBlue Daisy Shoelaces.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<Link href="#" target="blank">
+										<a>{accessoriesDB[2].productName}</a>
+									</Link>
+									<h2 className={styles.price}>£{accessoriesDB[2].pricing}</h2>
+								</div>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{accessoriesDB[2].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
+							</div>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/Sunflowers Rainbow Brooch Pins.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<Link href="#" target="blank">
+										<a>{accessoriesDB[3].productName}</a>
+									</Link>
+									<h2 className={styles.price}>£{accessoriesDB[3].pricing}</h2>
+								</div>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{accessoriesDB[3].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
+							</div>
+						</motion.div>
+					</motion.div>
 				</div>
 			</main>
 
