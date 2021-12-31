@@ -138,7 +138,7 @@ export default function Home() {
 										<Link href="/store">
 											<a target="blank">{content[7].productName}</a>
 										</Link>
-										<h2 className={styles.price}>{content[7].pricing}</h2>
+										<h2 className={styles.price}>£{content[7].pricing}</h2>
 									</div>
 									<Link href="/" className={styles.productCategory}>
 										<a target="blank">{content[7].productCategory}</a>
@@ -167,7 +167,7 @@ export default function Home() {
 										<Link href="/store">
 											<a target="blank">{content[0].productName}</a>
 										</Link>
-										<h2 className={styles.price}>{content[0].pricing}</h2>
+										<h2 className={styles.price}>£{content[0].pricing}</h2>
 									</div>
 									<Link href="/" className={styles.productCategory}>
 										<a target="blank">{content[0].productCategory}</a>
@@ -196,7 +196,7 @@ export default function Home() {
 										<Link href="/store">
 											<a target="blank">{content[2].productName}</a>
 										</Link>
-										<h2 className={styles.price}>{content[2].pricing}</h2>
+										<h2 className={styles.price}>£{content[2].pricing}</h2>
 									</div>
 									<Link href="/" className={styles.productCategory}>
 										<a target="blank">{content[2].productCategory}</a>
@@ -300,7 +300,7 @@ export default function Home() {
 										</Link>
 
 										<h2 className={styles.price}>
-											{ShoeproductsDB[7].pricing}
+											£{ShoeproductsDB[7].pricing}
 										</h2>
 									</div>
 									<Link href="/store">
@@ -346,7 +346,7 @@ export default function Home() {
 										<Link href="/store">
 											<a target="blank">{content[3].productName}</a>
 										</Link>
-										<h2 className={styles.price}>{content[3].pricing}</h2>
+										<h2 className={styles.price}>£{content[3].pricing}</h2>
 									</div>
 									<Link href="/" className={styles.productCategory}>
 										<a target="blank">{content[3].productCategory}</a>
@@ -389,7 +389,7 @@ export default function Home() {
 										<Link href="/store">
 											<a target="blank">{content[1].productName}</a>
 										</Link>
-										<h2 className={styles.price}>{content[1].pricing}</h2>
+										<h2 className={styles.price}>£{content[1].pricing}</h2>
 									</div>
 									<Link href="/" className={styles.productCategory}>
 										<a target="blank">{content[1].productCategory}</a>
