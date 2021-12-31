@@ -74,48 +74,7 @@ const SecurePayments = () => {
 			{/* <!--===== NAVIGATION =====--> */}
 			<Navbar />
 
-			<main className={styles.main}>
-				<div className={styles.new}>
-					<div className={styles.borderLineMid}></div>
-					{/* <!--===== NEW PRODUCTS =====--> */}
-					<motion.div variants={stagger} className={styles.productDisplay}>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
-							<Link href="/products/shoes" target="blank">
-								<a>
-									<Image
-										src="/productImages/_MG_3441.jpg"
-										alt="Product Image"
-										width={200}
-										height={200}
-										layout="responsive"
-										objectFit="cover"
-									/>
-								</a>
-							</Link>
-							<div className={styles.description}>
-								<div className={styles.topSection}>
-									<Link href="/products/shoes" target="blank">
-										<a>{NewproductDB[3].productName}</a>
-									</Link>
-									<h2 className={styles.price}>£{NewproductDB[3].pricing}</h2>
-								</div>
-								<div className={styles.bottomSection}>
-									<Link
-										href="/products/shoes"
-										target="blank"
-										className={styles.productCategory}
-									>
-										<a>{NewproductDB[3].productCategory}</a>
-									</Link>
-									<newButton>
-										<i className="bi bi-heart"></i>
-									</newButton>
-								</div>
-							</div>
-						</motion.div>
-					</motion.div>
-				</div>
-			</main>
+			<main className={styles.main}></main>
 
 			{/* <!--===== FOOTER =====--> */}
 			<Footer />
