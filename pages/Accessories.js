@@ -356,7 +356,7 @@ const Accessories = () => {
 							<Link href="#" target="blank">
 								<a>
 									<Image
-										src="/productImages/Blue Daisy Shoelaces Tube.jpg"
+										src="/productImages/Flatties_Black.webp"
 										alt="Product Image"
 										width={200}
 										height={200}
@@ -368,9 +368,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[0].productName}</a>
+										<a>{accessoriesDB[8].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[0].pricing}</h2>
+									<h2 className={styles.price}>£{accessoriesDB[8].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -378,7 +378,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[0].productCategory}</a>
+										<a>{accessoriesDB[8].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -390,7 +390,7 @@ const Accessories = () => {
 							<Link href="#" target="blank">
 								<a>
 									<Image
-										src="/productImages/Pink Daisy Shoelaces.jpg"
+										src="/productImages/Flatties_BrightOrange.webp"
 										alt="Product Image"
 										width={200}
 										height={200}
@@ -402,9 +402,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[1].productName}</a>
+										<a>{accessoriesDB[9].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[1].pricing}</h2>
+									<h2 className={styles.price}>£{accessoriesDB[9].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -412,7 +412,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[1].productCategory}</a>
+										<a>{accessoriesDB[9].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -424,7 +424,7 @@ const Accessories = () => {
 							<Link href="#" target="blank">
 								<a>
 									<Image
-										src="/productImages/PinkBlue Daisy Shoelaces.jpg"
+										src="/productImages/Flatties_Green.webp"
 										alt="Product Image"
 										width={200}
 										height={200}
@@ -436,9 +436,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[2].productName}</a>
+										<a>{accessoriesDB[10].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[2].pricing}</h2>
+									<h2 className={styles.price}>£{accessoriesDB[10].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -446,7 +446,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[2].productCategory}</a>
+										<a>{accessoriesDB[10].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -458,7 +458,7 @@ const Accessories = () => {
 							<Link href="#" target="blank">
 								<a>
 									<Image
-										src="/productImages/Sunflowers Rainbow Brooch Pins.jpg"
+										src="/productImages/Flatties_LipstickPink.webp"
 										alt="Product Image"
 										width={200}
 										height={200}
@@ -470,9 +470,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[3].productName}</a>
+										<a>{accessoriesDB[11].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[3].pricing}</h2>
+									<h2 className={styles.price}>£{accessoriesDB[11].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -480,7 +480,144 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[3].productCategory}</a>
+										<a>{accessoriesDB[11].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
+							</div>
+						</motion.div>
+
+						<motion.div variants={fadeInUp} className={styles.productItem}>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/Flatties_White.webp"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<Link href="#" target="blank">
+										<a>{accessoriesDB[12].productName}</a>
+									</Link>
+									<h2 className={styles.price}>£{accessoriesDB[12].pricing}</h2>
+								</div>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{accessoriesDB[12].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
+							</div>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/Flatties_Violet.webp"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<Link href="#" target="blank">
+										<a>{accessoriesDB[13].productName}</a>
+									</Link>
+									<h2 className={styles.price}>£{accessoriesDB[13].pricing}</h2>
+								</div>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{accessoriesDB[13].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
+							</div>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/Flatties_Red.webp"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<Link href="#" target="blank">
+										<a>{accessoriesDB[14].productName}</a>
+									</Link>
+									<h2 className={styles.price}>£{accessoriesDB[14].pricing}</h2>
+								</div>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{accessoriesDB[14].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
+							</div>
+						</motion.div>
+						<motion.div variants={fadeInUp} className={styles.productItem}>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/Flatties_Purple.webp"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<Link href="#" target="blank">
+										<a>{accessoriesDB[15].productName}</a>
+									</Link>
+									<h2 className={styles.price}>£{accessoriesDB[15].pricing}</h2>
+								</div>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{accessoriesDB[15].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>

@@ -46,5 +46,53 @@
 		"productName": "Black Daisy Shoelaces Tube",
 		"productCategory": "All Shoes",
 		"pricing": "4.95"
+	},
+	{
+		"id": "9",
+		"productName": "Flatties Black Shoelaces",
+		"productCategory": "All Shoes",
+		"pricing": "1.95"
+	},
+	{
+		"id": "10",
+		"productName": "Flatties Bright Orange Shoelaces",
+		"productCategory": "All Shoes",
+		"pricing": "1.95"
+	},
+	{
+		"id": "11",
+		"productName": "Flatties Green Shoelaces",
+		"productCategory": "All Shoes",
+		"pricing": "1.95"
+	},
+	{
+		"id": "12",
+		"productName": "Flatties Lipstick Pink Shoelaces",
+		"productCategory": "All Shoes",
+		"pricing": "1.95"
+	},
+	{
+		"id": "13",
+		"productName": "Flatties_White Shoelaces",
+		"productCategory": "All Shoes",
+		"pricing": "1.95"
+	},
+	{
+		"id": "14",
+		"productName": "Flatties Violet Shoelaces",
+		"productCategory": "All Shoes",
+		"pricing": "1.95"
+	},
+	{
+		"id": "15",
+		"productName": "Flatties Red Shoelaces",
+		"productCategory": "All Shoes",
+		"pricing": "1.95"
+	},
+	{
+		"id": "16",
+		"productName": "Flatties Purple Shoelaces",
+		"productCategory": "All Shoes",
+		"pricing": "1.95"
 	}
 ]
