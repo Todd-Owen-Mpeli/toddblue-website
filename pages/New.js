@@ -187,7 +187,7 @@ const New = () => {
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
-							<Link href="#" target="blank">
+							<Link href="/products/shoes" target="blank">
 								<a>
 									<Image
 										src="/productImages/_MG_3441.jpg"
@@ -201,14 +201,14 @@ const New = () => {
 							</Link>
 							<div className={styles.description}>
 								<div className={styles.topSection}>
-									<Link href="#" target="blank">
+									<Link href="/products/shoes" target="blank">
 										<a>{NewproductDB[3].productName}</a>
 									</Link>
 									<h2 className={styles.price}>£{NewproductDB[3].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
-										href="/"
+										href="/products/shoes"
 										target="blank"
 										className={styles.productCategory}
 									>
