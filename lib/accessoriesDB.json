@@ -1,50 +1,50 @@
 [
 	{
 		"id": "1",
-		"productName": "Pink Daisy Shoelaces Tube",
-		"productCategory": "Air Forces 1",
+		"productName": "Blue Daisy Shoelaces Tube",
+		"productCategory": "All Shoes",
 		"pricing": "4.95"
 	},
 	{
 		"id": "2",
 		"productName": "Pink Daisy Shoelaces",
-		"productCategory": "Air Forces 1",
+		"productCategory": "All Shoes",
 		"pricing": "1.95"
 	},
 	{
 		"id": "3",
-		"productName": "Pink & BlueDaisy Shoelaces",
-		"productCategory": "Air Forces 1",
+		"productName": "Pink & Blue Daisy Shoelaces",
+		"productCategory": "All Shoes",
 		"pricing": "1.95"
 	},
 	{
 		"id": "4",
 		"productName": "Takashi Sunflower Brooch",
-		"productCategory": "Air Forces 1",
+		"productCategory": "All Shoes",
 		"pricing": "7.95"
 	},
 	{
 		"id": "5",
 		"productName": "Pink Daisy Shoelaces Tube",
-		"productCategory": "Air Forces 1",
+		"productCategory": "All Shoes",
 		"pricing": "4.95"
 	},
 	{
 		"id": "6",
 		"productName": "White Daisy Shoelaces Tube",
-		"productCategory": "Air Forces 1",
+		"productCategory": "All Shoes",
 		"pricing": "4.95"
 	},
 	{
 		"id": "7",
 		"productName": "White & Pink Daisy Shoelaces Tube",
-		"productCategory": "Air Forces 1",
+		"productCategory": "All Shoes",
 		"pricing": "4.95"
 	},
 	{
 		"id": "8",
 		"productName": "Black Daisy Shoelaces Tube",
-		"productCategory": "Air Forces 1",
-		"pricing": "2,299.95"
+		"productCategory": "All Shoes",
+		"pricing": "4.95"
 	}
 ]
