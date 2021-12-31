@@ -155,7 +155,7 @@ const Brand = () => {
 									<Link href="#" target="blank">
 										<a>
 											<Image
-												src="/otherImages/two.png"
+												src="/otherImages/Zero.png"
 												alt="Product Image"
 												width={500}
 												height={200}
