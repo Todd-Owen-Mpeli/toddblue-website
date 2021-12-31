@@ -107,7 +107,7 @@ export default function Home() {
 							}}
 						>
 							<h5 className={styles.subtitle}>
-								Define your style forward with Anime Anime Anime
+								Define your style forward with Anime, Anime, And more Anime
 							</h5>
 						</motion.div>
 					</div>

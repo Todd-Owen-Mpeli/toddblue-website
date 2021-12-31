@@ -199,16 +199,22 @@
 							font-weight: 100;
 							text-decoration: none;
 							color: $baseColor_black;
-							font-size: $fontSize_normal;
+							font-size: $fontSize_small;
 							font-family: $fontStyle_option4;
+						}
+
+						h2 {
+							font-weight: 600;
+							font-size: $fontSize_xSmall;
 						}
 					}
 
 					a {
+						margin-top: 0.2rem;
 						font-weight: 100;
 						text-decoration: none;
 						color: $baseColor_lightGrey3;
-						font-size: $fontSize_small;
+						font-size: $fontSize_xSmall;
 						font-family: $fontStyle_option4;
 					}
 				}
@@ -320,16 +326,22 @@
 							font-weight: 100;
 							text-decoration: none;
 							color: $baseColor_black;
-							font-size: $fontSize_normal;
+							font-size: $fontSize_small;
 							font-family: $fontStyle_option4;
+						}
+
+						h2 {
+							font-weight: 600;
+							font-size: $fontSize_xSmall;
 						}
 					}
 
 					a {
+						margin-top: 0.1rem;
 						font-weight: 100;
 						text-decoration: none;
 						color: $baseColor_lightGrey3;
-						font-size: $fontSize_small;
+						font-size: $fontSize_xSmall;
 						font-family: $fontStyle_option4;
 					}
 				}
@@ -371,6 +383,7 @@
 						font-size: $fontSize_normal;
 						font-family: $fontStyle_option4;
 					}
+
 					.shopButton {
 						width: fit-content;
 						padding: 0.5rem 2rem;
