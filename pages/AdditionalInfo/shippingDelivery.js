@@ -6,8 +6,8 @@ import Navbar from "/components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
 
-const reviews = () => {
+const shippingDelivery = () => {
 	return <div>Enter</div>;
 };
 
-export default reviews;
+export default shippingDelivery;
