@@ -91,6 +91,7 @@ const store = () => {
 				<div className={styles.store}>
 					<div className={styles.borderLineMid}></div>
 
+					{/* PRODUCTS DISPLAY SECTION */}
 					<motion.div variants={stagger} className={styles.productDisplay}>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
 							<Link href="#" target="blank">
@@ -112,13 +113,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[0].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[0].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[0].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -141,13 +147,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[1].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[1].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[1].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -170,13 +181,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[2].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[2].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[2].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -199,13 +215,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[3].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[3].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[3].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -228,13 +249,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[4].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[4].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[4].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -257,13 +283,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[5].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[5].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[5].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -286,13 +317,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[6].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[6].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[6].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -315,13 +351,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[7].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[7].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[7].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -344,13 +385,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[8].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[8].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[8].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -373,13 +419,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[9].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[9].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[9].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -402,13 +453,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[10].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[10].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[10].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -431,13 +487,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[11].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[11].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[11].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -460,13 +521,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[12].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[12].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[12].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -489,13 +555,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[13].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[13].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[13].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -518,13 +589,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[14].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[14].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[14].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -547,13 +623,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[15].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[15].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[15].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -576,13 +657,18 @@ const store = () => {
 									</Link>
 									<h2 className={styles.price}>{ShoeproductsDB[16].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{ShoeproductsDB[16].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{ShoeproductsDB[16].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -607,13 +693,18 @@ const store = () => {
 										{CrossbagproductsDB[0].pricing}
 									</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{CrossbagproductsDB[0].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{CrossbagproductsDB[0].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -638,13 +729,18 @@ const store = () => {
 										{CrossbagproductsDB[1].pricing}
 									</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{CrossbagproductsDB[1].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{CrossbagproductsDB[1].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -669,13 +765,18 @@ const store = () => {
 										{CrossbagproductsDB[2].pricing}
 									</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{CrossbagproductsDB[2].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{CrossbagproductsDB[2].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 					</motion.div>

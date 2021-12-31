@@ -37,12 +37,13 @@
 
 				.description {
 					display: flex;
-					padding: 0.5rem 0;
+					padding: 0.5rem 0.25;
 					flex-direction: column;
 
 					.topSection {
 						display: flex;
-						line-height: 2.5rem;
+						margin-top: 1rem;
+						line-height: 2rem;
 						flex-direction: column;
 						justify-content: space-between;
 
@@ -52,8 +53,13 @@
 							font-weight: 100;
 							text-decoration: none;
 							color: $baseColor_black;
-							font-size: $fontSize_normal;
+							font-size: $fontSize_small;
 							font-family: $fontStyle_option4;
+						}
+
+						h2 {
+							font-weight: 600;
+							font-size: $fontSize_xSmall;
 						}
 					}
 
@@ -62,15 +68,27 @@
 						font-weight: 100;
 						text-decoration: none;
 						color: $baseColor_lightGrey3;
-						font-size: $fontSize_small;
+						font-size: $fontSize_xSmall;
 						font-family: $fontStyle_option4;
+					}
+
+					.bottomSection {
+						display: flex;
+						justify-content: space-between;
+
+						newButton {
+							margin: auto 0;
+							margin-right: 0.25rem;
+							color: $baseColor_black;
+							font-size: $fontSize_normal;
+						}
 					}
 				}
 			}
 		}
 
 		.borderLineMid {
-			margin: 0.1rem 0;
+			margin: 2rem 0;
 			border-bottom: $baseColor_lightGrey2 0.1rem solid;
 		}
 

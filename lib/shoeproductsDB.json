@@ -31,7 +31,7 @@
 	},
 	{
 		"id": "6",
-		"productName": "Dragon Ball Z - Goku Vs Vegeta",
+		"productName": "Goku Vs Vegeta",
 		"productCategory": "Men & Womens",
 		"pricing": "149.95"
 	},
@@ -39,7 +39,7 @@
 		"id": "7",
 		"productName": "Spirited Away Castle",
 		"productCategory": "Men & Womens",
-		"pricing": "189.99"
+		"pricing": "189.95"
 	},
 	{
 		"id": "8",
@@ -91,7 +91,7 @@
 	},
 	{
 		"id": "16",
-		"productName": "Hunter × Hunter - Killua Zoldyck",
+		"productName": "Killua Zoldyck",
 		"productCategory": "Men & Womens",
 		"pricing": "149.95"
 	},
