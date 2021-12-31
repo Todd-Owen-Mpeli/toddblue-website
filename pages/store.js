@@ -111,7 +111,7 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[0].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[0].pricing}</h2>
+									<h2 className={styles.price}>£{ShoeproductsDB[0].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -145,7 +145,7 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[1].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[1].pricing}</h2>
+									<h2 className={styles.price}>£{ShoeproductsDB[1].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -179,7 +179,7 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[2].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[2].pricing}</h2>
+									<h2 className={styles.price}>£{ShoeproductsDB[2].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -213,7 +213,7 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[3].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[3].pricing}</h2>
+									<h2 className={styles.price}>£{ShoeproductsDB[3].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -247,7 +247,7 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[4].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[4].pricing}</h2>
+									<h2 className={styles.price}>£{ShoeproductsDB[4].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -281,7 +281,7 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[5].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[5].pricing}</h2>
+									<h2 className={styles.price}>£{ShoeproductsDB[5].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -315,7 +315,7 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[6].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[6].pricing}</h2>
+									<h2 className={styles.price}>£{ShoeproductsDB[6].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -349,7 +349,7 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[7].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[7].pricing}</h2>
+									<h2 className={styles.price}>£{ShoeproductsDB[7].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -383,7 +383,7 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[8].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[8].pricing}</h2>
+									<h2 className={styles.price}>£{ShoeproductsDB[8].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -417,7 +417,7 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[9].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[9].pricing}</h2>
+									<h2 className={styles.price}>£{ShoeproductsDB[9].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -451,7 +451,9 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[10].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[10].pricing}</h2>
+									<h2 className={styles.price}>
+										£{ShoeproductsDB[10].pricing}
+									</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -485,7 +487,9 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[11].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[11].pricing}</h2>
+									<h2 className={styles.price}>
+										£{ShoeproductsDB[11].pricing}
+									</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -519,7 +523,9 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[12].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[12].pricing}</h2>
+									<h2 className={styles.price}>
+										£{ShoeproductsDB[12].pricing}
+									</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -553,7 +559,9 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[13].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[13].pricing}</h2>
+									<h2 className={styles.price}>
+										£{ShoeproductsDB[13].pricing}
+									</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -587,7 +595,9 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[14].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[14].pricing}</h2>
+									<h2 className={styles.price}>
+										£{ShoeproductsDB[14].pricing}
+									</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -621,7 +631,9 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[15].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[15].pricing}</h2>
+									<h2 className={styles.price}>
+										£{ShoeproductsDB[15].pricing}
+									</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -655,7 +667,9 @@ const store = () => {
 									<Link href="#" target="blank">
 										<a>{ShoeproductsDB[16].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{ShoeproductsDB[16].pricing}</h2>
+									<h2 className={styles.price}>
+										£{ShoeproductsDB[16].pricing}
+									</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -690,7 +704,7 @@ const store = () => {
 										<a>{CrossbagproductsDB[0].productName}</a>
 									</Link>
 									<h2 className={styles.price}>
-										{CrossbagproductsDB[0].pricing}
+										£{CrossbagproductsDB[0].pricing}
 									</h2>
 								</div>
 								<div className={styles.bottomSection}>
@@ -726,7 +740,7 @@ const store = () => {
 										<a>{CrossbagproductsDB[1].productName}</a>
 									</Link>
 									<h2 className={styles.price}>
-										{CrossbagproductsDB[1].pricing}
+										£{CrossbagproductsDB[1].pricing}
 									</h2>
 								</div>
 								<div className={styles.bottomSection}>
@@ -762,7 +776,7 @@ const store = () => {
 										<a>{CrossbagproductsDB[2].productName}</a>
 									</Link>
 									<h2 className={styles.price}>
-										{CrossbagproductsDB[2].pricing}
+										£{CrossbagproductsDB[2].pricing}
 									</h2>
 								</div>
 								<div className={styles.bottomSection}>

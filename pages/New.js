@@ -111,15 +111,20 @@ const New = () => {
 									<Link href="#" target="blank">
 										<a>{NewproductDB[1].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{NewproductDB[1].pricing}</h2>
+									<h2 className={styles.price}>£{NewproductDB[1].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{NewproductDB[1].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{NewproductDB[1].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -140,15 +145,20 @@ const New = () => {
 									<Link href="#" target="blank">
 										<a>{NewproductDB[4].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{NewproductDB[4].pricing}</h2>
+									<h2 className={styles.price}>£{NewproductDB[4].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{NewproductDB[4].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{NewproductDB[4].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -169,15 +179,20 @@ const New = () => {
 									<Link href="#" target="blank">
 										<a>{NewproductDB[2].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{NewproductDB[2].pricing}</h2>
+									<h2 className={styles.price}>£{NewproductDB[2].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{NewproductDB[2].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{NewproductDB[2].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -198,15 +213,20 @@ const New = () => {
 									<Link href="#" target="blank">
 										<a>{NewproductDB[3].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{NewproductDB[3].pricing}</h2>
+									<h2 className={styles.price}>£{NewproductDB[3].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{NewproductDB[3].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{NewproductDB[3].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -227,15 +247,20 @@ const New = () => {
 									<Link href="#" target="blank">
 										<a>{NewproductDB[7].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{NewproductDB[7].pricing}</h2>
+									<h2 className={styles.price}>£{NewproductDB[7].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{NewproductDB[7].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{NewproductDB[7].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -256,15 +281,20 @@ const New = () => {
 									<Link href="#" target="blank">
 										<a>{NewproductDB[0].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{NewproductDB[0].pricing}</h2>
+									<h2 className={styles.price}>£{NewproductDB[0].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{NewproductDB[0].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{NewproductDB[0].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -285,15 +315,20 @@ const New = () => {
 									<Link href="#" target="blank">
 										<a>{NewproductDB[5].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{NewproductDB[5].pricing}</h2>
+									<h2 className={styles.price}>£{NewproductDB[5].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{NewproductDB[5].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{NewproductDB[5].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 						<motion.div variants={fadeInUp} className={styles.productItem}>
@@ -314,15 +349,20 @@ const New = () => {
 									<Link href="#" target="blank">
 										<a>{NewproductDB[6].productName}</a>
 									</Link>
-									<h2 className={styles.price}>{NewproductDB[6].pricing}</h2>
+									<h2 className={styles.price}>£{NewproductDB[6].pricing}</h2>
 								</div>
-								<Link
-									href="/"
-									target="blank"
-									className={styles.productCategory}
-								>
-									<a>{NewproductDB[6].productCategory}</a>
-								</Link>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{NewproductDB[6].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
 							</div>
 						</motion.div>
 					</motion.div>
@@ -330,7 +370,6 @@ const New = () => {
 					{/* <!--===== TRENDING BRANDS =====--> */}
 					<div className={styles.trendingBrands}>
 						<h2>Trending Brands</h2>
-
 						<motion.div variants={fadeIn} className={styles.imageDisplay}>
 							<Link href="#" target="blank">
 								<a>
