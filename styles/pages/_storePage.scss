@@ -100,13 +100,14 @@
 				font-weight: 400;
 				width: fit-content;
 				color: $baseColor_black;
-				font-size: $fontSize_medium;
+				font-size: $fontSize_normal;
 				font-family: $fontStyle_option4;
 			}
 
 			.list {
 				display: flex;
-				margin-top: 2rem;
+				margin-top: 1.5rem;
+
 				.links {
 					margin: 0;
 					padding: 0;
@@ -115,9 +116,9 @@
 					flex-direction: column;
 
 					a {
-						line-height: 2rem;
+						line-height: 1.75rem;
 						color: $baseColor_lightGrey3;
-						font-size: $fontSize_normal;
+						font-size: $fontSize_small;
 						font-family: $fontStyle_option4;
 					}
 
@@ -141,14 +142,14 @@
 						font-weight: 400;
 						width: fit-content;
 						color: $baseColor_black;
-						font-size: $fontSize_normal;
+						font-size: $fontSize_small;
 						font-family: $fontStyle_option4;
 					}
 
 					h5 {
 						padding-top: 0.75rem;
 						color: $baseColor_lightGrey3;
-						font-size: $fontSize_normal;
+						font-size: $fontSize_small;
 						font-family: $fontStyle_option4;
 					}
 
