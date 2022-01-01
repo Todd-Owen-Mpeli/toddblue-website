@@ -10,32 +10,32 @@ const Navbar = () => {
 					<nav>
 						<div className={styles.topSection}>
 							<div className={styles.leftSide}>
-								<Link href="/Brand" target="blank">
+								<Link href="/Brand">
 									<a>Brand</a>
 								</Link>
 
 								<div className={styles.borderDiv}></div>
-								<Link href="/Support" target="blank">
+								<Link href="/Support">
 									<a>Support</a>
 								</Link>
 
 								<div className={styles.borderDiv}></div>
-								<Link href="/Community" target="blank">
+								<Link href="/Community">
 									<a>Community</a>
 								</Link>
 							</div>
 							<div className={styles.rightSide}>
-								<Link href="/Help" target="blank">
+								<Link href="/Help">
 									<a>Help</a>
 								</Link>
 
 								<div className={styles.borderDiv}></div>
-								<Link href="/JoinUS" target="blank">
+								<Link href="/JoinUS">
 									<a>Join Us</a>
 								</Link>
 
 								<div className={styles.borderDiv}></div>
-								<Link href="#SignIn" target="blank">
+								<Link href="#SignIn">
 									<a>Sign In</a>
 								</Link>
 							</div>
@@ -47,33 +47,36 @@ const Navbar = () => {
 					<nav>
 						<div className={styles.bottomSection}>
 							<div className={styles.navTitle}>
-								<Link href="/" target="blank">
+								<Link href="/">
 									<a>ToddBlue</a>
 								</Link>
 							</div>
 							<ul className={styles.navLinks}>
-								<Link href="/New" target="blank">
+								<Link href="/New">
 									<a>New</a>
 								</Link>
-								<Link href="/store" target="blank">
+								<Link href="/store">
 									<a>Store</a>
 								</Link>
-								<Link href="/Accessories" target="blank">
+								<Link href="/Accessories">
 									<a>Accessories</a>
+								</Link>
+								<Link href="/OneTime">
+									<a className={styles.OneTime}>One Time Customs</a>
 								</Link>
 							</ul>
 							<div className={styles.navCheckout}>
-								<Link href="#searchProducts" target="blank">
+								<Link href="#searchProducts">
 									<a>
 										<i className="bi bi-search"></i>
 									</a>
 								</Link>
-								<Link href="#searchProducts" target="blank">
+								<Link href="#searchProducts">
 									<a>
 										<i className="bi bi-heart"></i>
 									</a>
 								</Link>
-								<Link href="#cart" target="blank">
+								<Link href="#cart">
 									<a>
 										<i className="bi bi-bag-fill"></i>
 									</a>
