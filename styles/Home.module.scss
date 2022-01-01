@@ -100,6 +100,14 @@
 				a:hover {
 					color: $baseColor_lightGrey3;
 				}
+
+				.OneTime {
+					color: $secondary_blue;
+				}
+
+				.OneTime:hover {
+					color: $secondary_pinkRed;
+				}
 			}
 
 			.navCheckout {
