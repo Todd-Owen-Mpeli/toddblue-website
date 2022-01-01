@@ -133,6 +133,333 @@
 	}
 }
 
+// <========== MAIN CONTENT ==========>
+.main {
+	margin: 0 auto;
+	min-height: 100vh;
+	max-width: 1800px;
+
+	// <========== HERO ==========>
+	.hero {
+		.title {
+			font-weight: 900;
+			word-spacing: 0.5rem;
+			text-align: center;
+			margin-top: 5rem;
+			letter-spacing: -0.2rem;
+			color: $baseColor_black;
+			font-size: $fontSize_XL-large;
+			font-family: $fontStyle_header;
+		}
+
+		.subtitle {
+			margin-top: 1rem;
+			text-align: center;
+			color: $baseColor_black;
+			font-size: $fontSize_normal;
+			font-family: $fontStyle_option1;
+		}
+	}
+
+	// <========== POPULAR ==========>
+	.popular {
+		padding: 2rem;
+		margin-top: 5rem;
+
+		h2 {
+			font-weight: 400;
+			color: $baseColor_black;
+			font-size: $fontSize_medium;
+			font-family: $fontStyle_option1;
+		}
+
+		.productDisplay {
+			display: grid;
+			padding: 1rem 0;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 1rem;
+			justify-content: space-between;
+
+			.productItem {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+
+				a {
+					text-decoration: none;
+
+					img {
+						width: 100%;
+						height: 400px;
+						object-fit: contain;
+					}
+				}
+
+				.description {
+					display: flex;
+					padding: 1rem 0;
+					flex-direction: column;
+
+					.topSection {
+						display: flex;
+						justify-content: space-between;
+
+						a,
+						h2 {
+							margin: auto 0;
+							font-weight: 100;
+							text-decoration: none;
+							color: $baseColor_black;
+							font-size: $fontSize_small;
+							font-family: $fontStyle_option1;
+						}
+
+						h2 {
+							font-weight: 600;
+							font-size: $fontSize_xSmall;
+						}
+					}
+
+					a {
+						margin-top: 0.2rem;
+						font-weight: 100;
+						text-decoration: none;
+						color: $baseColor_lightGrey3;
+						font-size: $fontSize_xSmall;
+						font-family: $fontStyle_option1;
+					}
+				}
+			}
+		}
+	}
+
+	// <========== COSY SETS ==========>
+	.cosySet {
+		padding: 2rem;
+		margin-top: 2.5rem;
+
+		h2 {
+			font-weight: 400;
+			color: $baseColor_black;
+			font-size: $fontSize_medium;
+			font-family: $fontStyle_option1;
+		}
+
+		.content {
+			display: grid;
+			padding: 1rem 0;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 1rem;
+
+			.productDisplay {
+				.content {
+					bottom: 150px;
+					display: flex;
+					padding: 1rem;
+					position: relative;
+					width: fit-content;
+					margin-left: 1.5rem;
+					flex-direction: column;
+
+					h2 {
+						color: $baseColor_white;
+						font-size: $fontSize_normal;
+						font-family: $fontStyle_option1;
+					}
+
+					.shopButton {
+						width: fit-content;
+						padding: 0.5rem 2rem;
+						border-radius: 50px;
+						background-color: $backgroundColor_White;
+
+						a {
+							text-decoration: none;
+							color: $baseColor_black;
+							font-size: $fontSize_normal;
+							font-family: $fontStyle_option1;
+						}
+
+						a:hover {
+							color: $baseColor_lightGrey3;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// <========== TRENDING NOW ==========>
+	.trendingNow {
+		padding: 2rem;
+
+		h2 {
+			font-weight: 400;
+			color: $baseColor_black;
+			font-size: $fontSize_medium;
+			font-family: $fontStyle_option1;
+		}
+
+		.productDisplay {
+			display: grid;
+			padding: 1rem 0;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 1rem;
+			justify-content: space-between;
+
+			.productItem {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+
+				a {
+					text-decoration: none;
+
+					img {
+						width: 100%;
+						height: 400px;
+						object-fit: contain;
+					}
+				}
+
+				.description {
+					display: flex;
+					padding: 1rem 0;
+					flex-direction: column;
+
+					.topSection {
+						display: flex;
+						justify-content: space-between;
+
+						a,
+						h2 {
+							margin: auto 0;
+							font-weight: 100;
+							text-decoration: none;
+							color: $baseColor_black;
+							font-size: $fontSize_small;
+							font-family: $fontStyle_option1;
+						}
+
+						h2 {
+							font-weight: 600;
+							font-size: $fontSize_xSmall;
+						}
+					}
+
+					a {
+						margin-top: 0.1rem;
+						font-weight: 100;
+						text-decoration: none;
+						color: $baseColor_lightGrey3;
+						font-size: $fontSize_xSmall;
+						font-family: $fontStyle_option1;
+					}
+				}
+			}
+		}
+	}
+
+	// <========== MORE BLUE OPTIONS ==========>
+	.moreProducts {
+		padding: 2rem;
+		margin-top: 2.5rem;
+
+		h2 {
+			font-weight: 400;
+			color: $baseColor_black;
+			font-size: $fontSize_medium;
+			font-family: $fontStyle_option1;
+		}
+
+		.contentDisplay {
+			display: grid;
+			padding: 1rem 0;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 1rem;
+			justify-content: space-between;
+
+			.productDisplay {
+				.content {
+					bottom: 75px;
+					display: flex;
+					padding: 1rem;
+					position: relative;
+					width: fit-content;
+					margin-left: 1rem;
+					flex-direction: column;
+
+					h2 {
+						color: $baseColor_white;
+						font-size: $fontSize_normal;
+						font-family: $fontStyle_option1;
+					}
+
+					.shopButton {
+						width: fit-content;
+						padding: 0.5rem 2rem;
+						border-radius: 50px;
+						background-color: $backgroundColor_White;
+
+						a {
+							text-decoration: none;
+							color: $baseColor_black;
+							font-size: $fontSize_normal;
+							font-family: $fontStyle_option1;
+						}
+
+						a:hover {
+							color: $baseColor_lightGrey3;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// <========== PRODUCT LINKS ==========>
+	.productLinks {
+		padding: 2rem;
+
+		.content {
+			display: grid;
+			padding: 1rem 7.5rem;
+			grid-template-columns: (repeat(4, 1fr));
+			grid-gap: 2rem;
+
+			.list {
+				h2 {
+					font-weight: 400;
+					color: $baseColor_black;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_option1;
+				}
+
+				.links {
+					padding: 1rem 0;
+
+					li {
+						list-style: none;
+						line-height: 2rem;
+
+						a {
+							text-decoration: none;
+							color: $baseColor_lightGrey3;
+							font-size: $fontSize_small;
+							font-family: $fontStyle_option1;
+						}
+
+						a:hover {
+							color: $baseColor_black;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// <========== MAIN CONTENT ==========>
 .main {
 	margin: 0 auto;
 	min-height: 100vh;

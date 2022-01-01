@@ -74,7 +74,7 @@ const OneTime = () => {
 			{/* <!--===== NAVIGATION =====--> */}
 			<NavbarDark />
 
-			<main className={styles.main}></main>
+			<main className={styles.mainDark}></main>
 
 			{/* <!--===== FOOTER =====--> */}
 			<Footer />

@@ -17,7 +17,7 @@
 				h2 {
 					margin: 0 auto;
 					color: $baseColor_lightGrey3;
-					font-size: $fontSize_large;
+					font-size: $fontSize_medium;
 					font-family: $fontStyle_header;
 				}
 				a:hover,
@@ -37,8 +37,8 @@
 					margin: 0 auto;
 					text-decoration: none;
 					color: $baseColor_lightGrey3;
-					font-size: $fontSize_large;
-					font-family: $fontStyle_option1;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_option2;
 				}
 
 				a:hover {
@@ -59,10 +59,5 @@
 				}
 			}
 		}
-	}
-
-	.borderLineMid {
-		margin: 0.1rem 0;
-		border-bottom: $baseColor_lightGrey2 0.1rem solid;
 	}
 }
