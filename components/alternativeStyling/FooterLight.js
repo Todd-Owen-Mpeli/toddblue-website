@@ -4,7 +4,7 @@ import styles from "/styles/Home.module.scss";
 const FooterLight = () => {
 	return (
 		<>
-			{/* <!--===== FOOTER =====--> */}
+			{/* <!--===== FOOTER LIGHT =====--> */}
 			<footer className={styles.footerLight}>
 				<div className={styles.content}>
 					<div className={styles.borderLineMid}></div>

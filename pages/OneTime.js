@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
 import NavbarDark from "/components/alternativeStyling/NavbarDark";
-import Footer from "/components/Footer";
+import FooterDark from "/components/alternativeStyling/FooterDark";
 import styles from "/styles/Home.module.scss";
 
 // Custom reusable Animation Properties/Objects
@@ -77,7 +77,7 @@ const OneTime = () => {
 			<main className={styles.mainDark}></main>
 
 			{/* <!--===== FOOTER =====--> */}
-			<Footer />
+			<FooterDark />
 		</motion.div>
 	);
 };
