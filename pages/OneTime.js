@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
-import Navbar from "/components/Navbar";
+import NavbarDark from "/components/alternativeStyling/NavbarDark";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
 
@@ -72,7 +72,7 @@ const OneTime = () => {
 			</Head>
 
 			{/* <!--===== NAVIGATION =====--> */}
-			<Navbar />
+			<NavbarDark />
 
 			<main className={styles.main}></main>
 

@@ -1,9 +1,11 @@
 // Imports
 @import "./fonts";
 @import "./colors";
-@import "./pages/BrandPage";
-@import "./pages/newPage";
-@import "./pages/storePage";
+@import "./pages/_BrandPage";
+@import "./pages/_newPage";
+@import "./pages/_storePage";
+@import "./pages/_OneTime";
+@import "./components/_NavbarDark";
 @import "./boxShadow";
 
 .container {
@@ -37,7 +39,7 @@
 					text-decoration: none;
 					font-size: $fontSize_xSmall;
 					color: $baseColor_lightGrey3;
-					font-family: $fontStyle_option3;
+					font-family: $fontStyle_option1;
 				}
 
 				a:hover {
@@ -154,7 +156,7 @@
 			text-align: center;
 			color: $baseColor_black;
 			font-size: $fontSize_normal;
-			font-family: $fontStyle_option4;
+			font-family: $fontStyle_option1;
 		}
 	}
 
@@ -167,7 +169,7 @@
 			font-weight: 400;
 			color: $baseColor_black;
 			font-size: $fontSize_medium;
-			font-family: $fontStyle_option4;
+			font-family: $fontStyle_option1;
 		}
 
 		.productDisplay {
@@ -208,7 +210,7 @@
 							text-decoration: none;
 							color: $baseColor_black;
 							font-size: $fontSize_small;
-							font-family: $fontStyle_option4;
+							font-family: $fontStyle_option1;
 						}
 
 						h2 {
@@ -223,7 +225,7 @@
 						text-decoration: none;
 						color: $baseColor_lightGrey3;
 						font-size: $fontSize_xSmall;
-						font-family: $fontStyle_option4;
+						font-family: $fontStyle_option1;
 					}
 				}
 			}
@@ -239,7 +241,7 @@
 			font-weight: 400;
 			color: $baseColor_black;
 			font-size: $fontSize_medium;
-			font-family: $fontStyle_option4;
+			font-family: $fontStyle_option1;
 		}
 
 		.content {
@@ -261,7 +263,7 @@
 					h2 {
 						color: $baseColor_white;
 						font-size: $fontSize_normal;
-						font-family: $fontStyle_option4;
+						font-family: $fontStyle_option1;
 					}
 
 					.shopButton {
@@ -274,7 +276,7 @@
 							text-decoration: none;
 							color: $baseColor_black;
 							font-size: $fontSize_normal;
-							font-family: $fontStyle_option4;
+							font-family: $fontStyle_option1;
 						}
 
 						a:hover {
@@ -294,7 +296,7 @@
 			font-weight: 400;
 			color: $baseColor_black;
 			font-size: $fontSize_medium;
-			font-family: $fontStyle_option4;
+			font-family: $fontStyle_option1;
 		}
 
 		.productDisplay {
@@ -335,7 +337,7 @@
 							text-decoration: none;
 							color: $baseColor_black;
 							font-size: $fontSize_small;
-							font-family: $fontStyle_option4;
+							font-family: $fontStyle_option1;
 						}
 
 						h2 {
@@ -350,7 +352,7 @@
 						text-decoration: none;
 						color: $baseColor_lightGrey3;
 						font-size: $fontSize_xSmall;
-						font-family: $fontStyle_option4;
+						font-family: $fontStyle_option1;
 					}
 				}
 			}
@@ -366,7 +368,7 @@
 			font-weight: 400;
 			color: $baseColor_black;
 			font-size: $fontSize_medium;
-			font-family: $fontStyle_option4;
+			font-family: $fontStyle_option1;
 		}
 
 		.contentDisplay {
@@ -389,7 +391,7 @@
 					h2 {
 						color: $baseColor_white;
 						font-size: $fontSize_normal;
-						font-family: $fontStyle_option4;
+						font-family: $fontStyle_option1;
 					}
 
 					.shopButton {
@@ -402,7 +404,7 @@
 							text-decoration: none;
 							color: $baseColor_black;
 							font-size: $fontSize_normal;
-							font-family: $fontStyle_option4;
+							font-family: $fontStyle_option1;
 						}
 
 						a:hover {
@@ -429,7 +431,7 @@
 					font-weight: 400;
 					color: $baseColor_black;
 					font-size: $fontSize_normal;
-					font-family: $fontStyle_option4;
+					font-family: $fontStyle_option1;
 				}
 
 				.links {
@@ -443,7 +445,7 @@
 							text-decoration: none;
 							color: $baseColor_lightGrey3;
 							font-size: $fontSize_small;
-							font-family: $fontStyle_option4;
+							font-family: $fontStyle_option1;
 						}
 
 						a:hover {
@@ -487,7 +489,7 @@
 						text-decoration: none;
 						font-size: $fontSize_small;
 						color: $baseColor_lightGrey4;
-						font-family: $fontStyle_option3;
+						font-family: $fontStyle_option1;
 					}
 
 					a:hover {
@@ -534,7 +536,7 @@
 					text-decoration: none;
 					font-size: $fontSize_normal;
 					color: $baseColor_lightGrey4;
-					font-family: $fontStyle_option3;
+					font-family: $fontStyle_option1;
 				}
 
 				a:hover {
@@ -558,7 +560,7 @@
 					text-decoration: none;
 					font-size: $fontSize_xSmall;
 					color: $baseColor_lightGrey4;
-					font-family: $fontStyle_option3;
+					font-family: $fontStyle_option1;
 				}
 
 				a:hover {
@@ -579,7 +581,7 @@
 						text-decoration: none;
 						font-size: $fontSize_xSmall;
 						color: $baseColor_lightGrey4;
-						font-family: $fontStyle_option3;
+						font-family: $fontStyle_option1;
 					}
 				}
 
@@ -1025,7 +1027,7 @@
 							text-decoration: none;
 							font-size: $fontSize_xSmall;
 							color: $baseColor_lightGrey4;
-							font-family: $fontStyle_option3;
+							font-family: $fontStyle_option1;
 						}
 					}
 				}
@@ -1150,7 +1152,7 @@
 							text-decoration: none;
 							font-size: $fontSize_xSmall;
 							color: $baseColor_lightGrey4;
-							font-family: $fontStyle_option3;
+							font-family: $fontStyle_option1;
 						}
 					}
 				}

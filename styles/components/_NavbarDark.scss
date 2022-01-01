@@ -1,0 +1,68 @@
+//  <========== HEADER ==========>
+.headerDark {
+	padding: 0.5rem 0;
+	background-color: $backgroundColor_black;
+
+	nav {
+		padding: 0 1rem;
+		align-items: center;
+
+		.bottomSection {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			.navTitle {
+				a,
+				h2 {
+					margin: 0 auto;
+					color: $baseColor_lightGrey3;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_header;
+				}
+				a:hover,
+				h2:hover {
+					color: $secondary_blue;
+				}
+			}
+
+			.navLinks {
+				padding: 0rem;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-between;
+
+				a {
+					padding: 0px 10px;
+					margin: 0 auto;
+					text-decoration: none;
+					color: $baseColor_lightGrey3;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_option1;
+				}
+
+				a:hover {
+					color: $secondary_blue;
+				}
+			}
+
+			.navCheckout {
+				a {
+					padding: 10px;
+					color: $baseColor_lightGrey3;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_header;
+				}
+
+				a:hover {
+					color: $secondary_blue;
+				}
+			}
+		}
+	}
+
+	.borderLineMid {
+		margin: 0.1rem 0;
+		border-bottom: $baseColor_lightGrey2 0.1rem solid;
+	}
+}
