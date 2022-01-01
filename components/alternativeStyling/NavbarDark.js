@@ -48,13 +48,13 @@ const NavbarDark = () => {
 							</div>
 							<ul className={styles.navLinks}>
 								<Link href="/New">
-									<a>New</a>
+									<motion.a variants={fadeIn}>New</motion.a>
 								</Link>
 								<Link href="/store">
-									<a>Store</a>
+									<motion.a variants={fadeIn}>Store</motion.a>
 								</Link>
 								<Link href="/Accessories">
-									<a>Accessories</a>
+									<motion.a variants={fadeIn}>Accessories</motion.a>
 								</Link>
 							</ul>
 							<div className={styles.navCheckout}>
