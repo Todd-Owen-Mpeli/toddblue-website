@@ -7,6 +7,7 @@
 @import "./pages/_OneTime";
 @import "./components/_NavbarDark";
 @import "./components/_FooterDark";
+@import "./components/_FooterLight";
 @import "./boxShadow";
 
 .container {
@@ -467,8 +468,7 @@
 }
 
 // <========== FOOTER ==========>
-.footer,
-.footerLight {
+.footer {
 	padding: 2rem;
 	background-color: $backgroundColor_black;
 
@@ -606,93 +606,6 @@
 				.rightSide {
 					a:hover {
 						color: $baseColor_white;
-					}
-				}
-			}
-		}
-	}
-}
-
-.footerLight {
-	background-color: $backgroundColor_White;
-
-	.content {
-		.topSection {
-			.leftSection {
-				.additionalInformation,
-				.getHelp,
-				.aboutToddBlue {
-					a {
-						color: $baseColor_black;
-					}
-
-					a:hover {
-						color: $baseColor_lightGrey3;
-					}
-
-					.titleSection {
-						color: $baseColor_black;
-					}
-
-					.titleSection:hover {
-						color: $baseColor_black;
-					}
-				}
-
-				.additionalInformation {
-					a {
-						color: $baseColor_black;
-					}
-
-					a:hover {
-						color: $baseColor_lightGrey3;
-					}
-				}
-			}
-
-			.rightSection {
-				a {
-					color: $baseColor_black;
-				}
-
-				a:hover {
-					color: $secondary_Purple;
-				}
-			}
-		}
-
-		.borderLineMid {
-			border-bottom: $backgroundColor_black 0.1rem solid;
-		}
-
-		.bottomSection {
-			.topHalfSection {
-				a {
-					color: $baseColor_black;
-				}
-
-				a:hover {
-					color: $baseColor_lightGrey3;
-				}
-			}
-
-			.bottomHalfSection {
-				.leftSide,
-				.rightSide {
-					a {
-						color: $baseColor_black;
-					}
-				}
-
-				.leftSide {
-					.location {
-						color: $secondary_Purple;
-					}
-				}
-
-				.rightSide {
-					a:hover {
-						color: $baseColor_lightGrey3;
 					}
 				}
 			}

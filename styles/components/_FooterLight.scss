@@ -1,0 +1,148 @@
+.footerLight {
+	padding: 2rem;
+	background-color: $backgroundColor_White;
+
+	.content {
+		margin: 0 auto;
+		max-width: 1800px;
+
+		.topSection {
+			display: flex;
+			justify-content: space-between;
+
+			.leftSection {
+				display: flex;
+				justify-content: space-between;
+
+				.additionalInformation,
+				.getHelp,
+				.aboutToddBlue {
+					display: flex;
+					margin-right: 2rem;
+					line-height: 0.75rem;
+					flex-direction: column;
+
+					a {
+						padding: 10px;
+						text-decoration: none;
+						color: $baseColor_black;
+						font-size: $fontSize_small;
+						font-family: $fontStyle_option1;
+					}
+
+					a:hover {
+						color: $baseColor_lightGrey3;
+					}
+
+					.titleSection {
+						margin-bottom: 0.25rem;
+						letter-spacing: 0.04rem;
+						color: $baseColor_black;
+						text-transform: uppercase;
+						font-size: $fontSize_normal;
+						font-family: $fontStyle_header;
+					}
+
+					.titleSection:hover {
+						color: $baseColor_black;
+					}
+				}
+
+				.additionalInformation {
+					line-height: 1rem;
+					margin-right: 7rem;
+
+					a {
+						padding: 10px;
+						letter-spacing: 0.04rem;
+						text-decoration: none;
+						color: $baseColor_black;
+						text-transform: uppercase;
+						font-size: $fontSize_normal;
+						font-family: $fontStyle_header;
+					}
+
+					a:hover {
+						color: $baseColor_lightGrey3;
+					}
+				}
+			}
+
+			.rightSection {
+				display: flex;
+				align-items: flex-start;
+				justify-content: right;
+
+				a {
+					padding: 10px;
+					text-decoration: none;
+					color: $baseColor_black;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_option1;
+				}
+
+				a:hover {
+					color: $secondary_Purple;
+				}
+			}
+		}
+
+		.borderLineMid {
+			margin: 1rem 0;
+			border-bottom: $backgroundColor_black 0.1rem solid;
+		}
+
+		.bottomSection {
+			.topHalfSection {
+				display: flex;
+				justify-content: right;
+
+				a {
+					padding: 10px;
+					text-decoration: none;
+					color: $baseColor_black;
+					font-size: $fontSize_xSmall;
+					font-family: $fontStyle_option1;
+				}
+
+				a:hover {
+					color: $baseColor_lightGrey3;
+				}
+			}
+
+			.bottomHalfSection {
+				display: flex;
+				justify-content: space-between;
+
+				.leftSide,
+				.rightSide {
+					display: flex;
+
+					a {
+						padding: 10px;
+						text-decoration: none;
+						color: $baseColor_black;
+						font-size: $fontSize_xSmall;
+						font-family: $fontStyle_option1;
+					}
+				}
+
+				.leftSide {
+					.location {
+						color: $secondary_Purple;
+
+						i {
+							margin-right: 1rem;
+						}
+					}
+				}
+
+				.rightSide {
+					a:hover {
+						color: $baseColor_lightGrey3;
+					}
+				}
+			}
+		}
+	}
+}
