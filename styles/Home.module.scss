@@ -133,8 +133,7 @@
 }
 
 // <========== MAIN CONTENT ==========>
-.main,
-.mainDark {
+.main {
 	margin: 0 auto;
 	min-height: 100vh;
 	max-width: 1800px;
@@ -461,6 +460,8 @@
 
 // <========== DARK MAIN CONTENT ==========>
 .mainDark {
+	margin: 0 auto;
+	min-height: 100vh;
 	background-color: $backgroundColor_PureBlack;
 }
 
