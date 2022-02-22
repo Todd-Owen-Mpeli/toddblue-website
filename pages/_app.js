@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 function MyApp({Component, pageProps}) {
-	// Custom Header and Footer Page layout Function
+	// Removes Global Navbar & Adds Custom Header and Footer Page layout Function
 	if (Component.getLayout) {
 		return Component.getLayout(<Component {...pageProps} />);
 	}

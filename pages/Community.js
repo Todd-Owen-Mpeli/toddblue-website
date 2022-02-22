@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
-import NavbarDark from "/components/alternativeStyling/NavbarDark";
+import Navbar from "/components/Navbar";
 import FooterLight from "/components/alternativeStyling/FooterLight";
 import styles from "/styles/Home.module.scss";
 
@@ -61,7 +61,7 @@ community.getLayout = function PageLayout(page) {
 	return (
 		<>
 			{/* <!--===== NAVIGATION =====--> */}
-			<NavbarDark />
+			<Navbar />
 
 			{/* <!--===== ONE TIME CUSTOM PAGE CONTENT =====--> */}
 			{page}

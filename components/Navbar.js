@@ -15,11 +15,6 @@ const Navbar = () => {
 								</Link>
 
 								<div className={styles.borderDiv}></div>
-								<Link href="/Support">
-									<a>Support</a>
-								</Link>
-
-								<div className={styles.borderDiv}></div>
 								<Link href="/Community">
 									<a>Community</a>
 								</Link>
@@ -30,13 +25,8 @@ const Navbar = () => {
 								</Link>
 
 								<div className={styles.borderDiv}></div>
-								<Link href="/JoinUS">
-									<a>Join Us</a>
-								</Link>
-
-								<div className={styles.borderDiv}></div>
-								<Link href="#SignIn">
-									<a>Sign In</a>
+								<Link href="/FAQs">
+									<a>FAQs</a>
 								</Link>
 							</div>
 						</div>

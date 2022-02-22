@@ -6,7 +6,7 @@ import Navbar from "/components/Navbar";
 import FooterLight from "/components/alternativeStyling/FooterLight";
 import styles from "/styles/Home.module.scss";
 
-const support = () => {
+const FAQs = () => {
 	return (
 		<motion.div
 			exit={{
@@ -54,10 +54,10 @@ const support = () => {
 	);
 };
 
-export default support;
+export default FAQs;
 
 // Removes Global Navbar & Adds Custom Header and Footer Page layout Function
-support.getLayout = function PageLayout(page) {
+FAQs.getLayout = function PageLayout(page) {
 	return (
 		<>
 			{/* <!--===== NAVIGATION =====--> */}
