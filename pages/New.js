@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
-import NewproductDB from "../lib/newproductDB.json";
+import NewProductDB from "../lib/NewProductDB.json";
 
 // Custom reusable Animation Properties/Objects
 const fadeInUp = {
@@ -95,9 +95,9 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{NewproductDB[1].productName}</a>
+										<a>{NewProductDB[1].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{NewproductDB[1].pricing}</h2>
+									<h2 className={styles.price}>£{NewProductDB[1].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -105,7 +105,7 @@ const New = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{NewproductDB[1].productCategory}</a>
+										<a>{NewProductDB[1].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -129,9 +129,9 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{NewproductDB[4].productName}</a>
+										<a>{NewProductDB[4].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{NewproductDB[4].pricing}</h2>
+									<h2 className={styles.price}>£{NewProductDB[4].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -139,7 +139,7 @@ const New = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{NewproductDB[4].productCategory}</a>
+										<a>{NewProductDB[4].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -163,9 +163,9 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{NewproductDB[2].productName}</a>
+										<a>{NewProductDB[2].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{NewproductDB[2].pricing}</h2>
+									<h2 className={styles.price}>£{NewProductDB[2].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -173,7 +173,7 @@ const New = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{NewproductDB[2].productCategory}</a>
+										<a>{NewProductDB[2].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -197,9 +197,9 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="/products/shoes" target="blank">
-										<a>{NewproductDB[3].productName}</a>
+										<a>{NewProductDB[3].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{NewproductDB[3].pricing}</h2>
+									<h2 className={styles.price}>£{NewProductDB[3].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -207,7 +207,7 @@ const New = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{NewproductDB[3].productCategory}</a>
+										<a>{NewProductDB[3].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -231,9 +231,9 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{NewproductDB[7].productName}</a>
+										<a>{NewProductDB[7].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{NewproductDB[7].pricing}</h2>
+									<h2 className={styles.price}>£{NewProductDB[7].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -241,7 +241,7 @@ const New = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{NewproductDB[7].productCategory}</a>
+										<a>{NewProductDB[7].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -265,9 +265,9 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{NewproductDB[0].productName}</a>
+										<a>{NewProductDB[0].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{NewproductDB[0].pricing}</h2>
+									<h2 className={styles.price}>£{NewProductDB[0].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -275,7 +275,7 @@ const New = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{NewproductDB[0].productCategory}</a>
+										<a>{NewProductDB[0].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -299,9 +299,9 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{NewproductDB[5].productName}</a>
+										<a>{NewProductDB[5].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{NewproductDB[5].pricing}</h2>
+									<h2 className={styles.price}>£{NewProductDB[5].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -309,7 +309,7 @@ const New = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{NewproductDB[5].productCategory}</a>
+										<a>{NewProductDB[5].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -333,9 +333,9 @@ const New = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{NewproductDB[6].productName}</a>
+										<a>{NewProductDB[6].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{NewproductDB[6].pricing}</h2>
+									<h2 className={styles.price}>£{NewProductDB[6].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -343,7 +343,7 @@ const New = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{NewproductDB[6].productCategory}</a>
+										<a>{NewProductDB[6].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>

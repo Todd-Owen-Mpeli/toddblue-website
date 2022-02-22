@@ -141,7 +141,7 @@ const productDisplayFourGrid = () => {
 							<Link href="#" target="blank">
 								<a>
 									<Image
-										src="/productImages/_MG_3070.jpg"
+										src="/productImages/Pull&Bear - Chunky Soles White.jpg"
 										alt="Product Image"
 										width={200}
 										height={200}

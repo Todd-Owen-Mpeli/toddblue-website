@@ -4,8 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
-import ShoeProductsDB from "../lib/ShoeProductsDB.json";
-import CrossBagProductsDB from "../lib/CrossBagProductsDB.json";
 import ProductDisplayFourGrid from "/components/productDisplayFourGrid";
 
 // Custom reusable Animation Properties/Objects

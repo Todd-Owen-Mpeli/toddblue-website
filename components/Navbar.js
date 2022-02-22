@@ -61,11 +61,6 @@ const Navbar = () => {
 										<i className="bi bi-search"></i>
 									</a>
 								</Link>
-								<Link href="#searchProducts">
-									<a>
-										<i className="bi bi-heart"></i>
-									</a>
-								</Link>
 								<Link href="#cart">
 									<a>
 										<i className="bi bi-bag-fill"></i>

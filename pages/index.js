@@ -4,7 +4,7 @@ import Link from "next/link";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
 import content from "../lib/newproductDB.json";
-import ShoeproductsDB from "../lib/shoeproductsDB.json";
+import ShoeProductsDB from "../lib/ShoeProductsDB.json";
 
 // Custom reusable Animation Properties/Objects
 const fadeInUp = {
@@ -291,16 +291,16 @@ export default function Home() {
 								<div className={styles.description}>
 									<div className={styles.topSection}>
 										<Link href="/store">
-											<a target="blank">{ShoeproductsDB[7].productName}</a>
+											<a target="blank">{ShoeProductsDB[7].productName}</a>
 										</Link>
 
 										<h2 className={styles.price}>
-											£{ShoeproductsDB[7].pricing}
+											£{ShoeProductsDB[7].pricing}
 										</h2>
 									</div>
 									<Link href="/store">
 										<a className={styles.productCategory}>
-											{ShoeproductsDB[7].productCategory}
+											{ShoeProductsDB[7].productCategory}
 										</a>
 									</Link>
 								</div>
@@ -499,25 +499,25 @@ export default function Home() {
 								<h2>Accessories</h2>
 								<motion.ul variants={stagger} className={styles.links}>
 									<motion.li variants={fadeInUp}>
-										<Link href="/store">
+										<Link href="/Accessories">
 											<a target="blank">Shoe Laces</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store">
+										<Link href="/Accessories">
 											<a target="blank">Small Accessories</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store">
+										<Link href="/Accessories">
 											<a target="blank">Medium Accessories</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store">
+										<Link href="/Accessories">
 											<a target="blank">Large Accessories</a>
 										</Link>
 									</motion.li>
@@ -527,25 +527,25 @@ export default function Home() {
 								<h2>Bags</h2>
 								<motion.ul variants={stagger} className={styles.links}>
 									<motion.li variants={fadeInUp}>
-										<Link href="/store">
+										<Link href="/Accessories">
 											<a target="blank">All Bags</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store">
+										<Link href="/Accessories">
 											<a target="blank">Backpacks</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store">
+										<Link href="/Accessories">
 											<a target="blank">Duffle bags</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store">
+										<Link href="/Accessories">
 											<a target="blank">Cross-Body Bags</a>
 										</Link>
 									</motion.li>
@@ -555,25 +555,25 @@ export default function Home() {
 								<h2>Featured</h2>
 								<motion.ul variants={stagger} className={styles.links}>
 									<motion.li variants={fadeInUp}>
-										<Link href="/store">
+										<Link href="/OneTime">
 											<a target="blank">Limited Drops</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store">
+										<Link href="/OneTime">
 											<a target="blank">One Time Customs</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store">
+										<Link href="/New">
 											<a target="blank">New Releases</a>
 										</Link>
 									</motion.li>
 
 									<motion.li variants={fadeInUp}>
-										<Link href="/store">
+										<Link href="/Accessories">
 											<a target="blank">Backpacks & Bags</a>
 										</Link>
 									</motion.li>
