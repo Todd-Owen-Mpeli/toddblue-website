@@ -198,7 +198,7 @@ const Brand = () => {
 
 export default Brand;
 
-// Custom Header and Footer Page layout Function
+// Removes Global Navbar & Adds Custom Header and Footer Page layout Function
 Brand.getLayout = function PageLayout(page) {
 	return (
 		<>

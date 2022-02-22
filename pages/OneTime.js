@@ -80,7 +80,7 @@ const OneTime = () => {
 
 export default OneTime;
 
-// Custom Header and Footer Page layout Function
+// Removes Global Navbar & Adds Custom Header and Footer Page layout Function
 OneTime.getLayout = function PageLayout(page) {
 	return (
 		<>

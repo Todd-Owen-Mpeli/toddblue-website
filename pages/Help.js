@@ -56,7 +56,7 @@ const Help = () => {
 
 export default Help;
 
-// Custom Header and Footer Page layout Function
+// Removes Global Navbar & Adds Custom Header and Footer Page layout Function
 Help.getLayout = function PageLayout(page) {
 	return (
 		<>

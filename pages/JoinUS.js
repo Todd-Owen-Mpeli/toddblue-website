@@ -56,7 +56,7 @@ const JoinUS = () => {
 
 export default JoinUS;
 
-// Custom Header and Footer Page layout Function
+// Removes Global Navbar & Adds Custom Header and Footer Page layout Function
 JoinUS.getLayout = function PageLayout(page) {
 	return (
 		<>
