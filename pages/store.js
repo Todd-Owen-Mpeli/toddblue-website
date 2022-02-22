@@ -87,12 +87,10 @@ const store = () => {
 				{/* <!--===== POPULAR =====--> */}
 				<div className={styles.store}>
 					<div className={styles.borderLineMid}></div>
-
 					{/* PRODUCTS DISPLAY SECTION */}
 					<ProductDisplayFourGrid />
 
 					<div className={styles.borderLineMid}></div>
-
 					{/* <!--===== RELATED CATEGORY =====--> */}
 					<div className={styles.bottomContent}>
 						<div className={styles.relatedCategories}>
@@ -100,16 +98,16 @@ const store = () => {
 
 							<div className={styles.list}>
 								<motion.ul variants={stagger} className={styles.links}>
-									<Link href="#" target="blank">
-										<motion.a variants={fadeInUp}>Mens Clothing</motion.a>
+									<Link href="/OneTime" target="blank">
+										<motion.a variants={fadeInUp}>Limited Drops</motion.a>
 									</Link>
-									<Link href="#" target="blank">
-										<motion.a variants={fadeInUp}>Womens Clothing</motion.a>
+									<Link href="/OneTime" target="blank">
+										<motion.a variants={fadeInUp}>One Time Customs</motion.a>
 									</Link>
-									<Link href="#" target="blank">
+									<Link href="/Accessories" target="blank">
 										<motion.a variants={fadeInUp}>Backpacks & Bags</motion.a>
 									</Link>
-									<Link href="#" target="blank">
+									<Link href="/Accessories" target="blank">
 										<motion.a variants={fadeInUp}>Cross-Body Bags</motion.a>
 									</Link>
 								</motion.ul>
