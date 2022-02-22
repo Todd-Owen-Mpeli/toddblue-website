@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
-import Navbar from "/components/Navbar";
+import Navbar from "../components/Navbar";
 import FooterLight from "/components/alternativeStyling/FooterLight";
 import styles from "/styles/Home.module.scss";
 
@@ -80,9 +80,6 @@ const Brand = () => {
 						href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
 					/>
 				</Head>
-
-				{/* <!--===== NAVIGATION =====--> */}
-				<Navbar />
 
 				<div className={styles.BrandMain}>
 					{/* <!--===== HERO =====--> */}
@@ -193,10 +190,26 @@ const Brand = () => {
 				</div>
 
 				{/* <!--===== FOOTER =====--> */}
-				<FooterLight />
+				{/* <FooterLight /> */}
 			</motion.div>
 		</>
 	);
 };
 
 export default Brand;
+
+// Custom Header and Footer Page layout Function
+Brand.getLayout = function PageLayout(page) {
+	return (
+		<>
+			{/* <!--===== NAVIGATION =====--> */}
+			<Navbar />
+
+			{/* <!--===== ONE TIME CUSTOM PAGE CONTENT =====--> */}
+			{page}
+
+			{/* <!--===== FOOTER =====--> */}
+			<FooterLight />
+		</>
+	);
+};

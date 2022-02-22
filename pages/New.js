@@ -3,8 +3,6 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
-import Navbar from "/components/Navbar";
-import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
 import NewproductDB from "../lib/newproductDB.json";
 
@@ -72,9 +70,6 @@ const New = () => {
 					href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
 				/>
 			</Head>
-
-			{/* <!--===== NAVIGATION =====--> */}
-			<Navbar />
 
 			<main className={styles.main}>
 				<div className={styles.new}>
@@ -448,9 +443,6 @@ const New = () => {
 					</div>
 				</div>
 			</main>
-
-			{/* <!--===== FOOTER =====--> */}
-			<Footer />
 		</motion.div>
 	);
 };

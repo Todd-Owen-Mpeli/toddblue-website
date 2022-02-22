@@ -49,15 +49,25 @@ const community = () => {
 				/>
 			</Head>
 
-			{/* <!--===== NAVIGATION =====--> */}
-			<NavbarDark />
-
 			<div className={styles.main}></div>
-
-			{/* <!--===== FOOTER =====--> */}
-			<FooterLight />
 		</motion.div>
 	);
 };
 
 export default community;
+
+// Custom Header and Footer Page layout Function
+community.getLayout = function PageLayout(page) {
+	return (
+		<>
+			{/* <!--===== NAVIGATION =====--> */}
+			<NavbarDark />
+
+			{/* <!--===== ONE TIME CUSTOM PAGE CONTENT =====--> */}
+			{page}
+
+			{/* <!--===== FOOTER =====--> */}
+			<FooterLight />
+		</>
+	);
+};

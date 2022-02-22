@@ -49,15 +49,25 @@ const Help = () => {
 				/>
 			</Head>
 
-			{/* <!--===== NAVIGATION =====--> */}
-			<Navbar />
-
 			<div className={styles.main}></div>
-
-			{/* <!--===== FOOTER =====--> */}
-			<FooterLight />
 		</motion.div>
 	);
 };
 
 export default Help;
+
+// Custom Header and Footer Page layout Function
+Help.getLayout = function PageLayout(page) {
+	return (
+		<>
+			{/* <!--===== NAVIGATION =====--> */}
+			<Navbar />
+
+			{/* <!--===== ONE TIME CUSTOM PAGE CONTENT =====--> */}
+			{page}
+
+			{/* <!--===== FOOTER =====--> */}
+			<FooterLight />
+		</>
+	);
+};

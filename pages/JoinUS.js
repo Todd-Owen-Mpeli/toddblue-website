@@ -49,15 +49,25 @@ const JoinUS = () => {
 				/>
 			</Head>
 
-			{/* <!--===== NAVIGATION =====--> */}
-			<Navbar />
-
 			<div className={styles.main}></div>
-
-			{/* <!--===== FOOTER =====--> */}
-			<FooterLight />
 		</motion.div>
 	);
 };
 
 export default JoinUS;
+
+// Custom Header and Footer Page layout Function
+JoinUS.getLayout = function PageLayout(page) {
+	return (
+		<>
+			{/* <!--===== NAVIGATION =====--> */}
+			<Navbar />
+
+			{/* <!--===== ONE TIME CUSTOM PAGE CONTENT =====--> */}
+			{page}
+
+			{/* <!--===== FOOTER =====--> */}
+			<FooterLight />
+		</>
+	);
+};

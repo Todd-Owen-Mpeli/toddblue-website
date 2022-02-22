@@ -2,8 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import {motion} from "framer-motion";
-import Navbar from "/components/Navbar";
-import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
 import content from "../lib/newproductDB.json";
 import ShoeproductsDB from "../lib/shoeproductsDB.json";
@@ -72,9 +70,6 @@ export default function Home() {
 						href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
 					/>
 				</Head>
-
-				{/* <!--===== NAVIGATION =====--> */}
-				<Navbar />
 
 				<main className={styles.main}>
 					{/* <!--===== HERO =====--> */}
@@ -587,9 +582,6 @@ export default function Home() {
 						</div>
 					</motion.div>
 				</main>
-
-				{/* <!--===== FOOTER =====--> */}
-				<Footer />
 			</div>
 		</motion.div>
 	);

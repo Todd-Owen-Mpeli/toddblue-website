@@ -49,15 +49,25 @@ const support = () => {
 				/>
 			</Head>
 
-			{/* <!--===== NAVIGATION =====--> */}
-			<Navbar />
-
 			<div className={styles.main}></div>
-
-			{/* <!--===== FOOTER =====--> */}
-			<FooterLight />
 		</motion.div>
 	);
 };
 
 export default support;
+
+// Custom Header and Footer Page layout Function
+support.getLayout = function PageLayout(page) {
+	return (
+		<>
+			{/* <!--===== NAVIGATION =====--> */}
+			<Navbar />
+
+			{/* <!--===== ONE TIME CUSTOM PAGE CONTENT =====--> */}
+			{page}
+
+			{/* <!--===== FOOTER =====--> */}
+			<FooterLight />
+		</>
+	);
+};

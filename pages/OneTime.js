@@ -71,17 +71,27 @@ const OneTime = () => {
 				/>
 			</Head>
 
-			{/* <!--===== NAVIGATION =====--> */}
-			<NavbarDark />
-
 			<main className={styles.mainDark}>
 				<div className={styles.maxContent}></div>
 			</main>
-
-			{/* <!--===== FOOTER =====--> */}
-			<FooterDark />
 		</motion.div>
 	);
 };
 
 export default OneTime;
+
+// Custom Header and Footer Page layout Function
+OneTime.getLayout = function PageLayout(page) {
+	return (
+		<>
+			{/* <!--===== NAVIGATION =====--> */}
+			<NavbarDark />
+
+			{/* <!--===== ONE TIME CUSTOM PAGE CONTENT =====--> */}
+			{page}
+
+			{/* <!--===== FOOTER =====--> */}
+			<FooterDark />
+		</>
+	);
+};
