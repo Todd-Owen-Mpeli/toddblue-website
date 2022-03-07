@@ -4,27 +4,7 @@ import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
 import ShoeProductsDB from "../lib/ShoeProductsDB.json";
-
-// Custom reusable Animation Properties/Objects
-const fadeInUp = {
-	initial: {
-		y: 60,
-		opacity: 0,
-	},
-	animate: {
-		y: 0,
-		opacity: 1,
-		transition: {duration: 0.5, ease: "easeOut"},
-	},
-};
-
-const stagger = {
-	animate: {
-		transition: {
-			staggerChildren: 0.1,
-		},
-	},
-};
+import animation from "../animation/animation.json";
 
 const productDisplayFourGrid = () => {
 	return (
@@ -34,8 +14,8 @@ const productDisplayFourGrid = () => {
 				{/* <!--===== POPULAR =====--> */}
 				<div className={styles.store}>
 					{/* PRODUCTS DISPLAY SECTION */}
-					<motion.div variants={stagger} className={styles.productDisplay}>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+					<motion.div variants={animation[0]} className={styles.productDisplay}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -69,7 +49,7 @@ const productDisplayFourGrid = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -103,7 +83,7 @@ const productDisplayFourGrid = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -137,7 +117,7 @@ const productDisplayFourGrid = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image

@@ -100,5 +100,23 @@
 		"productName": "Ochaco Uraraka",
 		"productCategory": "Womens",
 		"pricing": "149.95"
+	},
+	{
+		"id": "18",
+		"productName": "Pull&Bear Brown",
+		"productCategory": "Men & Womens",
+		"pricing": "189.95"
+	},
+	{
+		"id": "19",
+		"productName": "Pull&Bear Grey",
+		"productCategory": "Men & Womens",
+		"pricing": "189.95"
+	},
+	{
+		"id": "20",
+		"productName": "Pull&Bear Black",
+		"productCategory": "Men & Womens",
+		"pricing": "189.95"
 	}
 ]
