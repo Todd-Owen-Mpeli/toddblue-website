@@ -114,7 +114,7 @@ const Footer = () => {
 									</a>
 								</Link>
 								<Link href="#copyright" target="blank">
-									<a>&copy; 2021 ToddBlue. Inc All Rights Reserved</a>
+									<a>&copy; 2022 ToddBlue. Inc All Rights Reserved</a>
 								</Link>
 							</div>
 							<div className={styles.rightSide}>
