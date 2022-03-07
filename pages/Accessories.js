@@ -453,7 +453,6 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-
 						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
