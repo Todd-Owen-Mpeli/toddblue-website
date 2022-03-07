@@ -590,6 +590,74 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
+						<motion.div variants={animation[2]} className={styles.productItem}>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/Black Daisy Shoelaces Tube.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<Link href="#" target="blank">
+										<a>{accessoriesDB[16].productName}</a>
+									</Link>
+									<h2 className={styles.price}>£{accessoriesDB[16].pricing}</h2>
+								</div>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{accessoriesDB[16].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
+							</div>
+						</motion.div>
+						<motion.div variants={animation[2]} className={styles.productItem}>
+							<Link href="#" target="blank">
+								<a>
+									<Image
+										src="/productImages/Pink Daisy Shoelaces.jpg"
+										alt="Product Image"
+										width={200}
+										height={200}
+										layout="responsive"
+										objectFit="cover"
+									/>
+								</a>
+							</Link>
+							<div className={styles.description}>
+								<div className={styles.topSection}>
+									<Link href="#" target="blank">
+										<a>{accessoriesDB[17].productName}</a>
+									</Link>
+									<h2 className={styles.price}>£{accessoriesDB[17].pricing}</h2>
+								</div>
+								<div className={styles.bottomSection}>
+									<Link
+										href="/"
+										target="blank"
+										className={styles.productCategory}
+									>
+										<a>{accessoriesDB[17].productCategory}</a>
+									</Link>
+									<newButton>
+										<i className="bi bi-heart"></i>
+									</newButton>
+								</div>
+							</div>
+						</motion.div>
 					</motion.div>
 				</div>
 			</main>

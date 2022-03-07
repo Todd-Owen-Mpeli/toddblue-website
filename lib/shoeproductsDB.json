@@ -103,30 +103,26 @@
 	},
 	{
 		"id": "18",
-		"productName": "Pull&Bear - Contrast High-Top Brown",
+		"productName": "High-Top - Brown",
 		"productCategory": "Men & Womens",
-		"pricing": "189.95",
-		"image": "../productImages/Pull&Bear - Contrast High-Top Brown.jpg"
+		"pricing": "249.95"
 	},
 	{
 		"id": "19",
-		"productName": "Pull&Bear - Contrast High-Top Grey.jpg",
+		"productName": "High-Top - Grey",
 		"productCategory": "Men & Womens",
-		"pricing": "189.95",
-		"image": "../productImages/Pull&Bear - Contrast High-Top Grey.jpg.jpg"
+		"pricing": "189.95"
 	},
 	{
 		"id": "20",
-		"productName": "Pull&Bear - Contrast High-Top Black & White",
+		"productName": "High-Top - Black & White",
 		"productCategory": "Men & Womens",
-		"pricing": "189.95",
-		"image": "../productImages/Pull&Bear - Contrast High-Top Black & White.jpg"
+		"pricing": "189.95"
 	},
 	{
 		"id": "21",
-		"productName": "Pull&Bear - Chunky Soles White.jpg",
+		"productName": "Chunky Soles - White",
 		"productCategory": "Men & Womens",
-		"pricing": "119.95",
-		"image": "../productImages/Pull&Bear - Chunky Soles White.jpg"
+		"pricing": "119.95"
 	}
 ]
