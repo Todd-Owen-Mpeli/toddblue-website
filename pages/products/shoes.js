@@ -5,38 +5,8 @@ import {motion} from "framer-motion";
 import Navbar from "/components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
-import NewProductDB from "/lib/NewProductDB.json";
-
-// Custom reusable Animation Properties/Objects
-const fadeInUp = {
-	initial: {
-		y: 60,
-		opacity: 0,
-	},
-	animate: {
-		y: 0,
-		opacity: 1,
-		transition: {duration: 0.5, ease: "easeOut"},
-	},
-};
-
-const fadeIn = {
-	initial: {
-		opacity: 0,
-	},
-	animate: {
-		opacity: 1,
-		transition: {duration: 0.5, delay: 1, ease: "easeOut"},
-	},
-};
-
-const stagger = {
-	animate: {
-		transition: {
-			staggerChildren: 0.1,
-		},
-	},
-};
+import NewProductDB from "../lib/NewProductDB.json";
+import animation from "../animation/animation.json";
 
 const shoes = () => {
 	return (
@@ -79,8 +49,8 @@ const shoes = () => {
 				<div className={styles.new}>
 					<div className={styles.borderLineMid}></div>
 					{/* <!--===== NEW PRODUCTS =====--> */}
-					<motion.div variants={stagger} className={styles.productDisplay}>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+					<motion.div variants={animation[0]} className={styles.productDisplay}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="/products/shoes" target="blank">
 								<a>
 									<Image
