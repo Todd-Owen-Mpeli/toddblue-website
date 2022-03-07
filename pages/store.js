@@ -5,37 +5,7 @@ import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
 import ProductDisplayFourGrid from "/components/productDisplayFourGrid";
-
-// Custom reusable Animation Properties/Objects
-const fadeInUp = {
-	initial: {
-		y: 60,
-		opacity: 0,
-	},
-	animate: {
-		y: 0,
-		opacity: 1,
-		transition: {duration: 0.5, ease: "easeOut"},
-	},
-};
-
-const fadeIn = {
-	initial: {
-		opacity: 0,
-	},
-	animate: {
-		opacity: 1,
-		transition: {duration: 0.5, delay: 1, ease: "easeOut"},
-	},
-};
-
-const stagger = {
-	animate: {
-		transition: {
-			staggerChildren: 0.1,
-		},
-	},
-};
+import animation from "../animation/animation.json";
 
 const store = () => {
 	return (
@@ -97,18 +67,22 @@ const store = () => {
 							<h2>Related Categories</h2>
 
 							<div className={styles.list}>
-								<motion.ul variants={stagger} className={styles.links}>
+								<motion.ul variants={animation[0]} className={styles.links}>
 									<Link href="/OneTime" target="blank">
-										<motion.a variants={fadeInUp}>Limited Drops</motion.a>
+										<motion.a variants={animation[2]}>Limited Drops</motion.a>
 									</Link>
 									<Link href="/OneTime" target="blank">
-										<motion.a variants={fadeInUp}>One Time Customs</motion.a>
+										<motion.a variants={animation[2]}>
+											One Time Customs
+										</motion.a>
 									</Link>
 									<Link href="/Accessories" target="blank">
-										<motion.a variants={fadeInUp}>Backpacks & Bags</motion.a>
+										<motion.a variants={animation[2]}>
+											Backpacks & Bags
+										</motion.a>
 									</Link>
 									<Link href="/Accessories" target="blank">
-										<motion.a variants={fadeInUp}>Cross-Body Bags</motion.a>
+										<motion.a variants={animation[2]}>Cross-Body Bags</motion.a>
 									</Link>
 								</motion.ul>
 							</div>
@@ -118,7 +92,7 @@ const store = () => {
 
 							<div className={styles.content}>
 								<div className={styles.productGuide}>
-									<motion.div variants={fadeIn}>
+									<motion.div variants={animation[1]}>
 										<Link href="#" target="blank">
 											<a>
 												<Image
@@ -132,13 +106,13 @@ const store = () => {
 											</a>
 										</Link>
 									</motion.div>
-									<motion.div variants={fadeIn}>
+									<motion.div variants={animation[1]}>
 										<h5>Size Guide</h5>
 										<h2>How to select the right shoe size.</h2>
 									</motion.div>
 								</div>
 								<div className={styles.productGuide}>
-									<motion.div variants={fadeIn}>
+									<motion.div variants={animation[1]}>
 										<Link href="#" target="blank">
 											<a>
 												<Image
@@ -152,13 +126,13 @@ const store = () => {
 											</a>
 										</Link>
 									</motion.div>
-									<motion.div variants={fadeIn}>
+									<motion.div variants={animation[1]}>
 										<h5>Buying Guide</h5>
 										<h2>How to select the right item.</h2>
 									</motion.div>
 								</div>
 								<div className={styles.productGuide}>
-									<motion.div variants={fadeIn}>
+									<motion.div variants={animation[1]}>
 										<Link href="#" target="blank">
 											<a>
 												<Image
@@ -172,7 +146,7 @@ const store = () => {
 											</a>
 										</Link>
 									</motion.div>
-									<motion.div variants={fadeIn}>
+									<motion.div variants={animation[1]}>
 										<h5>Backpacks & Bags Guide</h5>
 										<h2>Which is the right Backpacks or Bags for the event.</h2>
 									</motion.div>

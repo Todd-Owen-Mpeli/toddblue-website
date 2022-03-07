@@ -4,37 +4,7 @@ import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
 import accessoriesDB from "../lib/accessoriesDB.json";
-
-// Custom reusable Animation Properties/Objects
-const fadeInUp = {
-	initial: {
-		y: 60,
-		opacity: 0,
-	},
-	animate: {
-		y: 0,
-		opacity: 1,
-		transition: {duration: 0.5, ease: "easeOut"},
-	},
-};
-
-const fadeIn = {
-	initial: {
-		opacity: 0,
-	},
-	animate: {
-		opacity: 1,
-		transition: {duration: 0.5, delay: 1, ease: "easeOut"},
-	},
-};
-
-const stagger = {
-	animate: {
-		transition: {
-			staggerChildren: 0.1,
-		},
-	},
-};
+import animation from "../animation/animation.json";
 
 const Accessories = () => {
 	return (
@@ -74,8 +44,8 @@ const Accessories = () => {
 				<div className={styles.new}>
 					<div className={styles.borderLineMid}></div>
 					{/* <!--===== NEW PRODUCTS =====--> */}
-					<motion.div variants={stagger} className={styles.productDisplay}>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+					<motion.div variants={animation[0]} className={styles.productDisplay}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -109,7 +79,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -143,7 +113,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -177,7 +147,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -211,7 +181,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -245,7 +215,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -279,7 +249,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -313,7 +283,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -347,7 +317,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -381,7 +351,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -415,7 +385,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -449,7 +419,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -484,7 +454,7 @@ const Accessories = () => {
 							</div>
 						</motion.div>
 
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -518,7 +488,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -552,7 +522,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image
@@ -586,7 +556,7 @@ const Accessories = () => {
 								</div>
 							</div>
 						</motion.div>
-						<motion.div variants={fadeInUp} className={styles.productItem}>
+						<motion.div variants={animation[2]} className={styles.productItem}>
 							<Link href="#" target="blank">
 								<a>
 									<Image

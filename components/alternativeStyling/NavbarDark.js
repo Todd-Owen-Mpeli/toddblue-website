@@ -1,37 +1,7 @@
 import Link from "next/link";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
-
-// Custom reusable Animation Properties/Objects
-const fadeInUp = {
-	initial: {
-		y: 60,
-		opacity: 0,
-	},
-	animate: {
-		y: 0,
-		opacity: 1,
-		transition: {duration: 0.5, ease: "easeOut"},
-	},
-};
-
-const fadeIn = {
-	initial: {
-		opacity: 0,
-	},
-	animate: {
-		opacity: 1,
-		transition: {duration: 0.5, delay: 1, ease: "easeOut"},
-	},
-};
-
-const stagger = {
-	animate: {
-		transition: {
-			staggerChildren: 0.1,
-		},
-	},
-};
+import animation from "../../animation/animation.json";
 
 const NavbarDark = () => {
 	return (
@@ -46,15 +16,15 @@ const NavbarDark = () => {
 									<a>ToddBlue</a>
 								</Link>
 							</div>
-							<ul className={styles.navLinks}>
+							<ul variants={animation[0]} className={styles.navLinks}>
 								<Link href="/New">
-									<motion.a variants={fadeIn}>New</motion.a>
+									<motion.a variants={animation[1]}>New</motion.a>
 								</Link>
 								<Link href="/store">
-									<motion.a variants={fadeIn}>Store</motion.a>
+									<motion.a variants={animation[1]}>Store</motion.a>
 								</Link>
 								<Link href="/Accessories">
-									<motion.a variants={fadeIn}>Accessories</motion.a>
+									<motion.a variants={animation[1]}>Accessories</motion.a>
 								</Link>
 							</ul>
 							<div className={styles.navCheckout}>

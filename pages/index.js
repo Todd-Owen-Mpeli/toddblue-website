@@ -5,27 +5,7 @@ import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
 import content from "../lib/newproductDB.json";
 import ShoeProductsDB from "../lib/ShoeProductsDB.json";
-
-// Custom reusable Animation Properties/Objects
-const fadeInUp = {
-	initial: {
-		y: 60,
-		opacity: 0,
-	},
-	animate: {
-		y: 0,
-		opacity: 1,
-		transition: {duration: 0.5, ease: "easeOut"},
-	},
-};
-
-const stagger = {
-	animate: {
-		transition: {
-			staggerChildren: 0.1,
-		},
-	},
-};
+import animation from "../animation/animation.json";
 
 export default function Home() {
 	return (
@@ -84,7 +64,7 @@ export default function Home() {
 							layout="responsive"
 							objectFit="cover"
 						/>
-						<motion.div variants={fadeInUp}>
+						<motion.div variants={animation[2]}>
 							<h2 className={styles.title}>WEAR YOUR PASSION</h2>
 						</motion.div>
 						<motion.div
@@ -108,10 +88,13 @@ export default function Home() {
 					</div>
 
 					{/* <!--===== POPULAR =====--> */}
-					<motion.div variants={stagger} className={styles.popular}>
+					<motion.div variants={animation[0]} className={styles.popular}>
 						<h2>New</h2>
 						<div className={styles.productDisplay}>
-							<motion.div variants={fadeInUp} className={styles.productItem}>
+							<motion.div
+								variants={animation[2]}
+								className={styles.productItem}
+							>
 								<Link href="/store">
 									<motion.a
 										target="blank"
@@ -140,7 +123,10 @@ export default function Home() {
 									</Link>
 								</div>
 							</motion.div>
-							<motion.div variants={fadeInUp} className={styles.productItem}>
+							<motion.div
+								variants={animation[2]}
+								className={styles.productItem}
+							>
 								<Link href="/store">
 									<motion.a
 										target="blank"
@@ -169,7 +155,10 @@ export default function Home() {
 									</Link>
 								</div>
 							</motion.div>
-							<motion.div variants={fadeInUp} className={styles.productItem}>
+							<motion.div
+								variants={animation[2]}
+								className={styles.productItem}
+							>
 								<Link href="/store">
 									<motion.a
 										target="blank"
@@ -256,7 +245,10 @@ export default function Home() {
 					{/* <!--===== TRENDING NOW =====--> */}
 					<div className={styles.trendingNow}>
 						<h2>Trending Now</h2>
-						<motion.div variants={stagger} className={styles.productDisplay}>
+						<motion.div
+							variants={animation[0]}
+							className={styles.productDisplay}
+						>
 							<motion.div
 								initial={{
 									y: 60,
@@ -398,7 +390,10 @@ export default function Home() {
 					<div className={styles.moreProducts}>
 						<h2>More ToddBlue</h2>
 						<div className={styles.contentDisplay}>
-							<motion.div variants={fadeInUp} className={styles.productDisplay}>
+							<motion.div
+								variants={animation[2]}
+								className={styles.productDisplay}
+							>
 								<Link href="/store">
 									<a target="blank">
 										<Image
@@ -419,7 +414,10 @@ export default function Home() {
 									</newButton>
 								</div>
 							</motion.div>
-							<motion.div variants={fadeInUp} className={styles.productDisplay}>
+							<motion.div
+								variants={animation[2]}
+								className={styles.productDisplay}
+							>
 								<Link href="/store">
 									<a target="blank">
 										<Image
@@ -440,7 +438,10 @@ export default function Home() {
 									</newButton>
 								</div>
 							</motion.div>
-							<motion.div variants={fadeInUp} className={styles.productDisplay}>
+							<motion.div
+								variants={animation[2]}
+								className={styles.productDisplay}
+							>
 								<Link href="/store">
 									<a target="blank">
 										<Image
@@ -465,114 +466,114 @@ export default function Home() {
 					</div>
 
 					{/* <!--===== PRODUCT LINKS =====--> */}
-					<motion.div variants={stagger} className={styles.productLinks}>
+					<motion.div variants={animation[0]} className={styles.productLinks}>
 						<div className={styles.content}>
-							<motion.div variants={fadeInUp} className={styles.list}>
+							<motion.div variants={animation[2]} className={styles.list}>
 								<h2>Shoes</h2>
-								<motion.ul variants={stagger} className={styles.links}>
-									<motion.li variants={fadeInUp}>
+								<motion.ul variants={animation[0]} className={styles.links}>
+									<motion.li variants={animation[2]}>
 										<Link href="/store">
 											<a target="blank">Sneakers and Shoes</a>
 										</Link>
 									</motion.li>
 
-									<motion.li variants={fadeInUp}>
+									<motion.li variants={animation[2]}>
 										<Link href="/store">
 											<a target="blank">Nike Shoes</a>
 										</Link>
 									</motion.li>
 
-									<motion.li variants={fadeInUp}>
+									<motion.li variants={animation[2]}>
 										<Link href="/store">
 											<a target="blank">Puma Shoes</a>
 										</Link>
 									</motion.li>
 
-									<motion.li variants={fadeInUp}>
+									<motion.li variants={animation[2]}>
 										<Link href="/store">
 											<a target="blank">Pull&Bear Shoes</a>
 										</Link>
 									</motion.li>
 								</motion.ul>
 							</motion.div>
-							<motion.div variants={fadeInUp} className={styles.list}>
+							<motion.div variants={animation[2]} className={styles.list}>
 								<h2>Accessories</h2>
-								<motion.ul variants={stagger} className={styles.links}>
-									<motion.li variants={fadeInUp}>
+								<motion.ul variants={animation[0]} className={styles.links}>
+									<motion.li variants={animation[2]}>
 										<Link href="/Accessories">
 											<a target="blank">Shoe Laces</a>
 										</Link>
 									</motion.li>
 
-									<motion.li variants={fadeInUp}>
+									<motion.li variants={animation[2]}>
 										<Link href="/Accessories">
 											<a target="blank">Small Accessories</a>
 										</Link>
 									</motion.li>
 
-									<motion.li variants={fadeInUp}>
+									<motion.li variants={animation[2]}>
 										<Link href="/Accessories">
 											<a target="blank">Medium Accessories</a>
 										</Link>
 									</motion.li>
 
-									<motion.li variants={fadeInUp}>
+									<motion.li variants={animation[2]}>
 										<Link href="/Accessories">
 											<a target="blank">Large Accessories</a>
 										</Link>
 									</motion.li>
 								</motion.ul>
 							</motion.div>
-							<motion.div variants={fadeInUp} className={styles.list}>
+							<motion.div variants={animation[2]} className={styles.list}>
 								<h2>Bags</h2>
-								<motion.ul variants={stagger} className={styles.links}>
-									<motion.li variants={fadeInUp}>
+								<motion.ul variants={animation[0]} className={styles.links}>
+									<motion.li variants={animation[2]}>
 										<Link href="/Accessories">
 											<a target="blank">All Bags</a>
 										</Link>
 									</motion.li>
 
-									<motion.li variants={fadeInUp}>
+									<motion.li variants={animation[2]}>
 										<Link href="/Accessories">
 											<a target="blank">Backpacks</a>
 										</Link>
 									</motion.li>
 
-									<motion.li variants={fadeInUp}>
+									<motion.li variants={animation[2]}>
 										<Link href="/Accessories">
 											<a target="blank">Duffle bags</a>
 										</Link>
 									</motion.li>
 
-									<motion.li variants={fadeInUp}>
+									<motion.li variants={animation[2]}>
 										<Link href="/Accessories">
 											<a target="blank">Cross-Body Bags</a>
 										</Link>
 									</motion.li>
 								</motion.ul>
 							</motion.div>
-							<motion.div variants={fadeInUp} className={styles.list}>
+							<motion.div variants={animation[2]} className={styles.list}>
 								<h2>Featured</h2>
-								<motion.ul variants={stagger} className={styles.links}>
-									<motion.li variants={fadeInUp}>
+								<motion.ul variants={animation[0]} className={styles.links}>
+									<motion.li variants={animation[2]}>
 										<Link href="/OneTime">
 											<a target="blank">Limited Drops</a>
 										</Link>
 									</motion.li>
 
-									<motion.li variants={fadeInUp}>
+									<motion.li variants={animation[2]}>
 										<Link href="/OneTime">
 											<a target="blank">One Time Customs</a>
 										</Link>
 									</motion.li>
 
-									<motion.li variants={fadeInUp}>
+									<motion.li variants={animation[2]}>
 										<Link href="/New">
 											<a target="blank">New Releases</a>
 										</Link>
 									</motion.li>
 
-									<motion.li variants={fadeInUp}>
+									<motion.li variants={animation[2]}>
 										<Link href="/Accessories">
 											<a target="blank">Backpacks & Bags</a>
 										</Link>

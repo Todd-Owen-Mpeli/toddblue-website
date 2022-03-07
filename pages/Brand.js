@@ -5,37 +5,7 @@ import {motion} from "framer-motion";
 import Navbar from "../components/Navbar";
 import FooterLight from "/components/alternativeStyling/FooterLight";
 import styles from "/styles/Home.module.scss";
-
-// Custom reusable Animation Properties/Objects
-const fadeInUp = {
-	initial: {
-		y: 60,
-		opacity: 0,
-	},
-	animate: {
-		y: 0,
-		opacity: 1,
-		transition: {duration: 0.5, ease: "easeOut"},
-	},
-};
-
-const fadeIn = {
-	initial: {
-		opacity: 0,
-	},
-	animate: {
-		opacity: 1,
-		transition: {duration: 0.5, delay: 1, ease: "easeOut"},
-	},
-};
-
-const stagger = {
-	animate: {
-		transition: {
-			staggerChildren: 0.1,
-		},
-	},
-};
+import animation from "../animation/animation.json";
 
 const Brand = () => {
 	return (
@@ -86,7 +56,7 @@ const Brand = () => {
 					<div className={styles.backgroundImageTop}>
 						<div className="container">
 							<div className={styles.content}>
-								<motion.div variants={fadeIn} className={styles.title}>
+								<motion.div variants={animation[1]} className={styles.title}>
 									<h2>Our Story</h2>
 									<h5>One of a kind global street-wear shoes & merchandise</h5>
 								</motion.div>
@@ -97,12 +67,12 @@ const Brand = () => {
 					<div className={styles.whoWeAre}>
 						<div className="container">
 							<div className={styles.content}>
-								<motion.div variants={stagger} className={styles.leftSide}>
-									<motion.div variants={fadeInUp} className={styles.title}>
+								<motion.div variants={animation[0]} className={styles.leftSide}>
+									<motion.div variants={animation[2]} className={styles.title}>
 										<h5>Street-wear shoes has never been more creative</h5>
 									</motion.div>
 									<motion.div
-										variants={fadeInUp}
+										variants={animation[2]}
 										className={styles.description}
 									>
 										<p>
@@ -124,7 +94,10 @@ const Brand = () => {
 										</p>
 									</motion.div>
 								</motion.div>
-								<motion.div variants={fadeIn} className={styles.rightSide}>
+								<motion.div
+									variants={animation[1]}
+									className={styles.rightSide}
+								>
 									<Link href="#" target="blank">
 										<a>
 											<Image
@@ -148,7 +121,7 @@ const Brand = () => {
 								<div className={styles.title}>
 									<h5>Get exclusive access to the best of ToddBLue</h5>
 								</div>
-								<motion.div variants={fadeIn} className={styles.TopSide}>
+								<motion.div variants={animation[1]} className={styles.TopSide}>
 									<Link href="#" target="blank">
 										<a>
 											<Image
@@ -162,12 +135,15 @@ const Brand = () => {
 										</a>
 									</Link>
 								</motion.div>
-								<motion.div variants={fadeInUp} className={styles.BottomSide}>
-									<motion.div variants={fadeInUp} className={styles.title}>
+								<motion.div
+									variants={animation[2]}
+									className={styles.BottomSide}
+								>
+									<motion.div variants={animation[2]} className={styles.title}>
 										<h5>Where All Anime Enthusiast And Creatives Belong</h5>
 									</motion.div>
 									<motion.div
-										variants={fadeInUp}
+										variants={animation[2]}
 										className={styles.description}
 									>
 										<p>
@@ -178,7 +154,7 @@ const Brand = () => {
 											customization and special offers. And its all
 										</p>
 									</motion.div>
-									<motion.newButton variants={fadeIn}>
+									<motion.newButton variants={animation[1]}>
 										<Link href="#">
 											<a target="blank">Join Us</a>
 										</Link>
