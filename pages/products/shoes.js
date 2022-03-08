@@ -5,8 +5,8 @@ import {motion} from "framer-motion";
 import Navbar from "/components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
-import NewProductDB from "../lib/NewProductDB.json";
-import animation from "../animation/animation.json";
+import NewProductDB from "/lib/NewProductDB.json";
+import animation from "/animation/animation.json";
 
 const shoes = () => {
 	return (
@@ -41,9 +41,6 @@ const shoes = () => {
 					href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
 				/>
 			</Head>
-
-			{/* <!--===== NAVIGATION =====--> */}
-			<Navbar />
 
 			<main className={styles.main}>
 				<div className={styles.new}>
@@ -87,9 +84,6 @@ const shoes = () => {
 					</motion.div>
 				</div>
 			</main>
-
-			{/* <!--===== FOOTER =====--> */}
-			<Footer />
 		</motion.div>
 	);
 };

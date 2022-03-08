@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
-import accessoriesDB from "../lib/accessoriesDB.json";
-import animation from "../animation/animation.json";
+import accessoriesDB from "/lib/accessoriesDB.json";
+import animation from "/animation/animation.json";
 
 const Accessories = () => {
 	return (

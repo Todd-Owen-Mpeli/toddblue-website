@@ -4,7 +4,7 @@ import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
 import ShoeProductsDB from "/lib/ShoeProductsDB.json";
-import animation from "../animation/animation.json";
+import animation from "/animation/animation.json";
 
 const productDisplayFourGrid = () => {
 	return (

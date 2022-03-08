@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
-import content from "../lib/newProductDB.json";
+import content from "/lib/newProductDB.json";
 import ShoeProductsDB from "/lib/ShoeProductsDB.json";
-import animation from "../animation/animation.json";
+import animation from "/animation/animation.json";
 
 export default function Home() {
 	return (
