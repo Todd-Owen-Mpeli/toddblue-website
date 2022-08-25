@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
-import accessoriesDB from "/lib/accessoriesDB.json";
+import accessories from "/lib/accessories.js";
 import animation from "/animation/animation.json";
 
 const Accessories = () => {
@@ -61,9 +61,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[0].productName}</a>
+										<a>{accessories[0].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[0].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[0].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -71,7 +71,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[0].productCategory}</a>
+										<a>{accessories[0].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -95,9 +95,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[1].productName}</a>
+										<a>{accessories[1].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[1].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[1].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -105,7 +105,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[1].productCategory}</a>
+										<a>{accessories[1].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -129,9 +129,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[2].productName}</a>
+										<a>{accessories[2].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[2].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[2].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -139,7 +139,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[2].productCategory}</a>
+										<a>{accessories[2].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -163,9 +163,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[3].productName}</a>
+										<a>{accessories[3].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[3].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[3].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -173,7 +173,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[3].productCategory}</a>
+										<a>{accessories[3].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -197,9 +197,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[4].productName}</a>
+										<a>{accessories[4].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[4].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[4].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -207,7 +207,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[4].productCategory}</a>
+										<a>{accessories[4].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -231,9 +231,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[5].productName}</a>
+										<a>{accessories[5].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[5].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[5].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -241,7 +241,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[5].productCategory}</a>
+										<a>{accessories[5].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -265,9 +265,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[6].productName}</a>
+										<a>{accessories[6].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[6].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[6].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -275,7 +275,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[6].productCategory}</a>
+										<a>{accessories[6].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -299,9 +299,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[7].productName}</a>
+										<a>{accessories[7].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[7].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[7].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -309,7 +309,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[7].productCategory}</a>
+										<a>{accessories[7].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -333,9 +333,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[8].productName}</a>
+										<a>{accessories[8].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[8].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[8].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -343,7 +343,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[8].productCategory}</a>
+										<a>{accessories[8].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -367,9 +367,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[9].productName}</a>
+										<a>{accessories[9].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[9].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[9].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -377,7 +377,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[9].productCategory}</a>
+										<a>{accessories[9].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -401,9 +401,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[10].productName}</a>
+										<a>{accessories[10].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[10].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[10].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -411,7 +411,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[10].productCategory}</a>
+										<a>{accessories[10].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -435,9 +435,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[11].productName}</a>
+										<a>{accessories[11].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[11].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[11].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -445,7 +445,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[11].productCategory}</a>
+										<a>{accessories[11].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -469,9 +469,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[12].productName}</a>
+										<a>{accessories[12].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[12].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[12].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -479,7 +479,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[12].productCategory}</a>
+										<a>{accessories[12].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -503,9 +503,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[13].productName}</a>
+										<a>{accessories[13].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[13].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[13].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -513,7 +513,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[13].productCategory}</a>
+										<a>{accessories[13].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -537,9 +537,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[14].productName}</a>
+										<a>{accessories[14].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[14].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[14].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -547,7 +547,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[14].productCategory}</a>
+										<a>{accessories[14].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -571,9 +571,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[15].productName}</a>
+										<a>{accessories[15].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[15].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[15].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -581,7 +581,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[15].productCategory}</a>
+										<a>{accessories[15].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -605,9 +605,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[16].productName}</a>
+										<a>{accessories[16].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[16].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[16].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -615,7 +615,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[16].productCategory}</a>
+										<a>{accessories[16].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -639,9 +639,9 @@ const Accessories = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{accessoriesDB[17].productName}</a>
+										<a>{accessories[17].productName}</a>
 									</Link>
-									<h2 className={styles.price}>£{accessoriesDB[17].pricing}</h2>
+									<h2 className={styles.price}>£{accessories[17].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -649,7 +649,7 @@ const Accessories = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{accessoriesDB[17].productCategory}</a>
+										<a>{accessories[17].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
