@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
-import shoeProducts from "/lib/shoeProducts";
-import animation from "/animation/animation.json";
+import shoeProducts from "/lib/shoeProducts.js";
+import animation from "/animation/animation.js";
 
 const productDisplayFourGrid = () => {
 	return (

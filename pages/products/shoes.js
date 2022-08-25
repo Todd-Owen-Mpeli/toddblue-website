@@ -6,7 +6,7 @@ import Navbar from "/components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
 import NewProductDB from "/lib/newProduct";
-import animation from "/animation/animation.json";
+import animation from "/animation/animation.js";
 
 const shoes = () => {
 	return (

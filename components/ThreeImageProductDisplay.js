@@ -1,5 +1,5 @@
 import {motion} from "framer-motion";
-import animation from "/animation/animation.json";
+import animation from "/animation/animation.js";
 import styles from "/styles/Home.module.scss";
 import ProductCard from "./ProductCard";
 

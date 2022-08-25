@@ -5,7 +5,7 @@ import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
 import ProductDisplayFourGrid from "/components/productDisplayFourGrid";
-import animation from "/animation/animation.json";
+import animation from "/animation/animation.js";
 
 const store = () => {
 	return (

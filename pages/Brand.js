@@ -5,7 +5,7 @@ import {motion} from "framer-motion";
 import Navbar from "../components/Navbar";
 import FooterLight from "/components/alternativeStyling/FooterLight";
 import styles from "/styles/Home.module.scss";
-import animation from "/animation/animation.json";
+import animation from "/animation/animation.js";
 
 const Brand = () => {
 	return (

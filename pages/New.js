@@ -5,7 +5,7 @@ import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
 import NewProductDB from "/lib/newProduct";
-import animation from "/animation/animation.json";
+import animation from "/animation/animation.js";
 
 const New = () => {
 	return (
