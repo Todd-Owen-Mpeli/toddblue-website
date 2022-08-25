@@ -4,31 +4,21 @@ import styles from "/styles/Home.module.scss";
 import ProductCard from "./ProductCard";
 
 const ThreeImageProductDisplay = (props) => {
-	const trendingNow = [...props.data];
-
-	const [itemOne, itemTwo, itemThree] = trendingNow;
-
-	const newTrendingNow = [itemOne, itemTwo, itemThree];
-
-	// console.log(itemOne, itemTwo, itemThree);
-
-	// console.log(newTrendingNow);
+	const [itemOne, itemTwo, itemThree] = [...props.data];
+	const TrendingNow = [itemOne, itemTwo, itemThree];
 
 	return (
 		<div>
 			<motion.div variants={animation[0]} className={styles.productDisplay}>
-				{newTrendingNow.map((keys) => {
+				{TrendingNow.map((keys) => (
 					<ProductCard
 						key={keys.id}
 						productName={keys.productName}
 						productCategory={keys.productCategory}
 						pricing={keys.pricing}
 						image={keys.image}
-					/>;
-					{
-						// console.log(keys.productName);
-					}
-				})}
+					/>
+				))}
 			</motion.div>
 		</div>
 	);
