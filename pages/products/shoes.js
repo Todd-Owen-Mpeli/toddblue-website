@@ -5,7 +5,7 @@ import {motion} from "framer-motion";
 import Navbar from "/components/Navbar";
 import Footer from "/components/Footer";
 import styles from "/styles/Home.module.scss";
-import NewProductDB from "/lib/NewProductDB.json";
+import NewProductDB from "/lib/newProduct";
 import animation from "/animation/animation.json";
 
 const shoes = () => {

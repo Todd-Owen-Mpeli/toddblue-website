@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
-import ShoeProductsDB from "/lib/ShoeProductsDB.json";
+import shoeProducts from "/lib/shoeProducts";
 import animation from "/animation/animation.json";
 
 const productDisplayFourGrid = () => {
@@ -31,11 +31,9 @@ const productDisplayFourGrid = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{ShoeProductsDB[19].productName}</a>
+										<a>{shoeProducts[19].productName}</a>
 									</Link>
-									<h2 className={styles.price}>
-										£{ShoeProductsDB[19].pricing}
-									</h2>
+									<h2 className={styles.price}>£{shoeProducts[19].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -43,7 +41,7 @@ const productDisplayFourGrid = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{ShoeProductsDB[19].productCategory}</a>
+										<a>{shoeProducts[19].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -67,11 +65,9 @@ const productDisplayFourGrid = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{ShoeProductsDB[17].productName}</a>
+										<a>{shoeProducts[17].productName}</a>
 									</Link>
-									<h2 className={styles.price}>
-										£{ShoeProductsDB[17].pricing}
-									</h2>
+									<h2 className={styles.price}>£{shoeProducts[17].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -79,7 +75,7 @@ const productDisplayFourGrid = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{ShoeProductsDB[17].productCategory}</a>
+										<a>{shoeProducts[17].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -103,11 +99,9 @@ const productDisplayFourGrid = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{ShoeProductsDB[18].productName}</a>
+										<a>{shoeProducts[18].productName}</a>
 									</Link>
-									<h2 className={styles.price}>
-										£{ShoeProductsDB[18].pricing}
-									</h2>
+									<h2 className={styles.price}>£{shoeProducts[18].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -115,7 +109,7 @@ const productDisplayFourGrid = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{ShoeProductsDB[18].productCategory}</a>
+										<a>{shoeProducts[18].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>
@@ -139,11 +133,9 @@ const productDisplayFourGrid = () => {
 							<div className={styles.description}>
 								<div className={styles.topSection}>
 									<Link href="#" target="blank">
-										<a>{ShoeProductsDB[20].productName}</a>
+										<a>{shoeProducts[20].productName}</a>
 									</Link>
-									<h2 className={styles.price}>
-										£{ShoeProductsDB[20].pricing}
-									</h2>
+									<h2 className={styles.price}>£{shoeProducts[20].pricing}</h2>
 								</div>
 								<div className={styles.bottomSection}>
 									<Link
@@ -151,7 +143,7 @@ const productDisplayFourGrid = () => {
 										target="blank"
 										className={styles.productCategory}
 									>
-										<a>{ShoeProductsDB[20].productCategory}</a>
+										<a>{shoeProducts[20].productCategory}</a>
 									</Link>
 									<newButton>
 										<i className="bi bi-heart"></i>

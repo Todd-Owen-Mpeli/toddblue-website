@@ -3,11 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
-import content from "/lib/newProductDB.json";
-import ShoeProductsDB from "/lib/ShoeProductsDB.json";
+// import content from "..newproductDB.json";
+import shoeProducts from "/lib/shoeProducts";
 import animation from "/animation/animation.json";
+import ThreeImageProductDisplay from "../components/ThreeImageProductDisplay";
 
 export default function Home() {
+	// console.log(shoeProducts);
+
 	return (
 		<motion.div
 			exit={{
@@ -111,7 +114,7 @@ export default function Home() {
 										/>
 									</motion.a>
 								</Link>
-								<div className={styles.description}>
+								{/* <div className={styles.description}>
 									<div className={styles.topSection}>
 										<Link href="/store">
 											<a target="blank">{content[7].productName}</a>
@@ -121,7 +124,7 @@ export default function Home() {
 									<Link href="/" className={styles.productCategory}>
 										<a target="blank">{content[7].productCategory}</a>
 									</Link>
-								</div>
+								</div> */}
 							</motion.div>
 							<motion.div
 								variants={animation[2]}
@@ -143,7 +146,7 @@ export default function Home() {
 										/>
 									</motion.a>
 								</Link>
-								<div className={styles.description}>
+								{/* <div className={styles.description}>
 									<div className={styles.topSection}>
 										<Link href="/store">
 											<a target="blank">{content[0].productName}</a>
@@ -153,7 +156,7 @@ export default function Home() {
 									<Link href="/" className={styles.productCategory}>
 										<a target="blank">{content[0].productCategory}</a>
 									</Link>
-								</div>
+								</div> */}
 							</motion.div>
 							<motion.div
 								variants={animation[2]}
@@ -175,7 +178,7 @@ export default function Home() {
 										/>
 									</motion.a>
 								</Link>
-								<div className={styles.description}>
+								{/* <div className={styles.description}>
 									<div className={styles.topSection}>
 										<Link href="/store">
 											<a target="blank">{content[2].productName}</a>
@@ -185,13 +188,13 @@ export default function Home() {
 									<Link href="/" className={styles.productCategory}>
 										<a target="blank">{content[2].productCategory}</a>
 									</Link>
-								</div>
+								</div> */}
 							</motion.div>
 						</div>
 					</motion.div>
 
 					{/* <!--===== COSY SETS =====--> */}
-					<div className={styles.cosySet}>
+					{/* <div className={styles.cosySet}>
 						<h2>Cosy Shoe Set</h2>
 
 						<div className={styles.content}>
@@ -240,150 +243,13 @@ export default function Home() {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 
 					{/* <!--===== TRENDING NOW =====--> */}
 					<div className={styles.trendingNow}>
 						<h2>Trending Now</h2>
-						<motion.div
-							variants={animation[0]}
-							className={styles.productDisplay}
-						>
-							<motion.div
-								initial={{
-									y: 60,
-									opacity: 0,
-								}}
-								animate={{
-									y: 0,
-									opacity: 1,
-									transition: {
-										duration: 0.5,
-										ease: "easeOut",
-									},
-								}}
-								className={styles.productItem}
-							>
-								<Link href="/store">
-									<motion.a
-										target="blank"
-										whileHover={{scale: 1.0035}}
-										whileTap={{scale: 1}}
-									>
-										<Image
-											src="/productImages/_MG_3090.jpg"
-											alt="Product Image"
-											width={400}
-											height={400}
-											layout="responsive"
-											objectFit="cover"
-										/>
-									</motion.a>
-								</Link>
-								<div className={styles.description}>
-									<div className={styles.topSection}>
-										<Link href="/store">
-											<a target="blank">{ShoeProductsDB[7].productName}</a>
-										</Link>
 
-										<h2 className={styles.price}>
-											£{ShoeProductsDB[7].pricing}
-										</h2>
-									</div>
-									<Link href="/store">
-										<a className={styles.productCategory}>
-											{ShoeProductsDB[7].productCategory}
-										</a>
-									</Link>
-								</div>
-							</motion.div>
-							<motion.div
-								initial={{
-									y: 60,
-									opacity: 0,
-								}}
-								animate={{
-									y: 0,
-									opacity: 1,
-									transition: {
-										duration: 0.75,
-										ease: "easeOut",
-									},
-								}}
-								className={styles.productItem}
-							>
-								<Link href="/store">
-									<motion.a
-										target="blank"
-										whileHover={{scale: 1.0035}}
-										whileTap={{scale: 1}}
-									>
-										<Image
-											src="/productImages/_MG_3441.jpg"
-											alt="Product Image"
-											width={200}
-											height={200}
-											layout="responsive"
-											objectFit="cover"
-										/>
-									</motion.a>
-								</Link>
-								<div className={styles.description}>
-									<div className={styles.topSection}>
-										<Link href="/store">
-											<a target="blank">{content[3].productName}</a>
-										</Link>
-										<h2 className={styles.price}>£{content[3].pricing}</h2>
-									</div>
-									<Link href="/" className={styles.productCategory}>
-										<a target="blank">{content[3].productCategory}</a>
-									</Link>
-								</div>
-							</motion.div>
-							<motion.div
-								initial={{
-									y: 60,
-									opacity: 0,
-								}}
-								animate={{
-									y: 0,
-									opacity: 1,
-									transition: {
-										duration: 1,
-										ease: "easeOut",
-									},
-								}}
-								className={styles.productItem}
-							>
-								<Link href="/store">
-									<motion.a
-										target="blank"
-										whileHover={{scale: 1.0035}}
-										whileTap={{scale: 1}}
-									>
-										<Image
-											src="/productImages/_MG_1629-3.jpg"
-											alt="Product Image"
-											width={200}
-											height={200}
-											layout="responsive"
-											objectFit="cover"
-										/>
-									</motion.a>
-								</Link>
-								<div className={styles.description}>
-									<div className={styles.topSection}>
-										<Link href="/store">
-											<a target="blank">{content[1].productName}</a>
-										</Link>
-										<h2 className={styles.price}>£{content[1].pricing}</h2>
-									</div>
-									<Link href="/" className={styles.productCategory}>
-										<a target="blank">{content[1].productCategory}</a>
-									</Link>
-								</div>
-							</motion.div>
-						</motion.div>
+						<ThreeImageProductDisplay data={shoeProducts} />
 					</div>
 
 					{/* <!--===== MORE BLUE OPTIONS =====--> */}
@@ -406,13 +272,13 @@ export default function Home() {
 										/>
 									</a>
 								</Link>
-								<div className={styles.content}>
+								{/* <div className={styles.content}>
 									<newButton className={styles.shopButton}>
 										<Link href="/store">
 											<a target="blank">Mens</a>
 										</Link>
 									</newButton>
-								</div>
+								</div> */}
 							</motion.div>
 							<motion.div
 								variants={animation[2]}
@@ -430,13 +296,13 @@ export default function Home() {
 										/>
 									</a>
 								</Link>
-								<div className={styles.content}>
+								{/* <div className={styles.content}>
 									<newButton className={styles.shopButton}>
 										<Link href="/store">
 											<a target="blank">Womens</a>
 										</Link>
 									</newButton>
-								</div>
+								</div> */}
 							</motion.div>
 							<motion.div
 								variants={animation[2]}
@@ -454,13 +320,13 @@ export default function Home() {
 										/>
 									</a>
 								</Link>
-								<div className={styles.content}>
+								{/* <div className={styles.content}>
 									<newButton className={styles.shopButton}>
 										<Link href="/store">
 											<a target="blank">Kids</a>
 										</Link>
 									</newButton>
-								</div>
+								</div> */}
 							</motion.div>
 						</div>
 					</div>
