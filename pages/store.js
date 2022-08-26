@@ -61,6 +61,7 @@ const store = () => {
 					<ProductDisplayFourGrid />
 
 					<div className={styles.borderLineMid}></div>
+
 					{/* <!--===== RELATED CATEGORY =====--> */}
 					<div className={styles.bottomContent}>
 						<div className={styles.relatedCategories}>
