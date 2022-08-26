@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import {motion} from "framer-motion";
+import shoeProducts from "/lib/shoeProducts";
 import styles from "/styles/Home.module.scss";
 import ProductDisplayFourGrid from "/components/productDisplayFourGrid";
 import animation from "/animation/animation.js";
@@ -58,7 +59,7 @@ const store = () => {
 				<div className={styles.store}>
 					<div className={styles.borderLineMid}></div>
 					{/* PRODUCTS DISPLAY SECTION */}
-					<ProductDisplayFourGrid />
+					<ProductDisplayFourGrid data={shoeProducts} />
 
 					<div className={styles.borderLineMid}></div>
 
