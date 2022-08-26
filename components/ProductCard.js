@@ -30,7 +30,7 @@ const ProductCard = (props) => {
 				>
 					<Image
 						src={props.image}
-						alt="Product Image"
+						alt={props.productName}
 						width={400}
 						height={400}
 						layout="responsive"
