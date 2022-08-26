@@ -5,6 +5,7 @@ import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
 // import content from "..newproductDB.js";
 import shoeProducts from "/lib/shoeProducts";
+import newProduct from "/lib/newProduct";
 import animation from "/animation/animation.js";
 import ThreeImageProductDisplay from "../components/ThreeImageProductDisplay";
 
@@ -93,104 +94,7 @@ export default function Home() {
 					{/* <!--===== POPULAR =====--> */}
 					<motion.div variants={animation[0]} className={styles.popular}>
 						<h2>New</h2>
-						<div className={styles.productDisplay}>
-							<motion.div
-								variants={animation[2]}
-								className={styles.productItem}
-							>
-								<Link href="/store">
-									<motion.a
-										target="blank"
-										whileHover={{scale: 1.0035}}
-										whileTap={{scale: 1}}
-									>
-										<Image
-											src="/productImages/_MG_3295.jpg"
-											alt="Product Image"
-											width={400}
-											height={400}
-											layout="responsive"
-											objectFit="contain"
-										/>
-									</motion.a>
-								</Link>
-								{/* <div className={styles.description}>
-									<div className={styles.topSection}>
-										<Link href="/store">
-											<a target="blank">{content[7].productName}</a>
-										</Link>
-										<h2 className={styles.price}>£{content[7].pricing}</h2>
-									</div>
-									<Link href="/" className={styles.productCategory}>
-										<a target="blank">{content[7].productCategory}</a>
-									</Link>
-								</div> */}
-							</motion.div>
-							<motion.div
-								variants={animation[2]}
-								className={styles.productItem}
-							>
-								<Link href="/store">
-									<motion.a
-										target="blank"
-										whileHover={{scale: 1.0035}}
-										whileTap={{scale: 1}}
-									>
-										<Image
-											src="/productImages/_MG_3551 - Copy.jpg"
-											alt="Product Image"
-											width={200}
-											height={200}
-											layout="responsive"
-											objectFit="cover"
-										/>
-									</motion.a>
-								</Link>
-								{/* <div className={styles.description}>
-									<div className={styles.topSection}>
-										<Link href="/store">
-											<a target="blank">{content[0].productName}</a>
-										</Link>
-										<h2 className={styles.price}>£{content[0].pricing}</h2>
-									</div>
-									<Link href="/" className={styles.productCategory}>
-										<a target="blank">{content[0].productCategory}</a>
-									</Link>
-								</div> */}
-							</motion.div>
-							<motion.div
-								variants={animation[2]}
-								className={styles.productItem}
-							>
-								<Link href="/store">
-									<motion.a
-										target="blank"
-										whileHover={{scale: 1.0035}}
-										whileTap={{scale: 1}}
-									>
-										<Image
-											src="/productImages/_MG_3644.jpg"
-											alt="Product Image"
-											width={200}
-											height={200}
-											layout="responsive"
-											objectFit="cover"
-										/>
-									</motion.a>
-								</Link>
-								{/* <div className={styles.description}>
-									<div className={styles.topSection}>
-										<Link href="/store">
-											<a target="blank">{content[2].productName}</a>
-										</Link>
-										<h2 className={styles.price}>£{content[2].pricing}</h2>
-									</div>
-									<Link href="/" className={styles.productCategory}>
-										<a target="blank">{content[2].productCategory}</a>
-									</Link>
-								</div> */}
-							</motion.div>
-						</div>
+						<ThreeImageProductDisplay data={newProduct} />
 					</motion.div>
 
 					{/* <!--===== COSY SETS =====--> */}
