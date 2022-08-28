@@ -2,12 +2,10 @@ import Head from "next/head";
 import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
 import accessories from "/lib/accessories.js";
-// import crossBagProducts from "/lib/crossBagProducts.js";
+import crossBagProducts from "/lib/crossBagProducts.js";
 import ProductDisplayFourGrid from "/components/productDisplayFourGrid";
 
 const Accessories = () => {
-	const allAccessories = [...accessories];
-
 	return (
 		<motion.div
 			exit={{
@@ -45,7 +43,8 @@ const Accessories = () => {
 				<div className={styles.new}>
 					<div className={styles.borderLineMid}></div>
 					{/* <!--===== NEW PRODUCTS =====--> */}
-					<ProductDisplayFourGrid data={allAccessories} />
+					<ProductDisplayFourGrid data={crossBagProducts} />
+					<ProductDisplayFourGrid data={accessories} />
 				</div>
 			</main>
 		</motion.div>
