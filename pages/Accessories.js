@@ -6,6 +6,8 @@ import crossBagProducts from "/lib/crossBagProducts.js";
 import ProductDisplayFourGrid from "/components/productDisplayFourGrid";
 
 const Accessories = () => {
+	const allAccessories = [...accessories];
+
 	return (
 		<motion.div
 			exit={{
@@ -44,7 +46,7 @@ const Accessories = () => {
 					<div className={styles.borderLineMid}></div>
 					{/* <!--===== NEW PRODUCTS =====--> */}
 					<ProductDisplayFourGrid data={crossBagProducts} />
-					<ProductDisplayFourGrid data={accessories} />
+					<ProductDisplayFourGrid data={allAccessories} />
 				</div>
 			</main>
 		</motion.div>
