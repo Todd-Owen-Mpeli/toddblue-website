@@ -3,10 +3,11 @@ import {motion} from "framer-motion";
 import styles from "/styles/Home.module.scss";
 import accessories from "/lib/accessories.js";
 import ProductDisplayFourGrid from "/components/productDisplayFourGrid";
-import crossBagProducts from "/lib/crossBagProducts";
+import crossBagProducts from "../lib/crossBagProducts";
 
 const Accessories = () => {
 	const allAccessories = [...crossBagProducts, ...accessories];
+
 	return (
 		<motion.div
 			exit={{
