@@ -51,7 +51,7 @@ const shoes = () => {
 							<Link href="/products/shoes" target="blank">
 								<a>
 									<Image
-										src="/productImages/_MG_3441.jpg"
+										src="/_MG_3441.jpg"
 										alt="Product Image"
 										width={200}
 										height={200}
