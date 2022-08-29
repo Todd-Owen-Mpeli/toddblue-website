@@ -148,7 +148,7 @@
 			letter-spacing: -0.2rem;
 			color: $baseColor_black;
 			font-size: $fontSize_XL-large;
-			font-family: $fontStyle_header;
+			font-family: $fontStyle_header !important;
 		}
 
 		.subtitle {
